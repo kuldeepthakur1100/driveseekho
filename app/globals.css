@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f3f4f6; /* Light gray background */
+  stop-color: #c0fc71; /* Custom green color */
+}
+
+@keyframes pendulum {
+  0% {
+    transform: rotate(15deg);
+    transform-origin: top center;
+  }
+  50% {
+    transform: rotate(-15deg);
+    transform-origin: top center;
+  }
+  100% {
+    transform: rotate(15deg);
+    transform-origin: top center;
+  }
+}
+
+.animate-pendulum {
+  animation: pendulum 4s ease-in-out infinite;
+}
