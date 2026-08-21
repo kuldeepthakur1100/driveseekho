@@ -20,12 +20,12 @@ export default function AchieversPage() {
   ];
 
   const videos = [
-    { id: 1, title: "Day1 Vs Day20", src: "jZlvDGapJag" },
+    { id: 1, title: "Day1 Vs Day20", src: "FC_I9zGfuEE" },
     { id: 2, title: "Preeti First Highway Drive", src: "GjNnfLD23Zg" },
     { id: 3, title: "First Day", src: "z2PhfVJWRoM" },
     { id: 4, title: "Perfect Control On Road", src: "Mno7N1RJerc" },
     { id: 5, title: "2nd Class of Driving", src: "hb8vCVXNF5g" },
-    { id: 6, title: "On road Training", src: "jZlvDGapJag" },
+    { id: 6, title: "3rd Day Bike Training", src: "ATa1PhKHOPU" },
   ];
 
   return (
