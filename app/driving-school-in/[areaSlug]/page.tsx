@@ -27,7 +27,7 @@ export default function DrivingSchoolDetail() {
   }
 
   return (
-    <main className="max-w-7xl w-full mx-auto bg-slate-50 min-h-screen relative pb-32 lg:pb-16 selection:bg-blue-600 selection:text-white">
+    <main className="max-w-7xl w-full mx-auto bg-slate-50 min-h-screen relative pb-140 lg:pb-16 selection:bg-blue-600 selection:text-white">
       
       {/* 1. Hero Image Section */}
       <div className="relative w-full h-[300px] md:h-[450px] bg-slate-900">
@@ -211,7 +211,7 @@ export default function DrivingSchoolDetail() {
       </div>
 
       {/* 3. Sticky Bottom Action Bar (Mobile Only) */}
-      <div className="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-slate-200/80 p-4 px-5 flex items-center justify-between z-50 lg:hidden shadow-[0_-8px_25px_rgba(0,0,0,0.08)]">
+      <div className="fixed bottom-17 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-slate-200/80 p-4 px-5 flex items-center justify-between z-50 lg:hidden shadow-[0_-8px_25px_rgba(0,0,0,0.08)]">
         <div>
           <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Total Price</p>
           <p className="text-[1.4rem] font-black text-slate-900 leading-none tracking-tight">
