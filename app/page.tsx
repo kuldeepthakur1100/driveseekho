@@ -185,7 +185,7 @@ export default function Home() {
             muted
             loop
             playsInline
-            src="/videos/video1.mp4"
+            src="/videos/banner.mp4"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
         </div>
