@@ -40,11 +40,11 @@ export default function Home() {
   ];
 
   const categories = [
-    { name: 'Car', image: '/images/car.png' },
-    { name: '2 wheeler', image: '/images/2wheer.png' },
-    { name: 'Instructor', image: '/images/instructor.PNG' },
-    { name: 'License', image: '/images/license.png' },
-  ];
+  { name: 'Car', image: '/images/mycarha.PNG' },
+  { name: '2 wheeler', image: '/images/2wheelerha.PNG' },
+  { name: 'Instructor', image: '/images/instructor.PNG' },
+  { name: 'License', image: '/images/ohlicense.PNG' },
+];
 
   const handleSearchSubmit = () => {
     if (resultsRef.current) {
@@ -55,7 +55,7 @@ export default function Home() {
     }
   };
 
-  const filteredPackages = packages.filter((pkg) => {
+ const filteredPackages = packages.filter((pkg) => {
     const query = searchQuery.toLowerCase().trim();
 
     if (query) {
@@ -67,7 +67,14 @@ export default function Home() {
       return matchTitle || matchSubArea || matchCity || matchSlug;
     }
 
-    return pkg.category === selectedCategory && pkg.city === selectedLocation;
+    // Safe case-insensitive comparison for category and city/location
+    const pkgCategory = pkg.category?.toLowerCase().trim() || '';
+    const targetCategory = selectedCategory.toLowerCase().trim();
+    
+    const pkgCity = pkg.city?.toLowerCase().trim() || '';
+    const targetLocation = selectedLocation.toLowerCase().trim();
+
+    return pkgCategory === targetCategory && pkgCity === targetLocation;
   });
 
   return (
