@@ -40,10 +40,10 @@ export default function Home() {
   ];
 
   const categories = [
-  { name: 'Car', image: '/images/mycarha.PNG' },
-  { name: '2 wheeler', image: '/images/2wheelerha.PNG' },
-  { name: 'Instructor', image: '/images/instructor.PNG' },
-  { name: 'License', image: '/images/ohlicense.PNG' },
+  { name: 'Car', image: '/images/mycarha.png' },
+  { name: '2 wheeler', image: '/images/2wheelerha.png' },
+  { name: 'Instructor', image: '/images/instructor.png' },
+  { name: 'License', image: '/images/ohlicense.png' },
 ];
 
   const handleSearchSubmit = () => {
