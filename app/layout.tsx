@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
-import BottomNav from "@/components/BottomNav"; // <-- 1. BottomNav import kiya
+import BottomNav from "@/components/BottomNav";
 import { GoogleAnalytics } from '@next/third-parties/google';
 
 const geistSans = Geist({
@@ -22,6 +22,10 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://driveseekho.com"),
   alternates: {
     canonical: "/",
+  },
+  // Google Search Console Verification Tag yahan add kar diya hai
+  verification: {
+    google: "Oo5lhhQ7XecC_3fzJZEHfaTLTDCU2IsENrSJLoRrQ18",
   },
   openGraph: {
     title: "DriveSeekho - Learn Driving from Experts",
@@ -73,7 +77,7 @@ export default function RootLayout({
               image: "https://driveseekho.com/images/bestui.png",
               "@id": "https://driveseekho.com",
               url: "https://driveseekho.com",
-              telephone: "+919876543210",
+              telephone: "+918368510626",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "GD Colony, Mayur Vihar",
@@ -100,21 +104,16 @@ export default function RootLayout({
                 opens: "06:00",
                 closes: "21:00",
               },
-              priceRange: "₹₹",
+              priceRange: "₹2999",
             }),
           }}
         />
       </head>
-      {/* 2. pb-20 add kiya hai taaki mobile pe content nav bar ke peeche na chhupe */}
       <body className="min-h-full flex flex-col pb-20 sm:pb-0">
         <main className="flex-grow">{children}</main>
         <Footer />
-        
-        {/* 3. BottomNav ko yahan add kiya taaki har page par dikhe */}
         <BottomNav />
-
-        {/* Google Analytics */}
-        <GoogleAnalytics gaId="G-534550993" />
+        <GoogleAnalytics gaId="G-JRRE443JSX" />
       </body>
     </html>
   );
