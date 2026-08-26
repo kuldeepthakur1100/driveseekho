@@ -191,6 +191,23 @@ export default function Home() {
         </div>
       </div>
 
+
+
+      {/* 2. Naya Rectangular Image Banner Section */}
+<div className="max-w-6xl mx-auto px-1 md:px-0 mb-10">
+  <div className="relative w-full h-[120px] md:h-[280px] overflow-hidden rounded-[1.2rem] shadow-[0_10px_30px_rgba(0,0,0,0.08)] border border-slate-100">
+    <img 
+      src="/images/testbanner.png" 
+      alt="DriveSeekho Special Offer Banner" 
+      className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+    />
+  </div>
+</div>
+
+
+
+
+
       {/* 3. Packages or Search Results Section */}
       <div ref={resultsRef} className="max-w-6xl mx-auto px-4 md:px-6 space-y-6 pt-2">
         <div className="flex items-center justify-between">
