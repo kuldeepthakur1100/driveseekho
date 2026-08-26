@@ -65,20 +65,16 @@ export default function DrivingSchoolDetail() {
           {/* LEFT/MAIN COLUMN */}
           <div className="lg:col-span-2 bg-white rounded-[2rem] md:rounded-[2.5rem] px-5 md:px-10 py-8 md:py-10 shadow-xl shadow-slate-200/50 border border-slate-100">
             
-            {/* Location Pill with Custom Image */}
-<div className="flex items-center gap-4 bg-slate-50 p-4 md:p-5 rounded-2xl mb-8 border border-slate-100/80">
-  <div className="w-12 h-12 bg-blue-500/10 rounded-xl shrink-0 flex items-center justify-center overflow-hidden p-2">
-    <img 
-      src="/images/location.jpg" 
-      alt="Location Icon" 
-      className="w-full h-full object-contain"
-    />
-  </div>
-  <div>
-    <p className="text-[11px] text-slate-400 font-bold uppercase tracking-wider mb-0.5">Service Location</p>
-    <p className="text-[15px] md:text-[17px] font-extrabold text-slate-900">{pkg.subArea}, {pkg.city}</p>
-  </div>
-</div>
+            {/* Location Pill */}
+            <div className="flex items-center gap-4 bg-slate-50 p-4 md:p-5 rounded-2xl mb-8 border border-slate-100/80">
+              <div className="bg-blue-500/10 p-3.5 rounded-xl text-blue-600 shrink-0">
+                <MapPin size={22} strokeWidth={2.5} />
+              </div>
+              <div>
+                <p className="text-[11px] text-slate-400 font-bold uppercase tracking-wider mb-0.5">Service Location</p>
+                <p className="text-[15px] md:text-[17px] font-extrabold text-slate-900">{pkg.subArea}, {pkg.city}</p>
+              </div>
+            </div>
 
             {/* Course Highlights */}
             <h2 className="text-[18px] md:text-[20px] font-black text-slate-900 mb-4 tracking-tight">Course Highlights</h2>
