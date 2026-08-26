@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata: Metadata = {
   title: "DriveSeekho - Best Driving Schools Near Me With Price & Professional Instructors Near You",
   description: "Find verified driving schools, cars, 2-wheelers, and expert instructors in Delhi NCR at just ₹349/hour. Book your training today!",
@@ -23,6 +24,16 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+
+
+  // Yahan icons add kar dein 👇
+ icons: {
+    icon: "/fevicon.png",
+    shortcut: "/fevicon.png",
+    apple: "/fevicon.png",
+  },
+
+
   // Google Search Console Verification Tag yahan add kar diya hai
   verification: {
     google: "Oo5lhhQ7XecC_3fzJZEHfaTLTDCU2IsENrSJLoRrQ18",
