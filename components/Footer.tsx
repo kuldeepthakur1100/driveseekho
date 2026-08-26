@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="space-y-3">
           <div className="relative w-40 h-16">
             <Image 
-              src="/images/logo.PNG" 
+              src="/images/main.png" 
               alt="DriveSeekho Logo" 
               fill 
               className="object-contain"
