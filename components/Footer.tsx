@@ -41,7 +41,7 @@ const Footer = () => {
             {[
               { name: "Home", path: "/" },
               { name: "About Us", path: "/about-us" },
-              { name: "Driving Schools", path: "/schools" },
+              { name: "Driving Schools", path: "/driving-test-track-in-delhi" },
               { name: "Contact Us", path: "/contact" },
               { name: "FAQ", path: "/faq" },
             ].map((link) => (

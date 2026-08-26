@@ -473,21 +473,21 @@ faqs: [
     subArea: '(Balco Market, Patparganj, Mandawali)',
     areaSlug: 'driving-school-in-ip-extension', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
-    price: '₹2,999',
+    price: '₹3,499',
     trainingDays: '15 Days',
-    instructorName: '',
+    instructorName: 'Gaurav',
     image: '/images/oldswift.png', 
     features: ['Experienced Instructor'],
     
     // --- Nayi Details Yahan Se Shuru ---
     carName: 'Grand i10 (Dual Control)',
-    dailyRide: '30 Minutes / Day',
+    dailyRide: '8Km / Day',
     pickupDrop: 'Free Pickup and Drop',
     phoneNumber: '+918368510626', 
     whatsappNumber: '918368510626',
     
    // --- SEO & FAQs ---
-seoTitle: 'Driving School in IP Extension | Best Car Driving Classes',
+seoTitle: 'Driving School in IP Extension | Driving School Near Me In I.P Extension',
 
 seoDescription:
   'Looking for the best Driving School in IP Extension? Learn car driving with certified instructors, free pickup & drop, affordable fees, flexible timings, and online booking.',
