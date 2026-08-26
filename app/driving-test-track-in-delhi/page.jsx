@@ -69,7 +69,7 @@ export default function DrivingTestTrackPage() {
               target="_blank"
               className="w-full md:w-64 bg-[#25D366] hover:bg-[#20b858] text-white font-black text-[15px] py-4 rounded-2xl flex items-center justify-center gap-2.5 shadow-lg shadow-[#25D366]/25 active:scale-95 transition-all"
             >
-              <MessageCircle size={20} strokeWidth={2.5} /> Book Our Trainer
+              <MessageCircle size={20} strokeWidth={2.5} /> Book Your Slot
             </a>
             <a 
               href="tel:+918368510626" 
