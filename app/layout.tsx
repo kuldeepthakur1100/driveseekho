@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import BottomNav from "@/components/BottomNav";
 import { GoogleAnalytics } from '@next/third-parties/google';
+import RakhiSplashScreen from "@/components/RakhiSplashScreen"; // <-- 1. Yahan import add kiya
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +16,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export const metadata: Metadata = {
   title: "DriveSeekho - Best Driving Schools Near Me With Price & Professional Instructors Near You",
   description: "Find verified driving schools, cars, 2-wheelers, and expert instructors in Delhi NCR at just ₹349/hour. Book your training today!",
@@ -24,17 +24,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
-
-
-  // Yahan icons add kar dein 👇
- icons: {
+  icons: {
     icon: "/fevicon.png",
     shortcut: "/fevicon.png",
     apple: "/fevicon.png",
   },
-
-
-  // Google Search Console Verification Tag yahan add kar diya hai
   verification: {
     google: "Oo5lhhQ7XecC_3fzJZEHfaTLTDCU2IsENrSJLoRrQ18",
   },
@@ -77,7 +71,6 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-        {/* Local Business Schema for Local SEO */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -121,6 +114,10 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col pb-20 sm:pb-0">
+        
+        {/* 2. Splash Screen ko yahan body ke andar sabse upar place kar diya */}
+        <RakhiSplashScreen />
+
         <main className="flex-grow">{children}</main>
         <Footer />
         <BottomNav />
