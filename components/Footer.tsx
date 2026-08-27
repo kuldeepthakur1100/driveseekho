@@ -21,14 +21,11 @@ const Footer = () => {
         
         {/* Column 1: Brand Logo */}
         <div className="space-y-3">
-          <div className="relative w-40 h-16">
-            <Image 
-              src="/images/main.png" 
-              alt="DriveSeekho Logo" 
-              fill 
-              className="object-contain"
-            />
-          </div>
+          <div className="relative flex items-center h-16 px-2">
+  <span className="font-poppins text-2xl font-bold tracking-tight text-gray-900">
+    Drive<span className="text-primary">Seekho</span>
+  </span>
+</div>
           <p className="text-white text-sm leading-relaxed opacity-90">
             DriveSeekho helps learners find<br></br> trusted driving schools, compare<br></br> packages, and book driving lessons<br></br> online across Delhi NCR.
           </p>

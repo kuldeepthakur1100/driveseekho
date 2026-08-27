@@ -37056,7 +37056,7 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: '',
-    image: '/images/selerio.png',  
+    image: '/images/selerio.jpg',  
     features: ['Good Condition Vehicle', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
