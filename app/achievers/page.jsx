@@ -71,7 +71,7 @@ export default function AchieversPage() {
 
         {/* 2. Medium Size Video Reels Section (Side Scroll) */}
         <div className="space-y-3">
-          <h2 className="text-lg font-bold text-gray-200 tracking-tight">Success Stories & Reels</h2>
+          <h2 className="text-lg font-bold text-gray-200 tracking-tight">Success Stories</h2>
           
           <div className="flex gap-4 overflow-x-auto pb-3 [&::-webkit-scrollbar]:hidden">
             {videos.map((vid) => (
