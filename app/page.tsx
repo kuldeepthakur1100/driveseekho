@@ -40,11 +40,11 @@ export default function Home() {
   ];
 
   const categories = [
-  { name: 'Car', image: '/images/mycarha.png' },
-  { name: '2 wheeler', image: '/images/2wheelerha.png' },
-  { name: 'Instructor', image: '/images/instructor.png' },
-  { name: 'License', image: '/images/ohlicense.png' },
-];
+    { name: 'Car', image: '/images/mycarha.png' },
+    { name: '2 wheeler', image: '/images/2wheelerha.png' },
+    { name: 'Instructor', image: '/images/instructor.png' },
+    { name: 'License', image: '/images/ohlicense.png' },
+  ];
 
   const handleSearchSubmit = () => {
     if (resultsRef.current) {
@@ -55,7 +55,7 @@ export default function Home() {
     }
   };
 
- const filteredPackages = packages.filter((pkg) => {
+  const filteredPackages = packages.filter((pkg) => {
     const query = searchQuery.toLowerCase().trim();
 
     if (query) {
@@ -67,7 +67,6 @@ export default function Home() {
       return matchTitle || matchSubArea || matchCity || matchSlug;
     }
 
-    // Safe case-insensitive comparison for category and city/location
     const pkgCategory = pkg.category?.toLowerCase().trim() || '';
     const targetCategory = selectedCategory.toLowerCase().trim();
     
@@ -84,7 +83,7 @@ export default function Home() {
       <div className="bg-[#014AAD] rounded-b-[2rem] md:rounded-b-[3rem] pt-8 md:pt-12 pb-24 md:pb-32 relative shadow-sm">
         
         {/* Search Bar Container */}
-        <div className="max-w-xl mx-auto mb-8 px-4 md:px-0">
+        <div className="max-w-xl mx-auto mb-3 px-4 md:px-0">
           <LocationSearchComponent 
             searchQuery={searchQuery} 
             setSearchQuery={setSearchQuery}
@@ -92,7 +91,14 @@ export default function Home() {
           />
         </div>
 
-        {/* Location Pills (Edge-to-edge on mobile, Centered grid on desktop) */}
+       {/* Added Text Below Search Bar (Left Aligned) */}
+<div className="max-w-5xl mx-auto px-4 md:px-0 mb-4">
+  <p className="text-white/80 text-[13px] md:text-[14px] font-medium tracking-wide text-left">
+    Select your location for driving classes
+  </p>
+</div>
+
+        {/* Location Pills */}
         <div className="max-w-5xl mx-auto w-full">
           <div className="flex md:grid md:grid-cols-6 lg:grid-cols-12 gap-4 overflow-x-auto md:overflow-visible px-4 md:px-0 -mx-4 md:mx-0 pb-2 md:pb-0 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
             {locations.map((loc, index) => (
@@ -101,6 +107,12 @@ export default function Home() {
                 onClick={() => {
                   setSelectedLocation(loc.name);
                   setSearchQuery('');
+                  if (resultsRef.current) {
+                    resultsRef.current.scrollIntoView({ 
+                      behavior: 'smooth', 
+                      block: 'start' 
+                    });
+                  }
                 }}
                 className={`flex flex-col items-center gap-2 cursor-pointer min-w-[72px] group ${
                   index === 0 ? 'pl-4 md:pl-0' : ''
@@ -190,10 +202,6 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
         </div>
       </div>
-
-
-
-
 
       {/* 3. Packages or Search Results Section */}
       <div ref={resultsRef} className="max-w-6xl mx-auto px-4 md:px-6 space-y-6 pt-2">
