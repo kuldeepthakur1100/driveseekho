@@ -26,9 +26,9 @@ export default function BottomNav() {
               href={item.href}
               className="relative flex flex-col items-center justify-center py-1 px-3 group"
             >
-              {/* Price Tag Badge for Driving Track */}
+              {/* Price Tag Badge fixed at the very top of the tab container */}
               {item.price && (
-                <span className="absolute -top-2.5 right-0 bg-[#014AAD] text-white text-[9px] font-black px-1.5 py-0.5 rounded-full shadow-sm tracking-tighter">
+                <span className="absolute -top-3 bg-[#014AAD] text-white text-[9px] font-black px-1.5 py-0.5 rounded-full shadow-sm tracking-tighter">
                   {item.price}
                 </span>
               )}
