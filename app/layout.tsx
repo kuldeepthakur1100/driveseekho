@@ -4,7 +4,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import BottomNav from "@/components/BottomNav";
 import { GoogleAnalytics } from '@next/third-parties/google';
-import RakhiSplashScreen from "@/components/RakhiSplashScreen"; // <-- 1. Yahan import add kiya
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -115,8 +115,6 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col pb-20 sm:pb-0">
         
-        {/* 2. Splash Screen ko yahan body ke andar sabse upar place kar diya */}
-        <RakhiSplashScreen />
 
         <main className="flex-grow">{children}</main>
         <Footer />
