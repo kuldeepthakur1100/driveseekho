@@ -40,7 +40,7 @@ const Footer = () => {
               { name: "About Us", path: "/about-us" },
               { name: "Driving Test Track", path: "/driving-test-track-in-delhi" },
               { name: "Contact Us", path: "/contact" },
-              { name: "Faq", path: "/faq" },
+              { name: "faq", path: "/faq" },
             ].map((link) => (
               <li key={link.name}>
                 <Link 
