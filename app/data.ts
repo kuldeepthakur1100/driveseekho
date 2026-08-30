@@ -2229,7 +2229,7 @@ faqs: [
     title: 'Driving School in Mayur Vihar Phase 3',
     city: 'East Delhi',
     subArea: 'New Kondli, Old Kondli, Khoda Colony',
-    areaSlug: 'east-delhi-mayur-vihar-phase-3',
+    areaSlug: 'driving-school-in-mayur-vihar-phase-3',
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -2312,86 +2312,70 @@ faqs: [
 
 
 
-  {
+{
     title: '2 wheeler driving school in Mayur Vihar Phase 3',
     city: 'East Delhi',
     subArea: 'New Kondli, Old Kondli, Khoda Colony',
-    areaSlug: 'east-delhi-mayur-vihar-phase-3-two-wheeler',
+    areaSlug: '2-wheeler-driving-school-in-mayur-vihar-phase-3',
     category: '2 wheeler',
-    price: '₹2,999',
+    price: '₹3,499',
     trainingDays: '10 Days',
     instructorName: 'Kuldeep',
     image: '/images/bike.jpg', 
-    features: ['Experienced Instructor'],
+    features: ['Experienced Instructor', 'Doorstep Pickup & Drop'],
     
-    // --- Nayi Details Yahan Se Shuru ---
     carName: 'Splendor',
     dailyRide: '60 Minutes / Day',
     pickupDrop: 'Free Pickup & Drop',
     phoneNumber: '+918368510626', 
     whatsappNumber: '918368510626',
     
-    
-// --- SEO & FAQs ---
-seoTitle: 'Two Wheeler Driving School in Mayur Vihar Phase 3 | Best Bike & Scooty Driving Classes',
+    seoTitle: 'Bike & Scooty Driving Classes in Mayur Vihar Phase 3 | DriveSeekho',
+    seoDescription: 'Learn to ride a bike or scooty safely in Mayur Vihar Phase 3. Get doorstep pickup, expert training by Kuldeep, and affordable 10-day courses with DriveSeekho.',
 
-seoDescription:
-  'Looking for the best Two Wheeler Driving School in Mayur Vihar Phase 3? Learn bike & scooty riding with certified instructors, beginner-friendly training, affordable fees, flexible timings, road safety lessons & online booking with DriveSeekho.',
+    seoContent: `
+Looking for reliable bike and scooty training right at your doorstep? If you want to learn how to ride a two-wheeler without any fear, DriveSeekho brings professional driving lessons directly to Mayur Vihar Phase 3 and surrounding areas. 
 
-seoContent: `
-Two Wheeler Driving School in Mayur Vihar Phase 3
+Whether you are a complete beginner, a college student commuting daily, or a working professional wanting independence on Delhi roads, our structured training program helps you build solid road confidence from day one. Under the expert guidance of our trainer Kuldeep, you get personalized, one-on-one practical lessons tailored to your comfort level.
 
-Looking for the best Two Wheeler Driving School in Mayur Vihar Phase 3? DriveSeekho helps you learn bike and scooty riding with trusted, verified, and experienced instructors offering professional two wheeler driving lessons at affordable prices. Our Two Wheeler Driving School in Mayur Vihar Phase 3 is ideal for beginners, college students, working professionals, women, senior citizens, and anyone who wants to ride confidently and safely on Delhi roads.
+### What You Will Learn in Our 10-Day Training Program:
+• **Balance & Controls:** Understanding the throttle, brakes, and balancing a motorcycle or scooty at slow speeds.
+• **Gear & Clutch Mastery:** Smooth shifting, proper acceleration, and managing traffic stops without stalling.
+• **Real Traffic Navigation:** Handling crowded roads, tight U-turns, and lane discipline safely across East Delhi.
 
-Our Two Wheeler Driving School in Mayur Vihar Phase 3 follows a structured training program that focuses on both practical riding skills and road safety. Students learn vehicle balancing, clutch control, gear shifting, braking techniques, slow-speed riding, U-turns, traffic rules, lane discipline, emergency braking, defensive riding, parking techniques, and riding confidently in city traffic.
+We proudly provide convenient doorstep pickup and drop services across Mayur Vihar Phase 3, New Kondli, Old Kondli, Khoda Colony, Vasundhara Enclave, and nearby sectors. 
 
-DriveSeekho's Two Wheeler Driving School in Mayur Vihar Phase 3 provides flexible morning and evening batches with personalized one-on-one training. Our instructors ensure every learner gains real road riding experience under proper supervision. Training is available for motorcycles and scooties, making it suitable for riders of all experience levels.
+### Why Choose DriveSeekho?
+• **Expert Trainer:** Learn directly under experienced professionals like Kuldeep.
+• **Flexible Timings:** Choose between early morning or evening batches as per your schedule.
+• **Affordable Packages:** Complete 10-day training starting at just ₹2,999 with well-maintained bikes like the Splendor.
+• **Complete Safety Focus:** Defensive riding tips and complete guidance for your driving license test preparation.
 
-We proudly serve learners across Mayur Vihar Phase 3, Kondli, New Ashok Nagar, Trilokpuri, Vasundhara Enclave, Mayur Vihar Phase 1, Mayur Vihar Phase 2, Noida Sector 15, Noida Sector 16, Noida Sector 18, and nearby locations.
-
-Choosing a professional Two Wheeler Driving School in Mayur Vihar Phase 3 helps you develop safe riding habits, improve confidence, understand traffic regulations, and prepare for your driving license test. Every lesson is designed to build practical riding skills that make daily commuting easier and safer.
-
-Book your <strong>Two Wheeler Driving School in Mayur Vihar Phase 3</strong> online with DriveSeekho and compare the best bike and scooty driving course packages, instructor ratings, pricing, training duration, and student reviews—all in one place.
-
-Why Choose Our Two Wheeler Driving School in Mayur Vihar Phase 3?
-
-• Certified & Experienced Two Wheeler Instructors
-• Beginner-Friendly Bike & Scooty Training
-• Affordable Course Fees
-• Flexible Morning & Evening Batches
-• One-to-One Practical Riding Sessions
-• Real Road Traffic Training
-• Road Safety & Traffic Rules Guidance
-• Motorcycle & Scooty Learning Courses
-• Driving License Test Preparation
-• Easy Online Booking with DriveSeekho
-
+Book your two-wheeler driving classes online today and start your journey towards confident and independent riding!
 `,
 
-faqs: [
-  {
-    q: 'Which is the best Two Wheeler Driving School in Mayur Vihar Phase 3?',
-    a: 'DriveSeekho helps you compare the best Two Wheeler Driving Schools in Mayur Vihar Phase 3 based on instructor experience, student reviews, pricing, practical riding lessons, and course quality.'
-  },
-  {
-    q: 'What is the fee for a Two Wheeler Driving School in Mayur Vihar Phase 3?',
-    a: 'Two Wheeler driving course fees generally start from ₹1,499 and may vary depending on the selected package, training duration, and vehicle type.'
-  },
-  {
-    q: 'Can beginners learn bike and scooty riding?',
-    a: 'Yes. Our Two Wheeler Driving School in Mayur Vihar Phase 3 offers beginner-friendly training for both motorcycles and scooties with step-by-step practical lessons.'
-  },
-  {
-    q: 'How many days does the Two Wheeler driving course take?',
-    a: 'Most Two Wheeler driving courses are completed within 5 to 10 days depending on the learners confidence, selected package, and daily practice sessions.'
-  },
-  {
-    q: 'Does the Two Wheeler Driving School help with driving license preparation?',
-    a: 'Yes. DriveSeekho instructors provide complete guidance on road signs, traffic rules, practical riding skills, and driving license test preparation.'
-  }
-]
-
-
+    faqs: [
+      {
+        q: 'What is the fee for bike and scooty classes in Mayur Vihar Phase 3?',
+        a: 'The complete 10-day training package is available for ₹2,999, which includes daily 60-minute practical sessions and free doorstep pickup and drop.'
+      },
+      {
+        q: 'Do you provide free pickup and drop from home?',
+        a: 'Yes, we offer free doorstep pickup and drop across Mayur Vihar Phase 3, New Kondli, Old Kondli, and nearby East Delhi locations.'
+      },
+      {
+        q: 'Can a complete beginner learn how to ride a scooty or bike here?',
+        a: 'Absolutely! Our training is specially designed for absolute beginners, focusing heavily on basic balancing and clutch control before moving to heavy traffic.'
+      },
+      {
+        q: 'Who will be the driving instructor?',
+        a: 'Your training will be handled by our experienced and verified expert instructor, Kuldeep, ensuring safe and patient learning.'
+      },
+      {
+        q: 'How many days does it take to learn riding?',
+        a: 'Our standard course lasts for 10 days (60 minutes per day), which is more than enough for most beginners to start riding independently and confidently.'
+      }
+    ]
 
  },
 
@@ -2401,162 +2385,141 @@ faqs: [
 
 
   {
-    title: '2 WheelerDriving School in Mayur Vihar Phase 1',
+    title: '2 Wheeler Driving School in Mayur Vihar Phase 1',
     city: 'East Delhi',
-    subArea: '(chilla gaon, patparganj, pratap nagar,  )',
-    areaSlug: 'two-wheeler-driving-school-in-mayur-vihar-phase-1', // <-- Yeh unique hai
+    subArea: 'Chilla Gaon, Patparganj, Pratap Nagar, Pandav Nagar',
+    areaSlug: '2-wheeler-driving-school-in-mayur-vihar-phase-1',
     category: '2 wheeler',
     price: '₹2,999',
     trainingDays: '10 Days',
     instructorName: 'Nikhil',
     image: '/images/bike.jpg', 
-    features: ['Trained Instructor', 'Free Pick & Drop'],
+    features: ['Trained Instructor', 'Free Doorstep Pickup & Drop'],
     
-    // --- Nayi Details Yahan Se Shuru ---
     carName: 'Bike (Gear & Clutch)',
     dailyRide: '60 Minutes / Day',
-    pickupDrop: 'Free Doorstep Pickup)',
-    phoneNumber: '+918368510626',  // Apna real calling number daalein
-    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    pickupDrop: 'Free Doorstep Pickup',
+    phoneNumber: '+918368510626', 
+    whatsappNumber: '918368510626',
     
-    // --- SEO & FAQs ---
-seoTitle: '2 Wheeler Driving School in Mayur Vihar Phase 1 | Bike & Scooty Training Institute',
+    seoTitle: 'Bike & Scooty Driving Classes in Mayur Vihar Phase 1 | DriveSeekho',
+    seoDescription: 'Learn to ride a bike or scooty safely in Mayur Vihar Phase 1. Get doorstep pickup, expert training by Nikhil, and affordable 10-day courses with DriveSeekho.',
 
-seoDescription:
-  'Enroll in the best 2 Wheeler Driving School in Mayur Vihar Phase 1 for professional bike & scooty riding lessons. Certified trainers, affordable fees, flexible timings, practical road training, license assistance & easy online booking with DriveSeekho.',
+    seoContent: `
+Looking for reliable bike and scooty training right at your doorstep in Mayur Vihar Phase 1? If you want to master two-wheeler riding without fear, DriveSeekho brings professional driving lessons directly to your location. 
 
-seoContent: `
-2 Wheeler Driving School in Mayur Vihar Phase 1
+Whether you are a complete beginner, a college student commuting daily, or a working professional seeking independence on the road, our structured training program helps you build solid road confidence from day one. Under the expert guidance of our trainer Nikhil, you receive personalized, one-on-one practical lessons tailored to your comfort level.
 
-Learning to ride a two wheeler safely starts with proper guidance and practical experience. DriveSeekho connects you with the most trusted 2 Wheeler Driving School in Mayur Vihar Phase 1, offering professional bike and scooty riding lessons designed for beginners as well as riders looking to improve their confidence on busy city roads.
+### What You Will Learn in Our 10-Day Training Program:
+• **Balance & Controls:** Understanding the throttle, brakes, and balancing a motorcycle or scooty smoothly at low speeds.
+• **Gear & Clutch Mastery:** Seamless shifting, proper acceleration, and managing traffic stops without stalling.
+• **Real Traffic Navigation:** Handling crowded roads, tight U-turns, and lane discipline safely across East Delhi.
 
-Our 2 Wheeler Driving School in Mayur Vihar Phase 1 follows a practical, step-by-step learning approach that helps students understand every aspect of safe riding. From balancing the vehicle and smooth acceleration to clutch control, gear shifting, emergency braking, cornering techniques, traffic awareness, parking, and defensive riding, every lesson is conducted under the supervision of experienced instructors.
+We proudly provide convenient doorstep pickup and drop services across Mayur Vihar Phase 1, Chilla Gaon, Patparganj, Pratap Nagar, Pandav Nagar, IP Extension, and nearby sectors. 
 
-Whether you're a college student, office commuter, homemaker, or someone learning to ride for the first time, our instructors personalize the training according to your skill level. The objective is not only to help you ride confidently but also to develop safe riding habits for everyday travel across Delhi NCR.
+### Why Choose DriveSeekho?
+• **Expert Trainer:** Learn directly under experienced professionals like Nikhil.
+• **Flexible Timings:** Choose between early morning or evening batches as per your schedule.
+• **Affordable Packages:** Complete 10-day training starting at just ₹2,999 with well-maintained vehicles.
+• **Complete Safety Focus:** Defensive riding tips and proper guidance for your driving license test preparation.
 
-DriveSeekho offers 2 Wheeler Driving School services throughout Mayur Vihar Phase 1, Patparganj, IP Extension, Pandav Nagar, Trilokpuri, Kalyanpuri, New Ashok Nagar, Vasundhara Enclave, Akshardham, and nearby locations. Flexible training schedules make it easy for students and working professionals to learn at their convenience.
-
-Every training session includes real road riding experience where learners gain confidence while navigating traffic signals, intersections, market roads, flyovers, and residential streets. Our experienced instructors focus on practical riding rather than classroom theory alone, ensuring students become responsible and confident riders.
-
-Book your <strong>2 Wheeler Driving School in Mayur Vihar Phase 1</strong> with DriveSeekho and compare verified instructors, affordable course packages, student reviews, training duration, and riding schedules—all from one trusted platform.
-
-Why Choose Our 2 Wheeler Driving School in Mayur Vihar Phase 1?
-
-• Professional Bike & Scooty Riding Instructors
-• Personalized One-to-One Practical Training
-• Beginner to Advanced Riding Programs
-• Affordable Course Fees
-• Flexible Morning, Evening & Weekend Batches
-• Real Road Traffic Experience
-• Complete Road Safety Training
-• Bike & Scooty License Test Preparation
-• Safe Learning Environment
-• Instant Online Booking through DriveSeekho
-
+Book your two-wheeler driving classes online today and start your journey toward confident and independent riding!
 `,
 
-faqs: [
-  {
-    q: 'Which is the best 2 Wheeler Driving School in Mayur Vihar Phase 1?',
-    a: 'DriveSeekho allows you to compare verified 2 Wheeler Driving Schools in Mayur Vihar Phase 1 based on instructor quality, practical riding experience, student ratings, pricing, and course features.'
-  },
-  {
-    q: 'Can I learn both bike and scooty riding?',
-    a: 'Yes. Our instructors provide complete training for both motorcycles and scooties, making the course suitable for riders of every experience level.'
-  },
-  {
-    q: 'How much does a 2 Wheeler driving course cost in Mayur Vihar Phase 1?',
-    a: 'Course fees generally begin from ₹1,499 and vary according to the selected training package, number of practical sessions, and vehicle type.'
-  },
-  {
-    q: 'How long does it take to learn two wheeler riding?',
-    a: 'Most learners complete their practical training within 5 to 10 days, although the duration may vary depending on individual learning speed.'
-  },
-  {
-    q: 'Does DriveSeekho provide riding lessons for complete beginners?',
-    a: 'Absolutely. Our 2 Wheeler Driving School in Mayur Vihar Phase 1 is specially designed for first-time riders with easy-to-follow practical lessons and experienced instructors.'
-  }
-]
+    faqs: [
+      {
+        q: 'What is the fee for bike and scooty classes in Mayur Vihar Phase 1?',
+        a: 'The complete 10-day training package is available for ₹2,999, which includes daily 60-minute practical sessions and free doorstep pickup and drop.'
+      },
+      {
+        q: 'Do you provide free pickup and drop from home?',
+        a: 'Yes, we offer free doorstep pickup and drop across Mayur Vihar Phase 1, Chilla Gaon, Patparganj, Pandav Nagar, and nearby East Delhi locations.'
+      },
+      {
+        q: 'Can a complete beginner learn how to ride a scooty or bike here?',
+        a: 'Absolutely! Our training is specially designed for absolute beginners, focusing heavily on basic balancing and clutch control before moving to heavy traffic.'
+      },
+      {
+        q: 'Who will be the driving instructor?',
+        a: 'Your training will be handled by our experienced and verified expert instructor, Nikhil, ensuring safe and patient learning.'
+      },
+      {
+        q: 'How many days does it take to learn riding?',
+        a: 'Our standard course lasts for 10 days (60 minutes per day), which is ideal for most beginners to start riding independently and confidently.'
+      }
+    ]
 
   },
+
+
+
+
 
  {
-    title: 'two wheeler Driving School in Akshardham',
+    title: 'Two Wheeler Driving School in Akshardham',
     city: 'East Delhi',
-    subArea: '(Pandav nagar, Comman Wealth APt, Ganesh Nagar)',
-    areaSlug: 'two-wheeler-driving-school-in-akshardham', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    subArea: 'Pandav Nagar, Commonwealth Apartments, Ganesh Nagar',
+    areaSlug: 'two-wheeler-driving-school-in-akshardham',
     category: '2 wheeler',
     price: '₹3,499',
     trainingDays: '10 Days',
     instructorName: 'Nikhil',
     image: '/images/bike.jpg', 
-    features: ['Experienced Instructor'],
+    features: ['Experienced Instructor', 'Free Doorstep Pickup & Drop'],
     
-    // --- Nayi Details Yahan Se Shuru ---
     carName: 'Bike & Scooty (Both Available)',
     dailyRide: '60 Minutes / Day',
     pickupDrop: 'Free Pickup and Drop',
     phoneNumber: '+918368510626', 
     whatsappNumber: '918368510626',
     
-    // --- SEO & FAQs ---
-seoTitle: '2 Wheeler Driving School in Akshardham | Best Bike & Scooty Riding Classes',
+    seoTitle: 'Bike & Scooty Driving Classes in Akshardham | DriveSeekho',
+    seoDescription: 'Learn to ride a bike or scooty safely near Akshardham. Get doorstep pickup, expert training by Nikhil, and affordable 10-day courses with DriveSeekho.',
 
-seoDescription:
-  'Searching for the best 2 Wheeler Driving School in Akshardham? Learn bike & scooty riding with certified trainers, practical road lessons, affordable fees, flexible batches, riding license assistance, and easy online booking through DriveSeekho.',
+    seoContent: `
+Looking for reliable bike and scooty training right near Akshardham? If you want to learn how to ride a two-wheeler without any fear, DriveSeekho brings professional driving lessons directly to Pandav Nagar, Commonwealth Apartments, Ganesh Nagar, and surrounding East Delhi areas. 
 
-seoContent: `
-2 Wheeler Driving School in Akshardham
+Whether you are a complete beginner, a college student commuting daily, or a working professional seeking independence on the road, our structured training program helps you build solid road confidence from day one. Under the expert guidance of our trainer Nikhil, you receive personalized, one-on-one practical lessons tailored to your comfort level.
 
-Mastering two wheeler riding requires more than just balancing a bike—it demands confidence, proper road awareness, and expert guidance. DriveSeekho connects learners with the most trusted 2 Wheeler Driving School in Akshardham, where experienced instructors provide professional motorcycle and scooty training tailored for riders of every skill level.
+### What You Will Learn in Our 10-Day Training Program:
+• **Balance & Controls:** Understanding the throttle, brakes, and balancing a motorcycle or scooty smoothly at low speeds.
+• **Gear & Clutch Mastery:** Seamless shifting, proper acceleration, and managing traffic stops without stalling.
+• **Real Traffic Navigation:** Handling crowded roads, tight U-turns, and lane discipline safely across East Delhi.
 
-Unlike traditional riding lessons, our 2 Wheeler Driving School in Akshardham emphasizes practical learning in real traffic conditions. Students gradually build confidence by practicing smooth starts, clutch and throttle coordination, gear shifting, controlled braking, cornering, traffic signal management, lane positioning, parking techniques, emergency handling, and defensive riding strategies.
+We proudly provide convenient doorstep pickup and drop services across Akshardham, Pandav Nagar, Commonwealth Apartments, Ganesh Nagar, IP Extension, and nearby sectors. 
 
-Every learner progresses at a comfortable pace through one-to-one coaching sessions conducted by certified riding instructors. Whether you're learning for your daily commute, preparing for your driving license, or simply overcoming riding anxiety, our structured training program ensures steady improvement with every session.
+### Why Choose DriveSeekho?
+• **Expert Trainer:** Learn directly under experienced professionals like Nikhil.
+• **Flexible Timings:** Choose between early morning or evening batches as per your schedule.
+• **Affordable Packages:** Complete 10-day training starting at just ₹3,499 with well-maintained bikes and scooties.
+• **Complete Safety Focus:** Defensive riding tips and proper guidance for your driving license test preparation.
 
-Our training network covers Akshardham, Pandav Nagar, IP Extension, Mayur Vihar Phase 1, Mayur Vihar Phase 2, Patparganj, Laxmi Nagar, Shakarpur, Nirman Vihar, Preet Vihar, and surrounding East Delhi localities, making it convenient to choose nearby riding classes.
-
-Safety remains our highest priority. Every lesson introduces riders to defensive driving principles, hazard recognition, safe overtaking, riding during different traffic conditions, and responsible road behaviour. These essential skills help students become confident and law-abiding riders on Delhi's busy roads.
-
-Book your <strong>2 Wheeler Driving School in Akshardham</strong> through DriveSeekho and compare verified instructors, affordable riding packages, student reviews, flexible schedules, and training duration—all on one trusted platform.
-
-Why Choose Our 2 Wheeler Driving School in Akshardham?
-
-• Certified Motorcycle & Scooty Trainers
-• Personalized Riding Sessions
-• Beginner-Friendly Learning Program
-• Practical City Road Experience
-• Affordable Bike Riding Packages
-• Flexible Morning & Evening Timings
-• Traffic Rules & Road Safety Guidance
-• Driving License Test Preparation
-• Safe & Confidence-Building Training
-• Quick Online Booking with DriveSeekho
-
+Book your two-wheeler driving classes online today and start your journey toward confident and independent riding!
 `,
 
-faqs: [
-  {
-    q: 'Which is the best 2 Wheeler Driving School in Akshardham?',
-    a: 'DriveSeekho helps you compare trusted 2 Wheeler Driving Schools in Akshardham based on instructor experience, practical training quality, pricing, and verified student reviews.'
-  },
-  {
-    q: 'Do you provide bike and scooty riding classes in Akshardham?',
-    a: 'Yes. Our instructors provide professional riding lessons for both motorcycles and scooties, suitable for complete beginners as well as intermediate riders.'
-  },
-  {
-    q: 'What are the charges for two wheeler riding lessons?',
-    a: 'Bike and scooty riding courses generally start from ₹1,499. Pricing may vary depending on the number of sessions and selected training package.'
-  },
-  {
-    q: 'Is real road traffic practice included in the course?',
-    a: 'Yes. Students receive supervised practical riding experience on actual roads to improve confidence, road awareness, and safe riding skills.'
-  },
-  {
-    q: 'Can I prepare for my two wheeler driving license through this training?',
-    a: 'Absolutely. Our instructors guide learners through practical riding techniques, traffic rules, and license test preparation to improve their chances of passing the driving test.'
-  }
-]
+    faqs: [
+      {
+        q: 'What is the fee for bike and scooty classes in Akshardham?',
+        a: 'The complete 10-day training package is available for ₹3,499, which includes daily 60-minute practical sessions and free doorstep pickup and drop.'
+      },
+      {
+        q: 'Do you provide free pickup and drop from home?',
+        a: 'Yes, we offer free doorstep pickup and drop across Akshardham, Pandav Nagar, Commonwealth Apartments, Ganesh Nagar, and nearby East Delhi locations.'
+      },
+      {
+        q: 'Can a complete beginner learn how to ride a scooty or bike here?',
+        a: 'Absolutely! Our training is specially designed for absolute beginners, focusing heavily on basic balancing and clutch control before moving to heavy traffic.'
+      },
+      {
+        q: 'Who will be the driving instructor?',
+        a: 'Your training will be handled by our experienced and verified expert instructor, Nikhil, ensuring safe and patient learning.'
+      },
+      {
+        q: 'How many days does it take to learn riding?',
+        a: 'Our standard course lasts for 10 days (60 minutes per day), which is ideal for most beginners to start riding independently and confidently.'
+      }
+    ]
+
 
 
  },
@@ -3291,7 +3254,7 @@ faqs: [
     title: '2 Wheeler Driving School in Preet Vihar',
     city: 'East Delhi',
     subArea: '(Preet Vihar Metro, Acharya Nagar)',
-    areaSlug: 'driving-school-in-preet-vihar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: '2-wheeler-driving-school-in-preet-vihar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: '2 wheeler',
     price: '₹2,999',
     trainingDays: '10 Days',
@@ -3800,7 +3763,7 @@ faqs: [
     title: '2 Wheeler Driving School in Mayur Vihar Phase 2',
     city: 'East Delhi',
     subArea: '(Mandawali, Pocket E, Pocket C)',
-    areaSlug: 'driving-school-in-mayur-vihar-phase-2', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: '2-wheeler-driving-school-in-mayur-vihar-phase-2', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: '2 wheeler',
     price: '₹2,999',
     trainingDays: '10 Days',
