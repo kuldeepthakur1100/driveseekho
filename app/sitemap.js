@@ -1,6 +1,7 @@
 export default async function sitemap() {
   const baseUrl = 'https://driveseekho.com';
 
+  // 1. Static Pages
   const staticPages = [
     '',
     '/instructor',
@@ -171,7 +172,7 @@ export default async function sitemap() {
     'Driving-school-in-noida-sector-29',
     'Driving-school-in-noida-sector-30',
     'Driving-school-in-noida-sector-31',
-    'Driving-school-in-noida-sector-32 ',
+    'Driving-school-in-noida-sector-32',
     'Driving-school-in-noida-sector-33',
     'Driving-school-in-noida-sector-34',
     'Driving-school-in-noida-sector-35', 
@@ -221,7 +222,7 @@ export default async function sitemap() {
     'Driving-school-in-greater-noida-west',
     'Driving-school-in-noida-extension',
     'Driving-school-in-greater-noida-alpha-1-and-alpha-2',
-    'Driving-school-in-greater-noida-beta-1-&-beta-2',
+    'Driving-school-in-greater-noida-beta-1-and-beta-2',
     'Driving-school-in-knowledge-park-greater-noida',
     'Driving-school-in-greater-noida-pari-chowk',
     'Driving-school-in-greater-noida-sector-1',
@@ -237,7 +238,6 @@ export default async function sitemap() {
     'bike-driving-classes-in-noida-sector-52',
     'bike-driving-classes-in-noida-sector-50',
     'bike-driving-classes-in-noida-sector-142',
-
   ];
 
   const dynamicAreaPages = allLocationSlugs.map((slug) => ({
