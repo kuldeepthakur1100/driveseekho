@@ -41583,11 +41583,10 @@ faqs: [
     phoneNumber: '+918368510626',  // Apna real calling number daalein
     whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
     
-   
-seoTitle: "Driving School in Greater Kailash (GK 1 & GK 2), Delhi | Car, Bike & Scooty Classes",
+   seoTitle: "Driving School in Greater Kailash (GK 1 & GK 2), Delhi | Car, Bike & Scooty Classes",
 
 seoDescription:
-  "Looking for the best driving school in GK 1 & GK 2, Delhi? Find expert instructors for car, bike and scooty driving classes with practical training, transparent pricing, and flexible packages for beginners.",
+"Looking for the best driving school in GK 1 & GK 2, Delhi? Find expert instructors for car, bike and scooty driving classes with practical training, transparent pricing, and flexible packages for beginners.",
 
 seoContent: `Looking for a Driving School in Greater Kailash (GK 1 & GK 2), Delhi? Mastering the upscale residential blocks, bustling market hubs (M Block and N Block markets), narrow colony lanes, and heavy commuter traffic on the surrounding Outer Ring Road and Lala Lajpat Rai Marg requires structured learning and professional guidance. True driving confidence comes from safely navigating multi-lane arterial roads, complex intersections, tight market parking slots, and everyday South Delhi road conditions.
 
@@ -41614,7 +41613,7 @@ Transparent Driving Lesson Packages & Pricing in GK 1 & GK 2:
 • Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
 • Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
 • Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
-*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.
 
 Greater Kailash (GK 1 and GK 2) occupies a premier and prominent residential-commercial zone in South Delhi, flanked by the Outer Ring Road, Alaknanda, CR Park, Nehru Place, and Kalkaji. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
 
@@ -41663,58 +41662,2683 @@ Why choose DriveSeekho for driving classes in GK 1 & GK 2?
 If you are searching for a Driving School in Greater Kailash, Best Driving School in GK 1, Driving School in GK 2, Car Driving Classes in Greater Kailash, Car Driving School Near GK 1, Driving Classes Near Me, Automatic Car Driving Classes in GK, Manual Car Driving Classes in Greater Kailash, Bike Driving Classes in GK 1 & GK 2, Scooty Driving Classes in Greater Kailash, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
 
 faqs: [
+{
+q: 'Which is the best Driving School in Greater Kailash (GK 1 & GK 2), Delhi?',
+a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors in GK 1 and GK 2 based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+},
+
+{
+q: 'What is the price of driving classes in GK 1 & GK 2?',
+a: 'Driving class packages typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+},
+
+{
+q: 'Do you provide car driving classes in Greater Kailash?',
+a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+},
+
+{
+q: 'Can a complete beginner learn car driving in GK 1 or GK 2?',
+a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+},
+
+{
+q: 'Are manual and automatic car driving classes available near Greater Kailash?',
+a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars in and around GK 1 and GK 2.'
+},
+
+{
+q: 'Do you provide bike driving classes in GK 1 & GK 2?',
+a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+},
+
+{
+q: 'Can I learn scooty riding in Greater Kailash?',
+a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+},
+
+{
+q: 'Which areas near GK 1 and GK 2 are covered for driving lessons?',
+a: 'Depending on instructor availability, training can be arranged around Greater Kailash and nearby areas such as CR Park, Alaknanda, Kalkaji, Nehru Place, East of Kailash and surrounding localities.'
+},
+
+{
+q: 'Do you offer refresher driving classes in Greater Kailash?',
+a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+},
+
+{
+q: 'How can I find a driving instructor near GK 1 or GK 2?',
+a: 'Share your Greater Kailash location, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+}
+]
+
+
+
+// <-- Yeh unique hai yaha se South West start /////////////////////////////////////////////////////////////////////////////////////
+
+
+},
+
+
+{
+    title: 'Driving School in Dwarka',
+    city: 'South West',
+    subArea: '(Dwarka)',
+    areaSlug: 'driving-school-in-dwarka', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/newswift.png',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Swift (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Dwarka, Delhi | Car, Bike & Scooty Classes",
+
+seoDescription:
+  "Looking for the best driving school in Dwarka, Delhi? Find expert instructors for car, bike and scooty driving classes with practical training, transparent pricing, and flexible packages for beginners.",
+
+seoContent: `Looking for a Driving School in Dwarka, Delhi? Mastering the wide residential sectors, bustling commercial complexes (Sector 10 and Sector 12 markets), busy roundabouts, and heavy commuter traffic on the Dwarka Expressway, Najafgarh Road, and Palam Road requires structured learning and professional guidance. True driving confidence comes from safely navigating multi-lane arterial roads, complex intersections, tight residential parking slots, and everyday West/South-West Delhi road conditions.
+
+DriveSeekho helps learners in Dwarka find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Dwarka, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter sector lanes. Conversely, individuals who understand the basics but experience anxiety in heavy market and expressway traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Dwarka focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Dwarka are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Dwarka. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Dwarka help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Pricing in Dwarka:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Dwarka occupies a premier and expansive sub-city in South-West Delhi, structured neatly into sectors ranging from Sector 1 to Sector 23, alongside the Dwarka Expressway. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Dwarka Sector 1 through 23, Palam, Uttam Nagar, Mahavir Enclave, Najafgarh, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Dwarka. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Dwarka, Delhi.
+
+Why choose DriveSeekho for driving classes in Dwarka?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Dwarka and nearby West/South-West Delhi areas
+
+If you are searching for a Driving School in Dwarka, Best Driving School in Dwarka Sector 12, Driving School in Dwarka Sector 21, Car Driving Classes in Dwarka, Car Driving School Near Dwarka Sector 6, Driving Classes Near Me, Automatic Car Driving Classes in Dwarka, Manual Car Driving Classes in Dwarka, Bike Driving Classes in Dwarka, Scooty Driving Classes in Dwarka, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
   {
-    q: 'Which is the best Driving School in Greater Kailash (GK 1 & GK 2), Delhi?',
-    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors in GK 1 and GK 2 based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+    q: 'Which is the best Driving School in Dwarka, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across all Dwarka sectors based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
   },
 
   {
-    q: 'What is the price of driving classes in GK 1 & GK 2?',
+    q: 'What is the price of driving classes in Dwarka?',
     a: 'Driving class packages typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
   },
 
   {
-    q: 'Do you provide car driving classes in Greater Kailash?',
+    q: 'Do you provide car driving classes in Dwarka?',
     a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
   },
 
   {
-    q: 'Can a complete beginner learn car driving in GK 1 or GK 2?',
+    q: 'Can a complete beginner learn car driving in Dwarka?',
     a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
   },
 
   {
-    q: 'Are manual and automatic car driving classes available near Greater Kailash?',
-    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars in and around GK 1 and GK 2.'
+    q: 'Are manual and automatic car driving classes available near Dwarka?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars across all sectors of Dwarka.'
   },
 
   {
-    q: 'Do you provide bike driving classes in GK 1 & GK 2?',
+    q: 'Do you provide bike driving classes in Dwarka?',
     a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
   },
 
   {
-    q: 'Can I learn scooty riding in Greater Kailash?',
+    q: 'Can I learn scooty riding in Dwarka?',
     a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
   },
 
   {
-    q: 'Which areas near GK 1 and GK 2 are covered for driving lessons?',
-    a: 'Depending on instructor availability, training can be arranged around Greater Kailash and nearby areas such as CR Park, Alaknanda, Kalkaji, Nehru Place, East of Kailash and surrounding localities.'
+    q: 'Which areas in Dwarka are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across all Dwarka sectors (1 to 23) and nearby areas such as Palam, Uttam Nagar, Mahavir Enclave and Najafgarh.'
   },
 
   {
-    q: 'Do you offer refresher driving classes in Greater Kailash?',
+    q: 'Do you offer refresher driving classes in Dwarka?',
     a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
   },
 
   {
-    q: 'How can I find a driving instructor near GK 1 or GK 2?',
-    a: 'Share your Greater Kailash location, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+    q: 'How can I find a driving instructor near Dwarka?',
+    a: 'Share your Dwarka sector or local landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
   }
 ]
 
 
+
+},
+
+
+{
+    title: 'Driving School in Palam',
+    city: 'South West',
+    subArea: '(Palam)',
+    areaSlug: 'driving-school-in-palam', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/baleno.jpg',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Baleno (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Palam, Delhi | Car, Bike & Scooty Classes",
+
+seoDescription:
+  "Looking for the best driving school in Palam, Delhi? Find expert instructors for car, bike and scooty driving classes with practical training, transparent pricing, and flexible packages for beginners.",
+
+seoContent: `Looking for a Driving School in Palam, Delhi? Mastering the congested residential alleys, bustling local markets around Palam Railway Station and Manglapuri, narrow two-way streets, and heavy mixed traffic merging onto the Palam Dabri Marg and Dwarka Expressway requires structured learning and professional guidance. True driving confidence comes from safely navigating crowded pedestrian zones, tight colony turns, chaotic junction crossings, and everyday South-West Delhi traffic conditions.
+
+DriveSeekho helps learners in Palam find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Palam, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter residential lanes. Conversely, individuals who understand the basics but experience anxiety in heavy market and arterial traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Palam focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Palam are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Palam. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Palam help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Pricing in Palam:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Palam occupies a vibrant and densely populated historical locality in South-West Delhi, closely connected to Dwarka, Sadar Bazaar, and the outer transit corridors. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Palam Village, Manglapuri, Raj Nagar I & II, Mahavir Enclave, Dwarka Sector 1 & 2, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Palam. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Palam, Delhi.
+
+Why choose DriveSeekho for driving classes in Palam?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Palam and nearby South-West Delhi areas
+
+If you are searching for a Driving School in Palam, Best Driving School in Palam Village, Driving School in Raj Nagar Palam, Car Driving Classes in Palam, Car Driving School Near Manglapuri, Driving Classes Near Me, Automatic Car Driving Classes in Palam, Manual Car Driving Classes in Palam, Bike Driving Classes in Palam, Scooty Driving Classes in Palam, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Palam, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across Palam based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the price of driving classes in Palam?',
+    a: 'Driving class packages typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Palam?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Palam?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Palam?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars in and around Palam.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Palam?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Palam?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Palam are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across Palam Village, Manglapuri, Raj Nagar, Mahavir Enclave, and surrounding areas near Dwarka.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Palam?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Palam?',
+    a: 'Share your Palam location or landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+
+
+},
+
+
+{
+    title: 'Driving School in Dabri',
+    city: 'South West',
+    subArea: '(Dabri)',
+    areaSlug: 'driving-school-in-dabri', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/oldswift.png',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Swift (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Dabri, Delhi | Car, Bike & Scooty Classes",
+
+seoDescription:
+  "Looking for the best driving school in Dabri, Delhi? Find expert instructors for car, bike and scooty driving classes with practical training, transparent pricing, and flexible packages for beginners.",
+
+seoContent: `Looking for a Driving School in Dabri, Delhi? Mastering the crowded commercial stretches, narrow residential streets around Dabri-Mor, busy intersections near the main market, and heavy mixed traffic flowing toward Dwarka, Uttam Nagar, and Janakpuri requires structured learning and professional guidance. True driving confidence comes from safely navigating congested multi-directional junctions, tight colony turns, bustling pedestrian corridors, and everyday West Delhi road conditions.
+
+DriveSeekho helps learners in Dabri find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Dabri, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter internal pockets. Conversely, individuals who understand the basics but experience anxiety in heavy market and main-road traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Dabri focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Dabri are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Dabri. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Dabri help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Pricing in Dabri:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Dabri occupies a fast-growing and heavily connected urban cluster in West Delhi, linked directly by the Dabri-Palam Road, Dwarka Road, and proximity to Janakpuri. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Dabri Extension, Dabri Village, Dashrath Puri, Sitapuri, Sagarpur, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Dabri. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Dabri, Delhi.
+
+Why choose DriveSeekho for driving classes in Dabri?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Dabri and nearby West Delhi areas
+
+If you are searching for a Driving School in Dabri, Best Driving School in Dabri Extension, Driving School near Dabri Mor, Car Driving Classes in Dabri, Car Driving School Near Dashrath Puri, Driving Classes Near Me, Automatic Car Driving Classes in Dabri, Manual Car Driving Classes in Dabri, Bike Driving Classes in Dabri, Scooty Driving Classes in Dabri, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Dabri, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across Dabri and surrounding pockets based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the price of driving classes in Dabri?',
+    a: 'Driving class packages typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Dabri?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Dabri?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Dabri?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars in and around Dabri.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Dabri?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Dabri?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Dabri are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across Dabri Extension, Dabri Village, Dashrath Puri, Sitapuri, Sagarpur, and nearby West Delhi localities.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Dabri?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Dabri?',
+    a: 'Share your Dabri location or local landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+
+
+},
+
+
+{
+    title: 'Driving School in Janakpuri',
+    city: 'South West',
+    subArea: '(Janakpuri)',
+    areaSlug: 'driving-school-in-janakpuri', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/wagnor.jpg',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Wagnor (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Janakpuri, Delhi | Car, Bike & Scooty Classes",
+
+seoDescription:
+  "Looking for the best driving school in Janakpuri, Delhi? Find expert instructors for car, bike and scooty driving classes with practical training, transparent pricing, and flexible packages for beginners.",
+
+seoContent: `Looking for a Driving School in Janakpuri, Delhi? Mastering the wide community blocks (from Block A to C, and District Centre), busy commercial squares, chaotic service lanes along the Outer Ring Road, and heavy commuter traffic heading toward Tilak Nagar, Pankha Road, and Janakpuri West requires structured learning and professional guidance. True driving confidence comes from safely navigating multi-lane arterial stretches, busy rotary intersections, tight market parking slots, and everyday West Delhi road conditions.
+
+DriveSeekho helps learners in Janakpuri find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Janakpuri, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter residential service lanes. Conversely, individuals who understand the basics but experience anxiety in heavy commercial and arterial traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Janakpuri focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Janakpuri are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Janakpuri. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Janakpuri help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Pricing in Janakpuri:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Janakpuri occupies a premier, sprawling residential and commercial hub in West Delhi, flanked by the Outer Ring Road, Najafgarh Road, Tilak Nagar, and Mahavir Nagar. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Janakpuri Blocks A through C, District Centre, Mahavir Nagar, Pankha Road, Tilak Nagar, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Janakpuri. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Janakpuri, Delhi.
+
+Why choose DriveSeekho for driving classes in Janakpuri?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Janakpuri and nearby West Delhi areas
+
+If you are searching for a Driving School in Janakpuri, Best Driving School in Janakpuri District Centre, Driving School near Janakpuri West, Car Driving Classes in Janakpuri, Car Driving School Near Mahavir Nagar, Driving Classes Near Me, Automatic Car Driving Classes in Janakpuri, Manual Car Driving Classes in Janakpuri, Bike Driving Classes in Janakpuri, Scooty Driving Classes in Janakpuri, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Janakpuri, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across all Janakpuri blocks and commercial hubs based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the price of driving classes in Janakpuri?',
+    a: 'Driving class packages typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Janakpuri?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Janakpuri?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Janakpuri?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars across Janakpuri.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Janakpuri?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Janakpuri?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Janakpuri are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across Janakpuri blocks, District Centre, Mahavir Nagar, Pankha Road, Tilak Nagar, and surrounding West Delhi sectors.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Janakpuri?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Janakpuri?',
+    a: 'Share your Janakpuri block or nearby landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+
+
+},
+
+
+{
+    title: 'Driving School in Sagarpur',
+    city: 'South West',
+    subArea: '(Sagarpur)',
+    areaSlug: 'driving-school-in-sagarpur', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/selerio.jpg',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Celerio (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Sagarpur, Delhi | Car, Bike & Scooty Classes",
+
+seoDescription:
+  "Looking for the best driving school in Sagarpur, Delhi? Find expert instructors for car, bike and scooty driving classes with practical training, transparent pricing, and flexible packages for beginners.",
+
+seoContent: `Looking for a Driving School in Sagarpur, Delhi? Mastering the narrow residential lanes, bustling local market passages, tight street corners, and heavy mixed commuter flow merging toward Dabri, Pankha Road, and Janakpuri requires structured learning and professional guidance. True driving confidence comes from safely navigating densely populated alleys, multi-directional intersections, pedestrian-heavy zones, and everyday West Delhi road conditions.
+
+DriveSeekho helps learners in Sagarpur find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Sagarpur, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter neighborhood pockets. Conversely, individuals who understand the basics but experience anxiety in heavy local market and connecting road traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Sagarpur focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Sagarpur are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Sagarpur. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Sagarpur help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Pricing in Sagarpur:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Sagarpur occupies an established and densely populated residential community in West Delhi, sitting directly adjacent to Dabri, Dashrath Puri, and Mahavir Enclave. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including West Sagarpur, East Sagarpur, Dashrath Puri, Dabri, Manglapuri, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Sagarpur. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Sagarpur, Delhi.
+
+Why choose DriveSeekho for driving classes in Sagarpur?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Sagarpur and nearby West Delhi areas
+
+If you are searching for a Driving School in Sagarpur, Best Driving School in West Sagarpur, Driving School near East Sagarpur, Car Driving Classes in Sagarpur, Car Driving School Near Dashrath Puri, Driving Classes Near Me, Automatic Car Driving Classes in Sagarpur, Manual Car Driving Classes in Sagarpur, Bike Driving Classes in Sagarpur, Scooty Driving Classes in Sagarpur, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Sagarpur, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across Sagarpur based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the price of driving classes in Sagarpur?',
+    a: 'Driving class packages typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Sagarpur?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Sagarpur?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Sagarpur?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars in and around Sagarpur.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Sagarpur?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Sagarpur?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Sagarpur are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across West Sagarpur, East Sagarpur, Dashrath Puri, Dabri, and surrounding West Delhi localities.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Sagarpur?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Sagarpur?',
+    a: 'Share your Sagarpur block or nearby landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+
+},
+
+
+{
+    title: 'Driving School in Najafgarh',
+    city: 'South West',
+    subArea: '(Najafgarh)',
+    areaSlug: 'driving-school-in-najafgarh', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/wagnor.jpg',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Wagnor (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Najafgarh, Delhi | Car, Bike & Scooty Classes",
+
+seoDescription:
+  "Looking for the best driving school in Najafgarh, Delhi? Find expert instructors for car, bike and scooty driving classes with practical training, transparent pricing, and flexible packages for beginners.",
+
+seoContent: `Looking for a Driving School in Najafgarh, Delhi? Mastering the wide rural-urban mix roads, bustling Najafgarh market stretches, busy bus terminal zones, and heavy mixed traffic flowing along the Dhansa Road, Kapashera Road, and Najafgarh-Phirni Road requires structured learning and professional guidance. True driving confidence comes from safely navigating open suburban stretches, crowded commercial markets, multi-directional crossroads, and everyday outer South-West Delhi road conditions.
+
+DriveSeekho helps learners in Najafgarh find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Najafgarh, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter outer residential lanes. Conversely, individuals who understand the basics but experience anxiety in heavy market and main-arterial traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Najafgarh focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Najafgarh are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Najafgarh. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Najafgarh help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Pricing in Najafgarh:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Najafgarh occupies a vast and historic suburban hub in South-West Delhi, connected via major transit corridors like Dhansa Road, Najafgarh-Jharoda Road, and proximity to Dwarka. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Roshanpura, Gopal Nagar, Dichaon Kalan, Nanak Vihar, Dwarka Sector 22/23 peripheries, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Najafgarh. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Najafgarh, Delhi.
+
+Why choose DriveSeekho for driving classes in Najafgarh?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Najafgarh and nearby South-West Delhi areas
+
+If you are searching for a Driving School in Najafgarh, Best Driving School in Roshanpura Najafgarh, Driving School near Dhansa Road, Car Driving Classes in Najafgarh, Car Driving School Near Gopal Nagar, Driving Classes Near Me, Automatic Car Driving Classes in Najafgarh, Manual Car Driving Classes in Najafgarh, Bike Driving Classes in Najafgarh, Scooty Driving Classes in Najafgarh, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Najafgarh, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across Najafgarh based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the price of driving classes in Najafgarh?',
+    a: 'Driving class packages typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Najafgarh?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Najafgarh?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Najafgarh?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars across Najafgarh.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Najafgarh?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Najafgarh?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Najafgarh are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across Roshanpura, Gopal Nagar, Dichaon Kalan, Nanak Vihar, and surrounding Najafgarh sectors.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Najafgarh?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Najafgarh?',
+    a: 'Share your Najafgarh locality or landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+
+
+},
+
+
+{
+    title: 'Driving School in Mahipalpur',
+    city: 'South West',
+    subArea: '(Mahipalpur)',
+    areaSlug: 'driving-school-in-mahipalpur', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/baleno.jpg',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Baleno (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Mahipalpur, Delhi | Car, Bike & Scooty Classes",
+
+seoDescription:
+  "Looking for the best driving school in Mahipalpur, Delhi? Find expert instructors for car, bike and scooty driving classes with practical training, transparent pricing, and flexible packages for beginners.",
+
+seoContent: `Looking for a Driving School in Mahipalpur, Delhi? Mastering the chaotic hospitality stretches, congested hotel market lanes, narrow internal colony streets, and high-speed multi-lane merging traffic along the National Highway 48 (NH-48), Vasant Kunj road, and the Mahipalpur bypass requires structured learning and professional guidance. True driving confidence comes from safely navigating aggressive airport-bound commercial traffic, complex slip roads, tight residential turns, and everyday South-West Delhi road conditions.
+
+DriveSeekho helps learners in Mahipalpur find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Mahipalpur, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter pocket lanes away from highway rushes. Conversely, individuals who understand the basics but experience anxiety in heavy commercial and arterial highway traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Mahipalpur focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Mahipalpur are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Mahipalpur. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Mahipalpur help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Pricing in Mahipalpur:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Mahipalpur occupies a prominent commercial and transit-heavy gateway zone in South-West Delhi, strategically flanked by the Indira Gandhi International (IGI) Airport periphery, NH-48, Rangpuri, and Vasant Vihar. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Mahipalpur Extension, Rangpuri, Rajokri, Vasant Kunj peripheries, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Mahipalpur. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Mahipalpur, Delhi.
+
+Why choose DriveSeekho for driving classes in Mahipalpur?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Mahipalpur and nearby South-West Delhi areas
+
+If you are searching for a Driving School in Mahipalpur, Best Driving School near NH-48 Mahipalpur, Driving School in Rangpuri, Car Driving Classes in Mahipalpur, Car Driving School Near IGI Airport Road, Driving Classes Near Me, Automatic Car Driving Classes in Mahipalpur, Manual Car Driving Classes in Mahipalpur, Bike Driving Classes in Mahipalpur, Scooty Driving Classes in Mahipalpur, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Mahipalpur, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across Mahipalpur and surrounding zones based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the price of driving classes in Mahipalpur?',
+    a: 'Driving class packages typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Mahipalpur?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Mahipalpur?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Mahipalpur?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars in and around Mahipalpur.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Mahipalpur?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Mahipalpur?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Mahipalpur are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across Mahipalpur Extension, Rangpuri, Rajokri, and nearby South-West Delhi localities.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Mahipalpur?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Mahipalpur?',
+    a: 'Share your Mahipalpur location or landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+
+},
+
+
+{
+    title: 'Driving School in Vasant Kunj',
+    city: 'South West',
+    subArea: '(Vasant Kunj)',
+    areaSlug: 'best-driving-school-in-vasant-kunj', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/brio.png',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Brio (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Vasant Kunj, Delhi | Car, Bike & Scooty Classes & Price",
+
+seoDescription:
+  "Looking for the best driving school in Vasant Kunj, Delhi? Check complete course prices, expert instructors for car, bike and scooty driving classes, flexible packages, and doorstep pickup.",
+
+seoContent: `Looking for a Driving School in Vasant Kunj, Delhi? Mastering the upscale residential pockets, sprawling pocket markets (like Pocket A, B, and C), major commercial malls (Ambience, DLF Promenade, and DLF Emporio), and heavy arterial traffic along Nelson Mandela Marg, Aruna Asaf Ali Marg, and Mehrauli-Mahipalpur Road requires structured learning and professional guidance. True driving confidence comes from safely navigating multi-lane boulevards, busy commercial parking lots, tight residential colony turns, and everyday South Delhi road conditions.
+
+DriveSeekho helps learners in Vasant Kunj find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Vasant Kunj, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter residential lanes. Conversely, individuals who understand the basics but experience anxiety in heavy mall and arterial traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Vasant Kunj focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Vasant Kunj are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Vasant Kunj. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Vasant Kunj help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Pricing in Vasant Kunj:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,800 - ₹5,200 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,800 - ₹6,800 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,700 - ₹3,700 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,600 - ₹3,200 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Vasant Kunj occupies a premier, well-planned residential and upscale commercial district in South Delhi, flanked by Nelson Mandela Marg, Kishangarh, Masoodpur, and proximity to Vasant Vihar and Mahipalpur. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Vasant Kunj Sectors A, B, C, D, Kishangarh, Masoodpur, Mahipalpur peripheries, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Vasant Kunj. Sessions focus strictly on your trouble points—whether that means tight mall parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Vasant Kunj, Delhi.
+
+Why choose DriveSeekho for driving classes in Vasant Kunj?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Vasant Kunj and nearby South Delhi areas
+
+If you are searching for a Driving School in Vasant Kunj, Best Driving School in Vasant Kunj Sector B, Driving School near Ambience Mall Vasant Kunj, Car Driving Classes in Vasant Kunj, Car Driving School Near Kishangarh, Driving Classes Near Me, Automatic Car Driving Classes in Vasant Kunj, Manual Car Driving Classes in Vasant Kunj, Bike Driving Classes in Vasant Kunj, Scooty Driving Classes in Vasant Kunj, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Vasant Kunj, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across all Vasant Kunj sectors and pockets based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the price of driving classes in Vasant Kunj?',
+    a: 'Driving class packages in Vasant Kunj typically range from ₹3,800 to ₹6,800 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,600.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Vasant Kunj?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Vasant Kunj?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Vasant Kunj?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars across Vasant Kunj sectors.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Vasant Kunj?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Vasant Kunj?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Vasant Kunj are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across Vasant Kunj Sectors A, B, C, D, Kishangarh, Masoodpur, and surrounding South Delhi localities.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Vasant Kunj?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Vasant Kunj?',
+    a: 'Share your Vasant Kunj sector or local landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+
+},
+
+
+{
+    title: 'Driving School in Vasant Vihar',
+    city: 'South West',
+    subArea: '(Vasant Vihar)',
+    areaSlug: 'best-driving-school-in-vasant-vihar', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/i10.jpeg',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Grand i10 (Manual)',
+    dailyRide: '7Km/ Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Vasant Vihar, Delhi | Car, Bike & Scooty Classes & Price",
+
+seoDescription:
+  "Looking for the best driving school in Vasant Vihar, Delhi? Check course pricing, expert instructors for car, bike and scooty training, flexible schedules, and doorstep pickup.",
+
+seoContent: `Looking for a Driving School in Vasant Vihar, Delhi? Mastering the elegant tree-lined residential blocks, quiet colony lanes, bustling local markets (like Basant Lok), and high-speed arterial connections along the Outer Ring Road and Rao Tula Ram Marg requires structured learning and professional guidance. True driving confidence comes from safely navigating multi-lane boulevards, tight residential parking slots, complex intersection turns, and everyday South Delhi road conditions.
+
+DriveSeekho helps learners in Vasant Vihar find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Vasant Vihar, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter internal lanes. Conversely, individuals who understand the basics but experience anxiety in heavy arterial and ring-road traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Vasant Vihar focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Vasant Vihar are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Vasant Vihar. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Vasant Vihar help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Pricing in Vasant Vihar:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,800 - ₹5,200 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,800 - ₹6,800 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,700 - ₹3,700 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,600 - ₹3,200 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Vasant Vihar occupies a prestigious and well-established diplomatic and residential enclave in South Delhi, flanked by the Outer Ring Road, Munirka, Anand Niketan, and Shanti Niketan. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Vasant Vihar (East & West blocks), Basant Lok, Munirka, Anand Niketan, Shanti Niketan, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Vasant Vihar. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Vasant Vihar, Delhi.
+
+Why choose DriveSeekho for driving classes in Vasant Vihar?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Vasant Vihar and nearby South Delhi areas
+
+If you are searching for a Driving School in Vasant Vihar, Best Driving School in Vasant Vihar Block A, Driving School near Basant Lok Market, Car Driving Classes in Vasant Vihar, Car Driving School Near Munirka, Driving Classes Near Me, Automatic Car Driving Classes in Vasant Vihar, Manual Car Driving Classes in Vasant Vihar, Bike Driving Classes in Vasant Vihar, Scooty Driving Classes in Vasant Vihar, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Vasant Vihar, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across all Vasant Vihar blocks based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the price of driving classes in Vasant Vihar?',
+    a: 'Driving class packages in Vasant Vihar typically range from ₹3,800 to ₹6,800 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,600.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Vasant Vihar?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Vasant Vihar?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Vasant Vihar?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars across Vasant Vihar.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Vasant Vihar?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Vasant Vihar?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Vasant Vihar are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across Vasant Vihar blocks, Basant Lok, Munirka, Anand Niketan, Shanti Niketan, and surrounding South Delhi localities.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Vasant Vihar?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Vasant Vihar?',
+    a: 'Share your Vasant Vihar block or landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+
+},
+
+
+{
+    title: 'Driving School in Munirka',
+    city: 'South West',
+    subArea: '(Dwarka)',
+    areaSlug: 'driving-school-in-munirka', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/newswift.png',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Swift (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Munirka, Delhi | Car, Bike & Scooty Classes & Fees",
+
+seoDescription:
+  "Looking for the best driving school in Munirka, Delhi? Check complete course fees, expert instructors for car, bike and scooty training, flexible packages, and doorstep pickup.",
+
+seoContent: `Looking for a Driving School in Munirka, Delhi? Mastering the congested residential alleys, bustling commercial lanes near JNU and Ber Sarai, busy market intersections, and heavy commuter traffic along the Outer Ring Road and Aruna Asaf Ali Marg requires structured learning and professional guidance. True driving confidence comes from safely navigating dense pedestrian corridors, tight street turns, multi-lane arterial merging, and everyday South Delhi road conditions.
+
+DriveSeekho helps learners in Munirka find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Munirka, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter pocket lanes. Conversely, individuals who understand the basics but experience anxiety in heavy arterial and market traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Munirka focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Munirka are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Munirka. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Munirka help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Fees in Munirka:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Munirka occupies a bustling, vibrant residential and student hub in South Delhi, strategically connected by the Outer Ring Road, RK Puram, Ber Sarai, and proximity to Vasant Vihar. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Munirka Village, Munirka Enclave, Ber Sarai, RK Puram sectors, Vasant Vihar peripheries, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Munirka. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Munirka, Delhi.
+
+Why choose DriveSeekho for driving classes in Munirka?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Munirka and nearby South Delhi areas
+
+If you are searching for a Driving School in Munirka, Best Driving School in Munirka Village, Driving School near Ber Sarai, Car Driving Classes in Munirka, Car Driving School Near RK Puram, Driving Classes Near Me, Automatic Car Driving Classes in Munirka, Manual Car Driving Classes in Munirka, Bike Driving Classes in Munirka, Scooty Driving Classes in Munirka, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Munirka, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across Munirka and surrounding pockets based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the fee for driving classes in Munirka?',
+    a: 'Driving class packages in Munirka typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Munirka?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Munirka?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Munirka?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars in and around Munirka.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Munirka?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Munirka?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Munirka are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across Munirka Village, Munirka Enclave, Ber Sarai, RK Puram, and surrounding South Delhi localities.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Munirka?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Munirka?',
+    a: 'Share your Munirka block or landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+
+
+},
+
+
+{
+    title: 'Driving School in RK Puram',
+    city: 'South West',
+    subArea: '(Rk Puram)',
+    areaSlug: 'driving-school-in-rk-puram', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/ignis.jpg',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Ignis (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in RK Puram, Delhi | Car, Bike & Scooty Classes & Fees",
+
+seoDescription:
+  "Looking for the best driving school near RK Puram, Delhi? Check complete course fees, expert instructors for car, bike and scooty training, flexible packages, and doorstep pickup.",
+
+seoContent: `Looking for a Driving School in RK Puram, Delhi? Mastering the wide institutional avenues, quiet residential sectors (from Sector 1 to 13), busy commercial markets, and heavy arterial traffic along Ring Road, Rao Tula Ram Marg, and RK Puram main roads requires structured learning and professional guidance. True driving confidence comes from safely navigating multi-lane intersections, quiet colony turns, smooth avenue cruising, and everyday South Delhi road conditions.
+
+DriveSeekho helps learners in RK Puram find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in RK Puram, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter sector lanes. Conversely, individuals who understand the basics but experience anxiety in heavy Ring Road and arterial traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in RK Puram focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in RK Puram are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in RK Puram. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in RK Puram help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Fees in RK Puram:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+RK Puram occupies a prominent, well-structured government and residential colony in South Delhi, flanked by Ring Road, Vasant Vihar, Munirka, and Netaji Nagar. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including RK Puram Sectors 1 to 13, Netaji Nagar, Moti Bagh, Munirka, Vasant Vihar peripheries, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in RK Puram. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in RK Puram, Delhi.
+
+Why choose DriveSeekho for driving classes in RK Puram?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across RK Puram and nearby South Delhi areas
+
+If you are searching for a Driving School in RK Puram, Best Driving School in RK Puram Sector 12, Driving School near Ring Road RK Puram, Car Driving Classes in RK Puram, Car Driving School Near Netaji Nagar, Driving Classes Near Me, Automatic Car Driving Classes in RK Puram, Manual Car Driving Classes in RK Puram, Bike Driving Classes in RK Puram, Scooty Driving Classes in RK Puram, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School near RK Puram, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across all RK Puram sectors based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the fee for driving classes in RK Puram?',
+    a: 'Driving class packages in RK Puram typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in RK Puram?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in RK Puram?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near RK Puram?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars across RK Puram sectors.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in RK Puram?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in RK Puram?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in and around RK Puram are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across RK Puram Sectors 1 through 13, Netaji Nagar, Moti Bagh, Munirka, and surrounding South Delhi localities.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in RK Puram?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near RK Puram?',
+    a: 'Share your RK Puram sector or local landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+},
+
+
+{
+    title: 'Driving School in Kapashera',
+    city: 'South West',
+    subArea: '(Kapashera)',
+    areaSlug: 'driving-school-in-kapashera', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹2,999',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/baleno.jpg',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Baleno (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Kapashera, Delhi | Car, Bike & Scooty Classes & Fees",
+
+seoDescription:
+  "Looking for the best driving school in Kapashera, Delhi? Check complete course fees, expert instructors for car, bike and scooty training, flexible packages, and doorstep pickup.",
+
+seoContent: `Looking for a Driving School in Kapashera, Delhi? Mastering the busy border-town commercial stretches, narrow village lanes, chaotic local market junctions, and high-speed multi-lane traffic merging along the Kapashera-Najafgarh road, NH-48 peripheries, and Bijwasan route requires structured learning and professional guidance. True driving confidence comes from safely navigating heavy commercial transit, tight residential colony turns, bustling pedestrian corridors, and everyday South-West Delhi road conditions.
+
+DriveSeekho helps learners in Kapashera find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Kapashera, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter pocket lanes away from heavy freight traffic. Conversely, individuals who understand the basics but experience anxiety in busy arterial and border-crossing traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Kapashera focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Kapashera are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Kapashera. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Kapashera help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Fees in Kapashera:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Kapashera occupies a strategic, fast-paced commercial and residential suburb in South-West Delhi, sitting right on the Delhi-Haryana border and flanked by Samalkha, Bijwasan, Mahipalpur, and Dwarka Link Road. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Kapashera Estate, Samalkha, Bijwasan, Rajokri, Dwarka Link Road peripheries, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Kapashera. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Kapashera, Delhi.
+
+Why choose DriveSeekho for driving classes in Kapashera?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Kapashera and nearby South-West Delhi areas
+
+If you are searching for a Driving School in Kapashera, Best Driving School near Kapashera Border, Driving School in Samalkha, Car Driving Classes in Kapashera, Car Driving School Near Bijwasan, Driving Classes Near Me, Automatic Car Driving Classes in Kapashera, Manual Car Driving Classes in Kapashera, Bike Driving Classes in Kapashera, Scooty Driving Classes in Kapashera, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Kapashera, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across Kapashera and surrounding border zones based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the fee for driving classes in Kapashera?',
+    a: 'Driving class packages in Kapashera typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Kapashera?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Kapashera?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Kapashera?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars in and around Kapashera.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Kapashera?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Kapashera?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Kapashera are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across Kapashera Village, Samalkha, Bijwasan, Rajokri, Dwarka Link Road, and surrounding South-West Delhi localities.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Kapashera?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Kapashera?',
+    a: 'Share your Kapashera locality or landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+
+},
+
+
+{
+    title: 'Driving School in Bijwasan',
+    city: 'South West',
+    subArea: '(Bijwasan)',
+    areaSlug: 'driving-school-in-bijwasan', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/oldswift.png',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Swift (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Bijwasan, Delhi | Car, Bike & Scooty Classes & Fees",
+
+seoDescription:
+  "Looking for the best driving school in Bijwasan, Delhi? Check complete course fees, expert instructors for car, bike and scooty training, flexible packages, and doorstep pickup.",
+
+seoContent: `Looking for a Driving School in Bijwasan, Delhi? Mastering the semi-urban pocket lanes, bustling local market tracks, railway crossing paths, and fast-moving commuter flow along the Bijwasan-Najafgarh road, Dwarka Link Road, and Kapashera connecting routes requires structured learning and professional guidance. True driving confidence comes from safely navigating open boundary stretches, tight village-turn intersections, pedestrian-heavy zones, and everyday South-West Delhi road conditions.
+
+DriveSeekho helps learners in Bijwasan find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Bijwasan, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter residential lanes away from heavy commercial transit. Conversely, individuals who understand the basics but experience anxiety in busy connecting-road and border-adjacent traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Bijwasan focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Bijwasan are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Bijwasan. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Bijwasan help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Fees in Bijwasan:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Bijwasan occupies a rapidly developing and strategic suburban locality in South-West Delhi, seamlessly linking Najafgarh, Kapashera, Dwarka Sector 21, and the Haryana border. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Bijwasan Village, Samalkha, Rajokri, Dwarka Link Road sectors, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Bijwasan. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Bijwasan, Delhi.
+
+Why choose DriveSeekho for driving classes in Bijwasan?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Bijwasan and nearby South-West Delhi areas
+
+If you are searching for a Driving School in Bijwasan, Best Driving School near Bijwasan Railway Station, Driving School in Samalkha Road, Car Driving Classes in Bijwasan, Car Driving School Near Dwarka Link Road, Driving Classes Near Me, Automatic Car Driving Classes in Bijwasan, Manual Car Driving Classes in Bijwasan, Bike Driving Classes in Bijwasan, Scooty Driving Classes in Bijwasan, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Bijwasan, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across Bijwasan and surrounding border sectors based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the fee for driving classes in Bijwasan?',
+    a: 'Driving class packages in Bijwasan typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Bijwasan?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Bijwasan?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Bijwasan?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars in and around Bijwasan.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Bijwasan?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Bijwasan?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Bijwasan are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across Bijwasan Village, Samalkha, Rajokri, Dwarka Link Road, and surrounding South-West Delhi localities.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Bijwasan?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Bijwasan?',
+    a: 'Share your Bijwasan locality or landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+
+},
+
+
+{
+    title: 'Driving School in Chhawla',
+    city: 'South West',
+    subArea: '(Chhawla)',
+    areaSlug: 'driving-school-in-chhawla', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/grandi10.jpg',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Grand i10 (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Chhawla, Delhi | Car, Bike & Scooty Classes & Fees",
+
+seoDescription:
+  "Looking for the best driving school in Chhawla, Delhi? Check complete course fees, expert instructors for car, bike and scooty training, flexible packages, and doorstep pickup.",
+
+seoContent: `Looking for a Driving School in Chhawla, Delhi? Mastering the open rural-suburban roads, Najafgarh-Dhansa main connecting stretches, narrow village approach lanes, and steady mixed traffic moving toward Najafgarh and the Dwarka outskirts requires structured learning and professional guidance. True driving confidence comes from safely navigating semi-urban crossroads, unpaved shoulder adjustments, smooth straight-line cruising, and everyday outer South-West Delhi road conditions.
+
+DriveSeekho helps learners in Chhawla find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Chhawla, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter neighborhood lanes away from fast-moving traffic. Conversely, individuals who understand the basics but experience anxiety on open arterial roads require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Chhawla focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Chhawla are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Chhawla. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Chhawla help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Fees in Chhawla:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Chhawla occupies a historic and scenic semi-urban locality in South-West Delhi, famously known for its green riverfront areas and connectivity via Najafgarh-Dhansa Road, Goyla More, and proximity to Dwarka. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Chhawla Village, Goyla Dairy, Kair, Najafgarh outskirts, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Chhawla. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Chhawla, Delhi.
+
+Why choose DriveSeekho for driving classes in Chhawla?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Chhawla and nearby South-West Delhi areas
+
+If you are searching for a Driving School in Chhawla, Best Driving School near Chhawla Camp, Driving School in Goyla Dairy, Car Driving Classes in Chhawla, Car Driving School Near Najafgarh Road, Driving Classes Near Me, Automatic Car Driving Classes in Chhawla, Manual Car Driving Classes in Chhawla, Bike Driving Classes in Chhawla, Scooty Driving Classes in Chhawla, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Chhawla, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across Chhawla and surrounding semi-urban pockets based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the fee for driving classes in Chhawla?',
+    a: 'Driving class packages in Chhawla typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Chhawla?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Chhawla?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Chhawla?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars in and around Chhawla.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Chhawla?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Chhawla?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Chhawla are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across Chhawla Village, Goyla Dairy, Kair, Najafgarh peripheries, and surrounding South-West Delhi localities.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Chhawla?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Chhawla?',
+    a: 'Share your Chhawla locality or landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+},
+
+
+{
+    title: 'Driving School in Rajokri',
+    city: 'South West',
+    subArea: '(Rajokri)',
+    areaSlug: 'driving-school-in-rajokri', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/wagnor.jpg',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Wagnor (Manual)',
+    dailyRide: '7Km/ Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Rajokri, Delhi | Car, Bike & Scooty Classes & Fees",
+
+seoDescription:
+  "Looking for the best driving school in Rajokri, Delhi? Check complete course fees, expert instructors for car, bike and scooty training, flexible packages, and doorstep pickup.",
+
+seoContent: `Looking for a Driving School in Rajokri, Delhi? Mastering the narrow village lanes, bustling interior corridors, and high-speed multi-lane merging traffic along National Highway 48 (NH-48), the Delhi-Haryana border stretches, and the connecting routes toward Mahipalpur and Vasant Kunj requires structured learning and professional guidance. True driving confidence comes from safely navigating fast highway service roads, tight residential colony turns, bustling pedestrian pockets, and everyday South-West Delhi road conditions.
+
+DriveSeekho helps learners in Rajokri find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Rajokri, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter village lanes away from highway rushes. Conversely, individuals who understand the basics but experience anxiety in fast arterial and border-crossing traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Rajokri focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Rajokri are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Rajokri. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Rajokri help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Fees in Rajokri:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Rajokri occupies a strategic and historic residential-cum-border locality in South-West Delhi, closely linked to NH-48, Mahipalpur, Samalkha, and the upscale sectors of Vasant Kunj. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Rajokri Village, Rajokri Extension, Samalkha, Mahipalpur peripheries, Vasant Kunj borders, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Rajokri. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Rajokri, Delhi.
+
+Why choose DriveSeekho for driving classes in Rajokri?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Rajokri and nearby South-West Delhi areas
+
+If you are searching for a Driving School in Rajokri, Best Driving School near NH-48 Rajokri, Driving School in Rajokri Extension, Car Driving Classes in Rajokri, Car Driving School Near Samalkha, Driving Classes Near Me, Automatic Car Driving Classes in Rajokri, Manual Car Driving Classes in Rajokri, Bike Driving Classes in Rajokri, Scooty Driving Classes in Rajokri, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Rajokri, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across Rajokri and surrounding highway pockets based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the fee for driving classes in Rajokri?',
+    a: 'Driving class packages in Rajokri typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Rajokri?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Rajokri?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Rajokri?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars in and around Rajokri.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Rajokri?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Rajokri?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Rajokri are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across Rajokri Village, Rajokri Extension, Samalkha, Mahipalpur border pockets, and surrounding South-West Delhi localities.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Rajokri?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Rajokri?',
+    a: 'Share your Rajokri locality or landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+
+},
+
+
+{
+    title: 'Driving School in Delhi Cantonment',
+    city: 'South West',
+    subArea: '(Delhi Cantonment)',
+    areaSlug: 'driving-school-in-delhi-cantonment', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/oldswift.png',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Swift (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Delhi Cantonment, Delhi | Car, Bike & Scooty Classes & Fees",
+
+seoDescription:
+  "Looking for the best driving school in Delhi Cantonment, Delhi? Check complete course fees, expert instructors for car, bike and scooty training, flexible packages, and doorstep pickup.",
+
+seoContent: `Looking for a Driving School in Delhi Cantonment, Delhi? Mastering the wide tree-lined boulevards, disciplined military avenues, large traffic rotaries, and steady commuter flow connecting Sadar Bazaar, Dhaula Kuan, Rao Tula Ram Marg, and the Ring Road requires structured learning and professional guidance. True driving confidence comes from safely navigating open defense corridors, strict speed-regulated stretches, wide rotary intersections, and everyday South-West Delhi traffic conditions.
+
+DriveSeekho helps learners in Delhi Cantonment find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Delhi Cantonment, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter cantonment residential streets. Conversely, individuals who understand the basics but experience anxiety when transitioning to fast-moving arterial avenues require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Delhi Cantonment focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Delhi Cantonment are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for defense personnel, families, students, and working professionals across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Delhi Cantonment. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Delhi Cantonment help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Fees in Delhi Cantonment:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Delhi Cantonment occupies a prominent, disciplined, and green defense zone in South-West Delhi, seamlessly connected to Dhaula Kuan, Subroto Park, Kirby Place, Sadar Bazaar, and Janakpuri. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Sadar Bazaar Delhi Cantt, Kirby Place, Subroto Park, Base Hospital area, Dhaula Kuan peripheries, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Delhi Cantonment. Sessions focus strictly on your trouble points—whether that means rotary navigation, complex reverse maneuvers, or handling faster multi-lane corridors.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students, defense personnel, and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Delhi Cantonment, Delhi.
+
+Why choose DriveSeekho for driving classes in Delhi Cantonment?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Delhi Cantonment and nearby South-West Delhi areas
+
+If you are searching for a Driving School in Delhi Cantonment, Best Driving School near Sadar Bazaar Delhi Cantt, Driving School in Subroto Park, Car Driving Classes in Delhi Cantt, Car Driving School Near Dhaula Kuan, Driving Classes Near Me, Automatic Car Driving Classes in Delhi Cantonment, Manual Car Driving Classes in Delhi Cantt, Bike Driving Classes in Delhi Cantonment, Scooty Driving Classes in Delhi Cantt, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Delhi Cantonment, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across Delhi Cantonment and surrounding defense/civilian zones based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the fee for driving classes in Delhi Cantonment?',
+    a: 'Driving class packages in Delhi Cantonment typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Delhi Cantonment?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Delhi Cantonment?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Delhi Cantonment?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars across Delhi Cantt.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Delhi Cantonment?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Delhi Cantonment?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Delhi Cantonment are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across Sadar Bazaar Delhi Cantt, Subroto Park, Kirby Place, Base Hospital area, and surrounding South-West Delhi localities.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Delhi Cantonment?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Delhi Cantonment?',
+    a: 'Share your Delhi Cantt locality or landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
+
+
+
+
+// <-- Yeh unique hai shuru ha West Delhi shate ha ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+},
+
+
+{
+    title: 'Driving School in Dwarka',
+    city: 'South West',
+    subArea: '(Dwarka)',
+    areaSlug: 'driving-school-in-dwarka', // <-- Yeh unique hai
+    category: 'Car',
+    price: '₹3,499',
+    trainingDays: '15 Days',
+    instructorName: '',
+    image: '/images/newswift.png',  
+    features: ['Good Condition Vehicle', 'Free Pick & Drop'],
+    
+    // --- Nayi Details Yahan Se Shuru ---
+    carName: 'Swift (Manual)',
+    dailyRide: '30 Minutes / Day',
+    pickupDrop: 'Free Doorstep',
+    phoneNumber: '+918368510626',  // Apna real calling number daalein
+    whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
+    
+seoTitle: "Driving School in Dwarka, Delhi | Car, Bike & Scooty Classes",
+
+seoDescription:
+  "Looking for the best driving school in Dwarka, Delhi? Find expert instructors for car, bike and scooty driving classes with practical training, transparent pricing, and flexible packages for beginners.",
+
+seoContent: `Looking for a Driving School in Dwarka, Delhi? Mastering the wide residential sectors, bustling commercial complexes (Sector 10 and Sector 12 markets), busy roundabouts, and heavy commuter traffic on the Dwarka Expressway, Najafgarh Road, and Palam Road requires structured learning and professional guidance. True driving confidence comes from safely navigating multi-lane arterial roads, complex intersections, tight residential parking slots, and everyday West/South-West Delhi road conditions.
+
+DriveSeekho helps learners in Dwarka find suitable local instructors for practical car, bike and scooty training tailored to their individual experience level, preferred vehicle, exact location, and daily schedule.
+
+If you are searching for Car Driving Classes in Dwarka, your training path should match your exact background. Absolute beginners need a steady, patient approach starting from fundamental vehicle familiarity within quieter sector lanes. Conversely, individuals who understand the basics but experience anxiety in heavy market and expressway traffic require targeted traffic-handling practice. Similarly, licensed drivers returning to the wheel after a long break benefit greatly from specialized refresher lessons.
+
+DriveSeekho makes it effortless to connect with certified local instructors who match your specific learning goals.
+
+Our Car Driving Classes in Dwarka focus on hands-on, progressive learning. Beginners start with core basics: adjusting seating posture and mirrors, mastering steering responsiveness, synchronizing the accelerator and brake, and achieving smooth, jerk-free starts and stops.
+
+As control improves, students progress smoothly into practical road skills, including navigating complex junctions, mastering U-turns, executing safe reverse driving, parallel parking, and maintaining strict lane discipline through local and connecting corridors.
+
+For learners training on manual transmission cars, seamless clutch and gear coordination is a primary focus. Practical sessions guide you through understanding the biting point, shifting smoothly across gears, handling low-speed crawl traffic, and starting smoothly on inclines without rolling back.
+
+Automatic Car Driving Classes in Dwarka are tailored for learners who prefer to eliminate the stress of manual gear shifts. These sessions focus entirely on precise steering, smooth braking control, spatial awareness, and stress-free commuting—ideal for students, office-goers, and daily commuters across Delhi NCR.
+
+DriveSeekho also connects you with specialized Bike Driving Classes in Dwarka. Geared motorcycle training covers essential fundamentals like balance maintenance, progressive throttle control, clutch timing, smooth gear transitions, safe braking, and low-speed balance drills.
+
+For riders preferring an automatic two-wheeler, our Scooty Driving Classes in Dwarka help build immediate street confidence. Training covers balance control, dual-brake management, sharp turns, U-turns, and safe parking maneuvers at a comfortable, stress-free pace.
+
+Transparent Driving Lesson Packages & Pricing in Dwarka:
+• Beginner Manual Car Training Package (10-15 Days / Daily Practical Sessions): ₹3,500 - ₹5,000 covering vehicle controls, road handling, and basic parking.
+• Automatic Car Driving Package (10-15 Days): ₹4,500 - ₹6,500 tailored for stress-free automatic transmission learning.
+• Two-Wheeler Training (Bike / Scooty - 10 Days): ₹2,500 - ₹3,500 focusing on balance, braking, and traffic handling.
+• Refresher Crash Course (Per Session or 5-Day Module): ₹1,500 - ₹3,000 designed specifically for licensed drivers looking to eliminate road anxiety or master tight parking.
+*Note: Actual training fees may vary slightly depending on specific instructor packages, pickup/drop requirements, and vehicle choice.*
+
+Dwarka occupies a premier and expansive sub-city in South-West Delhi, structured neatly into sectors ranging from Sector 1 to Sector 23, alongside the Dwarka Expressway. Depending on instructor availability and your proficiency level, practical driving lessons are conducted across suitable local roads and adjoining neighborhoods.
+
+Training availability spans nearby localities including Dwarka Sector 1 through 23, Palam, Uttam Nagar, Mahavir Enclave, Najafgarh, and surrounding zones. Practising across varied road configurations prepares you to drive independently anywhere.
+
+If you already hold a driving licence but experience anxiety driving alone, DriveSeekho helps you find targeted refresher driving classes in Dwarka. Sessions focus strictly on your trouble points—whether that means tight market parking, complex reverse maneuvers, or aggressive traffic merging.
+
+Flexible time slots—including early morning, daytime, and evening hours—are available depending on local instructor availability to easily accommodate students and working professionals.
+
+Whether you are starting from absolute scratch, prepping for a daily office commute, learning two-wheeler balance, or brushing up rusty skills, DriveSeekho helps you find the right instructor for personalized lessons in Dwarka, Delhi.
+
+Why choose DriveSeekho for driving classes in Dwarka?
+
+• Suitable car, bike and scooty instructors near you
+
+• Beginner-friendly practical training programs
+
+• Clear, transparent pricing and structured lesson packages
+
+• Customized lessons matched to your personal confidence level
+
+• Dedicated manual and automatic car training options
+
+• Professional geared motorcycle and automatic scooty instruction
+
+• One-to-one individual practical sessions
+
+• Comprehensive steering, clutch, gear, and braking drills
+
+• Safe turning, U-turn, and intersection navigation
+
+• Specialized parking and reverse driving practice
+
+• Low-speed vehicle control in congested areas
+
+• Traffic awareness and defensive road positioning
+
+• Patient, confidence-building sessions for nervous drivers
+
+• Refresher modules for licensed drivers
+
+• Flexible scheduling based on your daily availability
+
+• Location-based instructor matching across Dwarka and nearby West/South-West Delhi areas
+
+If you are searching for a Driving School in Dwarka, Best Driving School in Dwarka Sector 12, Driving School in Dwarka Sector 21, Car Driving Classes in Dwarka, Car Driving School Near Dwarka Sector 6, Driving Classes Near Me, Automatic Car Driving Classes in Dwarka, Manual Car Driving Classes in Dwarka, Bike Driving Classes in Dwarka, Scooty Driving Classes in Dwarka, or a Driving School Near Me, DriveSeekho helps you find suitable instructors for practical, structured and personalised driving and riding lessons.`,
+
+faqs: [
+  {
+    q: 'Which is the best Driving School in Dwarka, Delhi?',
+    a: 'DriveSeekho helps learners find suitable car, bike and scooty instructors across all Dwarka sectors based on their exact location, preferred vehicle, experience level, pricing packages, and individual training requirements.'
+  },
+
+  {
+    q: 'What is the price of driving classes in Dwarka?',
+    a: 'Driving class packages typically range from ₹3,500 to ₹6,500 depending on whether you choose manual cars, automatic cars, or two-wheeler training. Custom refresher sessions are also available starting around ₹1,500.'
+  },
+
+  {
+    q: 'Do you provide car driving classes in Dwarka?',
+    a: 'Yes. Learners can find instructors for practical car driving lessons covering steering, braking, clutch and gear coordination, turning, parking, reverse driving, road positioning and everyday traffic situations.'
+  },
+
+  {
+    q: 'Can a complete beginner learn car driving in Dwarka?',
+    a: 'Yes. Beginners can start with basic vehicle controls and gradually progress to starting and stopping, steering, braking, clutch and gear coordination, turning, parking, reverse driving and practical road traffic.'
+  },
+
+  {
+    q: 'Are manual and automatic car driving classes available near Dwarka?',
+    a: 'Yes. Depending on instructor and vehicle availability, learners can find dedicated training options for both manual and automatic cars across all sectors of Dwarka.'
+  },
+
+  {
+    q: 'Do you provide bike driving classes in Dwarka?',
+    a: 'Yes. Learners can find geared motorcycle training covering balance, throttle control, clutch coordination, gear shifting, braking, turning, U-turns, parking and low-speed riding.'
+  },
+
+  {
+    q: 'Can I learn scooty riding in Dwarka?',
+    a: 'Yes. Learners can find scooty training covering balance, throttle control, braking, turning, U-turns, parking, reversing and low-speed manoeuvring for everyday riding.'
+  },
+
+  {
+    q: 'Which areas in Dwarka are covered for driving lessons?',
+    a: 'Depending on instructor availability, training can be arranged across all Dwarka sectors (1 to 23) and nearby areas such as Palam, Uttam Nagar, Mahavir Enclave and Najafgarh.'
+  },
+
+  {
+    q: 'Do you offer refresher driving classes in Dwarka?',
+    a: 'Yes. Refresher sessions can focus on parking, reverse driving, U-turns, clutch control, gear shifting, braking, lane positioning, low-speed manoeuvring and handling heavy traffic.'
+  },
+
+  {
+    q: 'How can I find a driving instructor near Dwarka?',
+    a: 'Share your Dwarka sector or local landmark, preferred vehicle, current experience and available timings with DriveSeekho. You can then find suitable instructors according to your learning requirements and budget.'
+  }
+]
 
 
 
