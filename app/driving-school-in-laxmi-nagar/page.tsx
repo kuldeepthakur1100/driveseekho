@@ -350,7 +350,7 @@ export default function DrivingSchoolLaxmiNagarPro() {
             <p className="text-slate-400 mt-3">Book your certified driving instructor in Laxmi Nagar today with zero friction.</p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://wa.me/919876543210?text=Hi%20DriveSeekho,%20I%20want%20to%20book%20driving%20classes%20in%20Laxmi%20Nagar."
+                href="https://wa.me/918368510626?text=Hi%20DriveSeekho,%20I%20want%20to%20book%20driving%20classes%20in%20Laxmi%20Nagar."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-2xl shadow-xl transition-all"
@@ -358,10 +358,10 @@ export default function DrivingSchoolLaxmiNagarPro() {
                 Book via WhatsApp Now
               </a>
               <a
-                href="tel:+919876543210"
+                href="tel:+918368510626"
                 className="bg-white/10 hover:bg-white/20 text-white font-bold px-8 py-4 rounded-2xl border border-white/20 transition-all"
               >
-                Call: +91 98765 43210
+                Call: +91 8368510626
               </a>
             </div>
             <p className="text-xs text-slate-500 mt-12">© 2026 DriveSeekho Technologies. Built for high conversion and seamless user experience.</p>
