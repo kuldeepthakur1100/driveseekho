@@ -38,7 +38,7 @@ export default function DrivingTestTrackPage() {
             muted
             loop
             playsInline
-            src="/videos/trackvideo2.mp4"
+            src="/videos/banner.mp4"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
           <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded-xl text-slate-900 text-xs font-extrabold flex items-center gap-2 shadow-lg">
