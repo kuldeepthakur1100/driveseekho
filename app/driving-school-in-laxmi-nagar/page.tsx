@@ -12,14 +12,14 @@ export default function DrivingSchoolLaxmiNagarPro() {
     "name": "DriveSeekho - Laxmi Nagar",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Vikas Marg, Laxmi Nagar",
+      "streetAddress": "Vikas Marg, Laxmi Nagar, Nirman Vihar, Preet Vihar, Shakarpur",
       "addressLocality": "Delhi",
       "postalCode": "110092",
       "addressCountry": "IN"
     },
     "description": pageDescription,
-    "priceRange": "₹₹",
-    "telephone": "+919876543210"
+    "priceRange": "₹2,999 - ₹5,999",
+    "telephone": "+918368510626"
   };
 
   const packages = [
@@ -27,10 +27,10 @@ export default function DrivingSchoolLaxmiNagarPro() {
       id: 1,
       title: "Essential Starter",
       price: "₹2,999",
-      carImage: "/images/cars/wagonr.png",
-      carName: "Maruti WagonR / Hatchback",
+      carImage: "/images/i10.jpeg",
+      carName: "Grand i10",
       transmission: "Manual / Dual Control",
-      instructor: "Rajesh Kumar (5+ Exp)",
+      instructor: "Shiva (11+ Exp)",
       trainingDays: "10 Days",
       dailyRide: "30 Mins",
       badge: "Great for Beginners"

@@ -32,16 +32,15 @@ export default function DrivingTestTrackPage() {
 
         {/* Video Banner */}
         <div className="relative w-full h-[240px] md:h-[420px] overflow-hidden rounded-[2rem] shadow-2xl shadow-slate-300 bg-slate-900 mb-12 border border-slate-200">
-          <video
-            className="w-full h-full object-cover"
-            autoPlay
-            muted
-            loop
-            playsInline
-            src="/videos/banner.mp4"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-          <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded-xl text-slate-900 text-xs font-extrabold flex items-center gap-2 shadow-lg">
+          <iframe
+            className="w-full h-full object-cover pointer-events-none scale-125"
+            src="https://www.youtube.com/embed/EfyJ35sAUIo?autoplay=1&mute=1&loop=1&playlist=EfyJ35sAUIo&controls=0&showinfo=0&rel=0"
+            title="Live Track Training View"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            frameBorder="0"
+          ></iframe>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none"></div>
+          <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded-xl text-slate-900 text-xs font-extrabold flex items-center gap-2 shadow-lg z-10">
             <span className="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></span> Live Track Training View
           </div>
         </div>
@@ -49,7 +48,7 @@ export default function DrivingTestTrackPage() {
 
       {/* 3. Pricing & Core Offer Card (UrbanClap Style Clean UI) */}
       <div className="max-w-4xl mx-auto px-4 mb-14">
-        <div className="bg-white rounded-[2.5pfx] md:rounded-[3rem] p-6 md:p-10 shadow-xl shadow-slate-200/70 border border-slate-100 flex flex-col md:flex-row items-center justify-between gap-8">
+        <div className="bg-white rounded-[2.5rem] md:rounded-[3rem] p-6 md:p-10 shadow-xl shadow-slate-200/70 border border-slate-100 flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="space-y-3 text-center md:text-left">
             <span className="bg-blue-600/10 text-blue-600 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider">Special Trial Offer</span>
             <h2 className="text-[24px] md:text-[28px] font-black text-slate-900">1-Hour RTO Track Practical Session</h2>
