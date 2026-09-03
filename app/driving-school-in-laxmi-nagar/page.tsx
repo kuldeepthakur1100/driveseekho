@@ -27,7 +27,7 @@ export default function DrivingSchoolLaxmiNagarPro() {
       id: 1,
       title: "Essential Starter",
       price: "₹2,999",
-      carImage: "/images/i10.jpeg",
+      carImage: "/images/grandi10.jpg",
       carName: "Grand i10",
       transmission: "Manual / Dual Control",
       instructor: "Devender (11+ Exp)",
