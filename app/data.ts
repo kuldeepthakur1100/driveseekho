@@ -7659,15 +7659,15 @@ faqs: [
     subArea: '(Paschim Vihar)',
     areaSlug: 'Driving-school-in-Paschim-Vihar', // <-- Yeh unique hai
     category: 'Car',
-    price: '₹3,999',
-    trainingDays: '15 Days',
+    price: '₹4,999',
+    trainingDays: '10 Days',
     instructorName: '',
-    image: '/images/wagnor.jpg',  
+    image: '/images/baleno.jpg',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
     carName: 'Wagnor Manual (Dual Control)',
-    dailyRide: '30 Minutes / Day',
+    dailyRide: '40 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
     whatsappNumber: '918368510626', // Apna real WhatsApp number daalein (bina + ke)
