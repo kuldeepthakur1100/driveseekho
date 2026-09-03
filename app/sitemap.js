@@ -238,6 +238,7 @@ export default async function sitemap() {
     'bike-driving-classes-in-noida-sector-52',
     'bike-driving-classes-in-noida-sector-50',
     'bike-driving-classes-in-noida-sector-142',
+    'driving-school-in-laxmi-nagar',
   ];
 
   const dynamicAreaPages = allLocationSlugs.map((slug) => ({

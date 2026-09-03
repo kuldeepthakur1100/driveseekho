@@ -133,21 +133,21 @@ export default function DrivingSchoolLaxmiNagarPro() {
         <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-xs">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-2">
-              <span className="text-2xl font-black tracking-tight text-rose-600">DriveSeekho</span>
-              <span className="text-xs bg-rose-50 text-rose-700 font-bold px-2 py-0.5 rounded-full border border-rose-200 hidden sm:inline-block">Laxmi Nagar Hub</span>
+              <span className="text-2xl font-black tracking-tight text-[#0449ac]">DriveSeekho</span>
+              <span className="text-xs bg-rose-50 text-[#0449ac] font-bold px-2 py-0.5 rounded-full border border-rose-200 hidden sm:inline-block">Laxmi Nagar Hub</span>
             </Link>
             <div className="flex items-center gap-4">
               <div className="hidden md:flex flex-col text-right">
                 <span className="text-xs font-semibold text-slate-500">Need Instant Help?</span>
-                <a href="tel:+918368510626" className="text-sm font-bold text-slate-800 hover:text-rose-600">+91 83685 10626</a>
+                <a href="tel:+918368510626" className="text-sm font-bold text-slate-800 hover:text-[#0449ac]">+91 83685 10626</a>
               </div>
               <a 
                 href="https://wa.me/918368510626?text=Hi%20DriveSeekho,%20I%20want%20to%20book%20a%20driving%20slot%20in%20Laxmi%20Nagar." 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-rose-600 hover:bg-rose-700 text-white font-semibold px-5 py-2.5 rounded-full shadow-md hover:shadow-lg transition-all text-sm flex items-center gap-2"
+                className="bg-[#0449ac] hover:bg-[#0449ac]/90 text-white font-semibold px-5 py-2.5 rounded-full shadow-md hover:shadow-lg transition-all text-sm flex items-center gap-2"
               >
-                <span>Instant WhatsApp Booking</span>
+                <span>Instant Booking</span>
               </a>
             </div>
           </div>
@@ -160,17 +160,17 @@ export default function DrivingSchoolLaxmiNagarPro() {
             <div className="absolute right-0 top-0 w-full lg:w-1/2 h-full opacity-40 lg:opacity-70 bg-cover bg-center z-0" style={{ backgroundImage: `url('/images/grandi10.jpg')` }} />
             
             <div className="relative z-20 max-w-2xl">
-              <div className="inline-flex items-center gap-2 bg-rose-500/20 border border-rose-500/40 text-rose-300 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#0449ac]/20 border border-[#0449ac]/40 text-[#ffffff] px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-6">
                 Verified Instructors • Free Doorstep Pickup
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
-                Drive with Confidence in <span className="text-rose-500 underline decoration-rose-500/40">Laxmi Nagar</span>
+                Drive with Confidence in <span className="text-[#0449ac] underline decoration-[#0449ac]/40">Laxmi Nagar</span>
               </h1>
               <p className="mt-4 text-slate-300 text-base sm:text-lg leading-relaxed">
                 Book professional dual-control car training instantly. Transparent pricing, expert certified mentors, and direct doorstep pickup across Vikas Marg and nearby sectors.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
-                <a href="#packages" className="bg-rose-600 hover:bg-rose-700 text-white font-bold px-8 py-4 rounded-2xl shadow-lg transition-all text-center">
+                <a href="#packages" className="bg-[#0449ac] hover:bg-[#0449ac]/90 text-white font-bold px-8 py-4 rounded-2xl shadow-lg transition-all text-center">
                   Explore Packages & Cars
                 </a>
                 <a href="#faq" className="bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-4 rounded-2xl backdrop-blur-md border border-white/20 transition-all text-center">
@@ -250,7 +250,7 @@ export default function DrivingSchoolLaxmiNagarPro() {
                         rel="noopener noreferrer"
                         className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-2xl shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 text-center"
                       >
-                        <span>Book Now on WhatsApp</span>
+                        <span>Book Now</span>
                       </a>
                     </div>
                   </div>
