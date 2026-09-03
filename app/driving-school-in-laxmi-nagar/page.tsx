@@ -30,35 +30,24 @@ export default function DrivingSchoolLaxmiNagarPro() {
       carImage: "/images/i10.jpeg",
       carName: "Grand i10",
       transmission: "Manual / Dual Control",
-      instructor: "Shiva (11+ Exp)",
-      trainingDays: "10 Days",
+      instructor: "Devender (11+ Exp)",
+      trainingDays: "15 Days",
       dailyRide: "30 Mins",
       badge: "Great for Beginners"
     },
     {
       id: 2,
-      title: "Pro Traffic Mastery",
-      price: "₹4,499",
-      carImage: "/images/cars/swift.png",
-      carName: "Maruti Swift / Sedans",
-      transmission: "Manual or Automatic",
-      instructor: "Amit Sharma (7+ Exp)",
-      trainingDays: "15 Days",
-      dailyRide: "45 Mins",
+      title: "Pro Mastery",
+      price: "₹3,499",
+      carImage: "/images/baleno.jpg",
+      carName: "Baleno",
+      transmission: "Manual",
+      instructor: "Amit (7+ Exp)",
+      trainingDays: "10 Days",
+      dailyRide: "8Km/ Day",
       badge: "Most Popular • Best Value"
-    },
-    {
-      id: 3,
-      title: "VIP Ultimate Pro",
-      price: "₹5,999",
-      carImage: "/images/cars/dzire-auto.png",
-      carName: "Honda City / Automatic",
-      transmission: "Fully Automatic / Dual Control",
-      instructor: "Vikram Singh (Senior Coach)",
-      trainingDays: "21 Days",
-      dailyRide: "60 Mins",
-      badge: "Highway & RTO Focused"
     }
+    
   ];
 
   const students = [
@@ -66,22 +55,22 @@ export default function DrivingSchoolLaxmiNagarPro() {
       id: 1,
       name: "Ankit Verma",
       location: "Laxmi Nagar, Block V",
-      image: "/images/students/s1.jpg",
+      image: "/images/student1.jpg",
       review: "The dual control car gave me immense confidence on Vikas Marg traffic. Booked via WhatsApp and got doorstep pickup instantly!"
     },
     {
       id: 2,
       name: "Sneha Kapoor",
       location: "Shakarpur, Near Laxmi Nagar",
-      image: "/images/students/s2.jpg",
-      review: "My instructor Rajesh was extremely patient. Learning automatic transmission in just 10 days felt like a breeze. Highly professional setup."
+      image: "/images/student2.jpg",
+      review: "My instructor Devender was extremely patient. Learning Manual transmission in just 15 days felt like a i10. Highly professional setup."
     },
     {
       id: 3,
-      name: "Mohd. Tariq",
+      name: "Shubham",
       location: "Preet Vihar Border",
-      image: "/images/students/s3.jpg",
-      review: "Clean booking flow just like Airbnb. Transparent pricing, exact instructor details mentioned upfront. Cleared my RTO test easily!"
+      image: "/images/student4.jpg",
+      review: "Best Experience Raha and DriveSeekho also help in Driving License Process, exact instructor details mentioned upfront. Cleared my RTO test easily!"
     }
   ];
 
