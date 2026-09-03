@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function DrivingSchoolLaxmiNagarPro() {
   const pageTitle = "Best Driving School in Laxmi Nagar | Book Car Classes & Trainers";
@@ -47,7 +48,6 @@ export default function DrivingSchoolLaxmiNagarPro() {
       dailyRide: "8Km/ Day",
       badge: "Most Popular • Best Value"
     }
-    
   ];
 
   const students = [
@@ -139,10 +139,10 @@ export default function DrivingSchoolLaxmiNagarPro() {
             <div className="flex items-center gap-4">
               <div className="hidden md:flex flex-col text-right">
                 <span className="text-xs font-semibold text-slate-500">Need Instant Help?</span>
-                <a href="tel:+919876543210" className="text-sm font-bold text-slate-800 hover:text-rose-600">+91 98765 43210</a>
+                <a href="tel:+918368510626" className="text-sm font-bold text-slate-800 hover:text-rose-600">+91 83685 10626</a>
               </div>
               <a 
-                href="https://wa.me/919876543210?text=Hi%20DriveSeekho,%20I%20want%20to%20book%20a%20driving%20slot%20in%20Laxmi%20Nagar." 
+                href="https://wa.me/918368510626?text=Hi%20DriveSeekho,%20I%20want%20to%20book%20a%20driving%20slot%20in%20Laxmi%20Nagar." 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-rose-600 hover:bg-rose-700 text-white font-semibold px-5 py-2.5 rounded-full shadow-md hover:shadow-lg transition-all text-sm flex items-center gap-2"
@@ -157,7 +157,7 @@ export default function DrivingSchoolLaxmiNagarPro() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-12">
           <div className="relative rounded-3xl overflow-hidden bg-slate-900 text-white p-8 sm:p-12 lg:p-16 shadow-2xl flex flex-col justify-center min-h-[420px]">
             <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/80 to-transparent z-10" />
-            <div className="absolute right-0 top-0 w-full lg:w-1/2 h-full opacity-40 lg:opacity-70 bg-cover bg-center z-0" style={{ backgroundImage: `url('/images/hero-car-laxmi-nagar.jpg')` }} />
+            <div className="absolute right-0 top-0 w-full lg:w-1/2 h-full opacity-40 lg:opacity-70 bg-cover bg-center z-0" style={{ backgroundImage: `url('/images/grandi10.jpg')` }} />
             
             <div className="relative z-20 max-w-2xl">
               <div className="inline-flex items-center gap-2 bg-rose-500/20 border border-rose-500/40 text-rose-300 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-6">
@@ -191,7 +191,7 @@ export default function DrivingSchoolLaxmiNagarPro() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {packages.map((pkg) => {
               const waMessage = encodeURIComponent(`Hi DriveSeekho, I want to book the "${pkg.title}" package (${pkg.price}) for driving classes in Laxmi Nagar. Please confirm availability.`);
-              const waLink = `https://wa.me/919876543210?text=${waMessage}`;
+              const waLink = `https://wa.me/918368510626?text=${waMessage}`;
 
               return (
                 <div key={pkg.id} className="bg-white rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden group">
@@ -200,8 +200,8 @@ export default function DrivingSchoolLaxmiNagarPro() {
                     <span className="absolute top-4 left-4 bg-slate-900 text-white text-xs font-bold px-3 py-1 rounded-full shadow-xs z-10">
                       {pkg.badge}
                     </span>
-                    <div className="w-full h-full flex items-center justify-center text-slate-400 text-sm font-semibold italic bg-slate-200/60 rounded-2xl">
-                      [Car Image: {pkg.carName}]
+                    <div className="w-full h-full flex items-center justify-center text-slate-400 text-sm font-semibold italic bg-slate-200/60 rounded-2xl overflow-hidden relative">
+                      <img src={pkg.carImage} alt={pkg.carName} className="w-full h-full object-cover" />
                     </div>
                   </div>
 
