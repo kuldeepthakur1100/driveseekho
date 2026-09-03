@@ -9,7 +9,7 @@ export default function BottomNav() {
   const navItems = [
     { name: 'Home', href: '/', icon: Home },
     { name: 'License', href: '/driving-license', icon: FileText },
-    { name: 'Achievers', href: '/achievers', icon: Trophy },
+    { name: 'Our Students', href: '/achievers', icon: Trophy },
     { name: 'Driving Track', href: '/driving-test-track-in-delhi', icon: Route, price: '₹499' },
   ];
 
