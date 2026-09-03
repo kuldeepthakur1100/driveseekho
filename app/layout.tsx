@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   icons: {
-    icon: "/fevicon.png",
-    shortcut: "/fevicon.png",
-    apple: "/fevicon.png",
+    icon: "/fevicon.ico",
+    shortcut: "/fevicon.ico",
+    apple: "/fevicon.ico",
   },
   verification: {
     google: "Oo5lhhQ7XecC_3fzJZEHfaTLTDCU2IsENrSJLoRrQ18",
