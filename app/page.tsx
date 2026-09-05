@@ -254,13 +254,16 @@ export default function Home() {
               {filteredPackages.map((pkg, index) => {
                 const isBike = pkg.category?.toLowerCase().includes('wheel') || pkg.category?.toLowerCase().includes('bike');
                 
-                // Safe check for areaSlug to avoid app crashes
+                // Proper SEO-friendly route routing
                 const dynamicHref = pkg.areaSlug 
                   ? (isBike ? `/2-wheeler-driving-school-in/${pkg.areaSlug}` : `/driving-school-in/${pkg.areaSlug}`)
                   : '#';
 
+                // Composite key to fix the duplicate key crash for shared slugs
+                const uniqueKey = `${pkg.areaSlug}-${pkg.category || 'car'}-${index}`;
+
                 return (
-                  <Link href={dynamicHref} key={pkg.areaSlug || index} className="block group h-full">
+                  <Link href={dynamicHref} key={uniqueKey} className="block group h-full">
                     <div className="bg-white rounded-[1.5rem] p-3.5 shadow-[0_4px_20px_rgba(0,0,0,0.04)] border border-gray-100 relative group-hover:border-blue-200 group-hover:shadow-xl transition-all duration-300 flex flex-col justify-between h-full">
                       
                       <div>
