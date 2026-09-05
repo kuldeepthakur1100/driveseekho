@@ -251,68 +251,73 @@ export default function Home() {
         ) : (
           filteredPackages.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredPackages.map((pkg, index) => (
-                <Link href={`/driving-school-in/${pkg.areaSlug}`} key={pkg.areaSlug || index} className="block group h-full">
-                  <div className="bg-white rounded-[1.5rem] p-3.5 shadow-[0_4px_20px_rgba(0,0,0,0.04)] border border-gray-100 relative group-hover:border-blue-200 group-hover:shadow-xl transition-all duration-300 flex flex-col justify-between h-full">
-                    
-                    <div>
-                      <div className="w-full h-[190px] md:h-[210px] bg-gray-100 rounded-[1.1rem] overflow-hidden relative mb-4">
-                        {pkg.image ? (
-                          <img
-                            src={pkg.image}
-                            alt={pkg.title}
-                            className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
-                          />
-                        ) : (
-                          <div className="w-full h-full flex items-center justify-center text-gray-400 font-medium">No Image</div>
-                        )}
-                        
-                        <button className="absolute top-4 right-4 z-10 bg-white/95 backdrop-blur-md p-2 rounded-full text-gray-400 hover:text-red-500 shadow-sm transition">
-                          <Heart size={20} strokeWidth={2.5} />
-                        </button>
+              {filteredPackages.map((pkg, index) => {
+                const isBike = pkg.category?.toLowerCase().includes('wheel') || pkg.category?.toLowerCase().includes('bike');
+                const dynamicHref = isBike ? `/2-wheeler-driving-school-in/${pkg.areaSlug}` : `/driving-school-in/${pkg.areaSlug}`;
+
+                return (
+                  <Link href={dynamicHref} key={pkg.areaSlug || index} className="block group h-full">
+                    <div className="bg-white rounded-[1.5rem] p-3.5 shadow-[0_4px_20px_rgba(0,0,0,0.04)] border border-gray-100 relative group-hover:border-blue-200 group-hover:shadow-xl transition-all duration-300 flex flex-col justify-between h-full">
+                      
+                      <div>
+                        <div className="w-full h-[190px] md:h-[210px] bg-gray-100 rounded-[1.1rem] overflow-hidden relative mb-4">
+                          {pkg.image ? (
+                            <img
+                              src={pkg.image}
+                              alt={pkg.title}
+                              className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
+                            />
+                          ) : (
+                            <div className="w-full h-full flex items-center justify-center text-gray-400 font-medium">No Image</div>
+                          )}
+                          
+                          <button className="absolute top-4 right-4 z-10 bg-white/95 backdrop-blur-md p-2 rounded-full text-gray-400 hover:text-red-500 shadow-sm transition">
+                            <Heart size={20} strokeWidth={2.5} />
+                          </button>
+                        </div>
+
+                        <div className="px-1">
+                          <h3 className="font-black text-gray-900 text-[1.25rem] md:text-[1.3rem] leading-tight mb-1.5 line-clamp-1">{pkg.title}</h3>
+                         
+                          <div className="flex items-center gap-1 text-gray-500 text-[13px] font-medium mb-4">
+                            <MapPin size={14} className="text-blue-500 shrink-0" />
+                            <span className="truncate">{pkg.subArea}, {pkg.city}</span>
+                          </div>
+
+                          <div className="flex flex-wrap gap-2 mb-4">
+                            <div className="flex items-center gap-1.5 bg-[#f6f7fc] px-3 py-1.5 rounded-[10px] text-[11px] font-bold text-gray-700">
+                              <Car size={14} className="text-blue-500 shrink-0" />
+                              <span className="truncate max-w-[120px]">{pkg.carName || 'Hatchback Car'}</span>
+                            </div>
+                            <div className="flex items-center gap-1.5 bg-[#f6f7fc] px-3 py-1.5 rounded-[10px] text-[11px] font-bold text-gray-700">
+                              <Calendar size={14} className="text-blue-500 shrink-0" />
+                              {pkg.trainingDays || '15 Days'}
+                            </div>
+                          </div>
+                        </div>
                       </div>
 
-                      <div className="px-1">
-                        <h3 className="font-black text-gray-900 text-[1.25rem] md:text-[1.3rem] leading-tight mb-1.5 line-clamp-1">{pkg.title}</h3>
+                      <div className="border-t border-gray-100 pt-4 pb-1 px-1 flex justify-between items-end mt-auto">
+                        <div className="flex items-center gap-2.5">
+                          <div className="w-9 h-9 bg-blue-50 rounded-full flex items-center justify-center text-blue-600 border border-blue-100 shrink-0">
+                            <User size={16} strokeWidth={2.5} />
+                          </div>
+                          <div>
+                            <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-0.5">Instructor</p>
+                            <p className="text-[12px] font-black text-gray-900 truncate max-w-[100px] md:max-w-[120px]">{pkg.instructorName || 'Certified'}</p>
+                          </div>
+                        </div>
                        
-                        <div className="flex items-center gap-1 text-gray-500 text-[13px] font-medium mb-4">
-                          <MapPin size={14} className="text-blue-500 shrink-0" />
-                          <span className="truncate">{pkg.subArea}, {pkg.city}</span>
-                        </div>
-
-                        <div className="flex flex-wrap gap-2 mb-4">
-                          <div className="flex items-center gap-1.5 bg-[#f6f7fc] px-3 py-1.5 rounded-[10px] text-[11px] font-bold text-gray-700">
-                            <Car size={14} className="text-blue-500 shrink-0" />
-                            <span className="truncate max-w-[120px]">{pkg.carName || 'Hatchback Car'}</span>
-                          </div>
-                          <div className="flex items-center gap-1.5 bg-[#f6f7fc] px-3 py-1.5 rounded-[10px] text-[11px] font-bold text-gray-700">
-                            <Calendar size={14} className="text-blue-500 shrink-0" />
-                            {pkg.trainingDays || '15 Days'}
-                          </div>
+                        <div className="text-right">
+                          <p className="font-black text-[1.5rem] md:text-[1.6rem] text-[#1e5bff] leading-none tracking-tight">{pkg.price}</p>
+                          <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mt-1.5">Total Fee</p>
                         </div>
                       </div>
+
                     </div>
-
-                    <div className="border-t border-gray-100 pt-4 pb-1 px-1 flex justify-between items-end mt-auto">
-                      <div className="flex items-center gap-2.5">
-                        <div className="w-9 h-9 bg-blue-50 rounded-full flex items-center justify-center text-blue-600 border border-blue-100 shrink-0">
-                          <User size={16} strokeWidth={2.5} />
-                        </div>
-                        <div>
-                          <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-0.5">Instructor</p>
-                          <p className="text-[12px] font-black text-gray-900 truncate max-w-[100px] md:max-w-[120px]">{pkg.instructorName || 'Certified'}</p>
-                        </div>
-                      </div>
-                     
-                      <div className="text-right">
-                        <p className="font-black text-[1.5rem] md:text-[1.6rem] text-[#1e5bff] leading-none tracking-tight">{pkg.price}</p>
-                        <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mt-1.5">Total Fee</p>
-                      </div>
-                    </div>
-
-                  </div>
-                </Link>
-              ))}
+                  </Link>
+                );
+              })}
             </div>
           ) : (
             <div className="text-center py-12 px-5 bg-white rounded-[2rem] shadow-sm text-gray-500 border border-gray-100 max-w-xl mx-auto">
