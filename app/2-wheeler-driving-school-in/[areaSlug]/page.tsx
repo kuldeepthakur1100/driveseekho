@@ -15,8 +15,8 @@ export async function generateStaticParams() {
 }
 
 // 2. Dynamic SEO Metadata for every area page
-export async function generateMetadata({ params }: { params: { areaSlug: string } }) {
-  const { areaSlug } = params;
+export async function generateMetadata({ params }: { params: Promise<{ areaSlug: string }> }) {
+  const { areaSlug } = await params;
   const pkg = packages.find((p) => p.areaSlug === areaSlug);
   
   if (!pkg) {
@@ -42,8 +42,8 @@ export async function generateMetadata({ params }: { params: { areaSlug: string 
 }
 
 // 3. Main Component
-export default function DrivingSchoolDetail({ params }: { params: { areaSlug: string } }) {
-  const { areaSlug } = params;
+export default async function DrivingSchoolDetail({ params }: { params: Promise<{ areaSlug: string }> }) {
+  const { areaSlug } = await params;
   const pkg = packages?.find((p) => p.areaSlug === areaSlug);
 
   if (!pkg) {
