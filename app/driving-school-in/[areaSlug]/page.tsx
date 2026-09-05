@@ -1,33 +1,74 @@
-'use client';
 import Link from 'next/link';
-import { useParams } from 'next/navigation';
+import { notFound } from 'next/navigation';
 import { 
-  ArrowLeft, Star, MapPin, Calendar, User, 
-  Car, Clock, PhoneCall, MessageCircle, ChevronDown, CheckCircle2, ShieldCheck, Zap
+  ArrowLeft, Star, MapPin, Calendar, 
+  Car, Clock, PhoneCall, MessageCircle, ChevronDown, CheckCircle2, ShieldCheck 
 } from 'lucide-react';
 import { packages } from '../../data'; 
 import TimeSlotGrid from '@/components/TimeSlotGrid';
 
-export default function DrivingSchoolDetail() {
-  const params = useParams();
-  const areaSlug = params?.areaSlug;
+// 1. Generate Static Paths for all areas (SEO ke liye sabse zaroori)
+export async function generateStaticParams() {
+  return packages.map((pkg) => ({
+    areaSlug: pkg.areaSlug,
+  }));
+}
 
+// 2. Dynamic SEO Metadata for each area page
+export async function generateMetadata({ params }: { params: { areaSlug: string } }) {
+  const pkg = packages.find((p) => p.areaSlug === params.areaSlug);
+  
+  if (!pkg) {
+    return {
+      title: 'Driving School Not Found | DriveSeekho',
+    };
+  }
+
+  return {
+    title: `Best Driving School in ${pkg.subArea} | Book Car Classes & Trainers`,
+    description: pkg.seoContent || `Book certified driving instructors in ${pkg.subArea}, ${pkg.city}. Choose manual or automatic cars with doorstep pickup.`,
+    alternates: {
+      canonical: `https://driveseekho.com/driving-school-in/${pkg.areaSlug}`,
+    },
+  };
+}
+
+// 3. Main Page Component (Server Component)
+export default function DrivingSchoolDetail({ params }: { params: { areaSlug: string } }) {
+  const { areaSlug } = params;
   const pkg = packages?.find((p) => p.areaSlug === areaSlug);
 
   if (!pkg) {
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 px-5">
-        <h1 className="text-2xl font-black text-slate-900 mb-2">School Not Found</h1>
-        <p className="text-slate-500 mb-6 text-center max-w-md">The driving school package you are looking for does not exist or has been removed.</p>
-        <Link href="/" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-bold transition-all shadow-lg shadow-blue-600/25">
-          Go Back Home
-        </Link>
-      </div>
-    );
+    notFound(); // Next.js ka built-in 404 page trigger karega
   }
 
+  // JSON-LD Schema for Local SEO
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    'name': `DriveSeekho - ${pkg.subArea}`,
+    'image': pkg.image || 'https://driveseekho.com/logo.png',
+    'description': pkg.seoContent,
+    'address': {
+      '@type': 'PostalAddress',
+      'streetAddress': pkg.subArea,
+      'addressLocality': pkg.city,
+      'addressRegion': 'Delhi/NCR',
+      'postalCode': '110092',
+      'addressCountry': 'IN'
+    },
+    'priceRange': pkg.price ? `₹${pkg.price}` : '₹2,999 - ₹5,999',
+    'telephone': pkg.phoneNumber || '+918368510626'
+  };
+
   return (
-    <main className="max-w-7xl w-full mx-auto bg-slate-50 min-h-screen relative pb-140 lg:pb-16 selection:bg-blue-600 selection:text-white">
+    <main className="max-w-7xl w-full mx-auto bg-slate-50 min-h-screen relative pb-40 lg:pb-16 selection:bg-blue-600 selection:text-white">
+      
+      {/* JSON-LD Schema Script Injection */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       
       {/* 1. Hero Image Section */}
       <div className="relative w-full h-[300px] md:h-[450px] bg-slate-900">
@@ -211,7 +252,7 @@ export default function DrivingSchoolDetail() {
       </div>
 
       {/* 3. Sticky Bottom Action Bar (Mobile Only) */}
-      <div className="fixed bottom-17 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-slate-200/80 p-4 px-5 flex items-center justify-between z-50 lg:hidden shadow-[0_-8px_25px_rgba(0,0,0,0.08)]">
+      <div className="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-slate-200/80 p-4 px-5 flex items-center justify-between z-50 lg:hidden shadow-[0_-8px_25px_rgba(0,0,0,0.08)]">
         <div>
           <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Total Price</p>
           <p className="text-[1.4rem] font-black text-slate-900 leading-none tracking-tight">
