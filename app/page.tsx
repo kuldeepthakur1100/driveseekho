@@ -253,7 +253,11 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {filteredPackages.map((pkg, index) => {
                 const isBike = pkg.category?.toLowerCase().includes('wheel') || pkg.category?.toLowerCase().includes('bike');
-                const dynamicHref = isBike ? `/2-wheeler-driving-school-in/${pkg.areaSlug}` : `/driving-school-in/${pkg.areaSlug}`;
+                
+                // Safe check for areaSlug to avoid app crashes
+                const dynamicHref = pkg.areaSlug 
+                  ? (isBike ? `/2-wheeler-driving-school-in/${pkg.areaSlug}` : `/driving-school-in/${pkg.areaSlug}`)
+                  : '#';
 
                 return (
                   <Link href={dynamicHref} key={pkg.areaSlug || index} className="block group h-full">
