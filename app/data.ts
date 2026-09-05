@@ -3,7 +3,7 @@ export const packages = [
     title: 'Driving School in Mayur Vihar Phase 1',
     city: 'East Delhi',
     subArea: '(chilla gaon, patparganj, pratap nagar,  )',
-    areaSlug: 'driving-school-in-mayur-vihar-phase-1', // <-- Yeh unique hai
+    areaSlug: 'mayur-vihar-phase-1', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -117,7 +117,7 @@ a: "Yes. DriveSeekho allows you to compare verified Driving Schools, view prices
     title: 'Driving School in Akshardham',
     city: 'East Delhi',
     subArea: '(Pandav nagar, Comman Wealth APt, Ganesh Nagar)',
-    areaSlug: 'driving-school-in-akshardham', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'akshardham', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -220,7 +220,7 @@ a: "Yes. DriveSeekho allows you to compare verified driving schools, check revie
     title: 'Driving School in New Ashok Nagar',
     city: 'East Delhi',
     subArea: '(New Ashok Nagar, Vasundhara, Noida)',
-    areaSlug: 'Driving-school-in-new-ashok-nagar', // <-- Yeh unique hai
+    areaSlug: 'new-ashok-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -302,7 +302,7 @@ faqs: [
     title: 'Driving School in Trilokpuri',
     city: 'East Delhi',
     subArea: '(Kalyanpuri, Chand Cinema, 27 Block)',
-    areaSlug: 'driving-school-in-trilokpuri', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'trilokpuri', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -385,7 +385,7 @@ faqs: [
     title: 'Driving School in Kalyanpuri',
     city: 'East Delhi',
     subArea: '(Kalyanpuri, Chand Cinema, 27 Block)',
-    areaSlug: 'driving-school-in-kalyanpuri', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'kalyanpuri', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -471,7 +471,7 @@ faqs: [
     title: 'Driving School in I.P Extension',
     city: 'East Delhi',
     subArea: '(Balco Market, Patparganj, Mandawali)',
-    areaSlug: 'driving-school-in-ip-extension', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'ip-extension', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -552,7 +552,7 @@ faqs: [
     title: 'Driving School in Pandav Nagar',
     city: 'East Delhi',
     subArea: '(Shakarpur, Ganesh nagar, Mother dairy)',
-    areaSlug: 'driving-school-in-pandav-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'pandav-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -633,7 +633,7 @@ faqs: [
     title: 'Driving School in Ganesh Nagar',
     city: 'East Delhi',
     subArea: '(Kalyanpuri, Ganesh Nagar, 27 Block)',
-    areaSlug: 'driving-school-in-ganesh-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'ganesh-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -716,7 +716,7 @@ faqs: [
     title: 'Driving School in Laxmi Nagar',
     city: 'East Delhi',
     subArea: '(Laxmi Nagar Metro, Shakarpur, School Block)',
-    areaSlug: 'driving-school-in-laxmi-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'laxmi-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -798,7 +798,7 @@ faqs: [
     title: 'Driving School in Nirman Vihar',
     city: 'East Delhi',
     subArea: '(V3s Mall, Nirman Vihar Metro)',
-    areaSlug: 'driving-school-in-nirman-vihar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'nirman-vihar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -886,7 +886,7 @@ faqs: [
     title: 'Driving School in Preet Vihar',
     city: 'East Delhi',
     subArea: '(Preet Vihar Metro, Acharya Nagar)',
-    areaSlug: 'driving-school-in-preet-vihar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'preet-vihar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -962,7 +962,7 @@ faqs: [
     title: 'Driving School in Anand Vihar',
     city: 'East Delhi',
     subArea: '(Surya Niketan, Ram Vihar, Karkardooma)',
-    areaSlug: 'driving-school-in-anand-vihar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'anand-vihar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -1037,7 +1037,7 @@ faqs: [
     title: 'Driving School in Karkardooma',
     city: 'East Delhi',
     subArea: '(Karkardooma Metro, Dayanant Vihar, Surajmal Vihar)',
-    areaSlug: 'driving-school-in-karkardooma', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'karkardooma', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -1112,7 +1112,7 @@ faqs: [
     title: 'Driving School in Krishna Nagar',
     city: 'East Delhi',
     subArea: '(Gagan Vihar, Old Anarkali, Krishna Nagar Metro)',
-    areaSlug: 'driving-school-in-krishna-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'krishna-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -1188,7 +1188,7 @@ faqs: [
     title: 'Driving School in East Azad Nagar',
     city: 'East Delhi',
     subArea: '(Bihari Colony, Kanti Nagar Ext, Est Azad Nagar Metro Station)',
-    areaSlug: 'driving-school-in-east-azad-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'east-azad-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -1261,7 +1261,7 @@ faqs: [
     title: 'Driving School in East Vinod Nagar',
     city: 'East Delhi',
     subArea: '(Pocket E, M.V.P-1, Khichripur)',
-    areaSlug: 'driving-school-in-east-vinod-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'east-vinod-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -1337,7 +1337,7 @@ faqs: [
     title: 'Driving School in Mayur Vihar Phase 2',
     city: 'East Delhi',
     subArea: '(Mandawali, Pocket E, Pocket C)',
-    areaSlug: 'driving-school-in-mayur-vihar-phase-2', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'mayur-vihar-phase-2', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -1421,7 +1421,7 @@ faqs: [
     title: 'Driving School in Patparganj',
     city: 'East Delhi',
     subArea: '(Madhu Vihar, Industrial Patpar)',
-    areaSlug: 'driving-school-in-patparganj', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'patparganj', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -1498,7 +1498,7 @@ faqs: [
     title: 'Driving School in Khoda Colony ',
     city: 'East Delhi',
     subArea: '(Cng Pump, Vishal Mega Mart, Khora )',
-    areaSlug: 'driving-school-in-khoda-colony', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'khoda-colony', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -1571,7 +1571,7 @@ faqs: [
     title: 'Driving School in Mandawali',
     city: 'East Delhi',
     subArea: '(Mother Daity, Mandawali)',
-    areaSlug: 'driving-school-in-mandawali', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'mandawali', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -1644,7 +1644,7 @@ faqs: [
     title: 'Driving School in Geeta Colony ',
     city: 'East Delhi',
     subArea: '(Rashid Market, Shastri Nagar, geeta colony police station )',
-    areaSlug: 'driving-school-in-geeta-colony', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'geeta-colony', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,199',
     trainingDays: '15 Days',
@@ -1717,7 +1717,7 @@ faqs: [
     title: 'Driving School in Gandhi nagar',
     city: 'East Delhi',
     subArea: '(Seelampur, Gandhi nagar)',
-    areaSlug: 'driving-school-in-gandhi-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'gandhi-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -1792,7 +1792,7 @@ faqs: [
     title: 'Driving School in Seelampur ',
     city: 'East Delhi',
     subArea: '(welcome, Bihari colony, Shahdara )',
-    areaSlug: 'driving-school-in-seelampur', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'seelampur', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -1864,7 +1864,7 @@ faqs: [
     title: 'Driving School in Dilshad Garden ',
     city: 'East Delhi',
     subArea: '(Jhilmil, Vivek vihar, Shahed Nagar)',
-    areaSlug: 'driving-school-in-dilshad-garden', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'dilshad-garden', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -1936,7 +1936,7 @@ faqs: [
     title: 'Driving School in Jhilmil Colony ',
     city: 'East Delhi',
     subArea: '(Jhilmil Metro, Dilshad Garden, Mansarovar Park)',
-    areaSlug: 'driving-school-in-jhilmil-colony', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'jhilmil-colony', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -2008,17 +2008,17 @@ faqs: [
     title: 'Driving School in Shastri Nagar ',
     city: 'East Delhi',
     subArea: '(Shastri Nagar )',
-    areaSlug: 'driving-school-in-shastri-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'shastri-nagar', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
-    price: '₹3,299',
-    trainingDays: '15 Days',
+    price: '₹3,499',
+    trainingDays: '7 Days',
     instructorName: 'Shiva',
     image: '/images/i10.jpeg', 
     features: ['Experienced Instructor'],
     
     // --- Nayi Details Yahan Se Shuru ---
     carName: 'i10 Manual (Dual Control)',
-    dailyRide: '35 Minutes / Day',
+    dailyRide: '60 Minutes / Day',
     pickupDrop: 'Free Pickup and Drop',
     phoneNumber: '+918368510626', 
     whatsappNumber: '918368510626',
@@ -2080,7 +2080,7 @@ faqs: [
     title: 'Driving School in Vasundhara Enclave ',
     city: 'East Delhi',
     subArea: '(New Kondli, East point school, chilla sports complex )',
-    areaSlug: 'driving-school-in-vasundhara-enclave', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'vasundhara-enclave', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -2152,7 +2152,7 @@ faqs: [
     title: 'Driving School in Shakarpur ',
     city: 'East Delhi',
     subArea: '(Ganesh Nagar, School Block, Laxmi nagar )',
-    areaSlug: 'driving-school-in-shakarpur', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
+    areaSlug: 'shakarpur', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -2229,7 +2229,7 @@ faqs: [
     title: 'Driving School in Mayur Vihar Phase 3',
     city: 'East Delhi',
     subArea: 'New Kondli, Old Kondli, Khoda Colony',
-    areaSlug: 'driving-school-in-mayur-vihar-phase-3',
+    areaSlug: 'mayur-vihar-phase-3',
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
