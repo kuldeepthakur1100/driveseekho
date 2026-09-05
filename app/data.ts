@@ -27163,7 +27163,7 @@ faqs: [
     title: '2 Wheeler Driving School in Patel Nagar, Delhi',
     city: 'Central Delhi',
     subArea: '(Patel Nagar)',
-    areaSlug: '2-wheeler-driving-school-in-patel-nagar', // <-- Yeh unique hai
+    areaSlug: 'patel-nagar', // <-- Yeh unique hai
     category: '2 wheeler',
     price: '₹3,499',
     trainingDays: '10 Days',
@@ -27348,7 +27348,7 @@ faqs: [
     title: '2 Wheeler Driving School in Paharganj, Delhi',
     city: 'Central Delhi',
     subArea: '(Paharganj)',
-    areaSlug: '2-wheeler-driving-school-in-paharganj', // <-- Yeh unique hai
+    areaSlug: 'paharganj', // <-- Yeh unique hai
     category: '2 wheeler',
     price: '₹3,499',
     trainingDays: '10 Days',
@@ -27536,7 +27536,7 @@ faqs: [
     title: '2 Wheeler Driving School in Rajender place, Delhi',
     city: 'Central Delhi',
     subArea: '(Rajender Nagar)',
-    areaSlug: '2-wheeler-driving-school-in-rajender-nagar', // <-- Yeh unique hai
+    areaSlug: 'rajender-nagar', // <-- Yeh unique hai
     category: '2 wheeler',
     price: '₹2,999',
     trainingDays: '10 Days',
@@ -27725,7 +27725,7 @@ faqs: [
     title: '2 Wheeler Driving School in Gole Market, Delhi',
     city: 'Central Delhi',
     subArea: '(Gole Market)',
-    areaSlug: '2-wheeler-driving-school-in-gole-market', // <-- Yeh unique hai
+    areaSlug: 'gole-market', // <-- Yeh unique hai
     category: '2 wheeler',
     price: '₹3,499',
     trainingDays: '10 Days',
@@ -27913,7 +27913,7 @@ faqs: [
     title: '2 Wheeler Driving School in Connaught Place, Delhi',
     city: 'Central Delhi',
     subArea: '(Connaught Place)',
-    areaSlug: '2-wheeler-driving-school-in-connaught-place', // <-- Yeh unique hai
+    areaSlug: 'connaught-place', // <-- Yeh unique hai
     category: '2 wheeler',
     price: '₹3,499',
     trainingDays: '10 Days',
@@ -28104,7 +28104,7 @@ faqs: [
     title: '2 Wheeler Driving School in Shadipur, Delhi',
     city: 'Central Delhi',
     subArea: '(Shadipur)',
-    areaSlug: '2-wheeler-driving-school-in-shadipur', // <-- Yeh unique hai
+    areaSlug: 'shadipur', // <-- Yeh unique hai
     category: '2 wheeler',
     price: '₹3,199',
     trainingDays: '10 Days',
@@ -28297,7 +28297,7 @@ faqs: [
     title: 'Driving School in Lutyens, Delhi',
     city: 'New Delhi',
     subArea: '(Lutyens)',
-    areaSlug: 'driving-school-in-lutyens', // <-- Yeh unique hai
+    areaSlug: 'lutyens', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -28391,7 +28391,7 @@ Whether you are looking for a Car Driving School in Lutyens Delhi, Bike Classes 
     title: 'Driving School in Pragati Maidan, Delhi',
     city: 'New Delhi',
     subArea: '(Pragati Maidan)',
-    areaSlug: 'driving-school-in-pragati-maidan', // <-- Yeh unique hai
+    areaSlug: 'pragati-maidan', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -28483,7 +28483,7 @@ Whether you are looking for a Car Driving School in Pragati Maidan, Bike Classes
     title: 'Driving School in Barakhamba Road, Delhi',
     city: 'New Delhi',
     subArea: '(Barakhamba Road)',
-    areaSlug: 'driving-school-in-barakhamba-road', // <-- Yeh unique hai
+    areaSlug: 'barakhamba-road', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,999',
     trainingDays: '15 Days',
@@ -28575,7 +28575,7 @@ Whether you are looking for a Car Driving School on Barakhamba Road, Bike Classe
     title: 'Driving School in Raisina Hill, Delhi',
     city: 'New Delhi',
     subArea: '(Raisina Hill)',
-    areaSlug: 'driving-school-in-raisina-hill', // <-- Yeh unique hai
+    areaSlug: 'raisina-hill', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -28668,7 +28668,7 @@ Whether you are looking for a Car Driving School near Raisina Hill, Bike Classes
     title: 'Best Driving School in Chanakyapuri, Delhi',
     city: 'New Delhi',
     subArea: '(Chanakyapuri)',
-    areaSlug: 'driving-school-in-chanakyapuri', // <-- Yeh unique hai
+    areaSlug: 'chanakyapuri', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -28760,7 +28760,7 @@ Whether you are looking for a Car Driving School in Chanakyapuri, Bike Classes N
     title: 'Driving School in Connaught Place, Delhi',
     city: 'New Delhi',
     subArea: '(Connaught Place)',
-    areaSlug: 'driving-school-in-connaught-place', // <-- Yeh unique hai
+    areaSlug: 'connaught-place', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -28853,7 +28853,7 @@ Whether you are looking for a Car Driving School in Connaught Place, Bike Classe
     title: 'Driving School in Netaji Nagar, Delhi',
     city: 'New Delhi',
     subArea: '(Netaji Nagar)',
-    areaSlug: 'driving-school-in-netaji-nagar', // <-- Yeh unique hai
+    areaSlug: 'netaji-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -28946,7 +28946,7 @@ Whether you are looking for a Car Driving School in Netaji Nagar, Bike Classes N
     title: 'Driving School in Vasant Vihar, Delhi',
     city: 'New Delhi',
     subArea: '(Vasant Vihar)',
-    areaSlug: 'driving-school-in-vasant-vihar', // <-- Yeh unique hai
+    areaSlug: 'vasant-vihar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -29038,7 +29038,7 @@ Whether you are looking for a Car Driving School in Vasant Vihar, Bike Classes N
     title: 'Driving School in Moti Bagh, Delhi',
     city: 'New Delhi',
     subArea: '(Moti Bagh)',
-    areaSlug: 'driving-school-in-moti-bagh', // <-- Yeh unique hai
+    areaSlug: 'moti-bagh', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -29132,7 +29132,7 @@ Whether you are looking for a Car Driving School in Moti Bagh, Bike Classes Near
     title: 'Driving School in New Moti Bagh, Delhi',
     city: 'New Delhi',
     subArea: '(New Moti Bagh)',
-    areaSlug: 'driving-school-in-new-moti-bagh', // <-- Yeh unique hai
+    areaSlug: 'new-moti-bagh', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -29221,7 +29221,7 @@ Whether you are looking for a Car Driving School in New Moti Bagh, Automatic Car
     title: 'Driving School in Shankar Vihar, Delhi',
     city: 'New Delhi',
     subArea: '(Shankar Vihar)',
-    areaSlug: 'driving-school-in-shankar-vihar', // <-- Yeh unique hai
+    areaSlug: 'shankar-vihar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -29333,7 +29333,7 @@ faqs: [
     title: 'Driving School in Golf Links, Delhi',
     city: 'New Delhi',
     subArea: '(Golf Links)',
-    areaSlug: 'driving-school-in-golf-links', // <-- Yeh unique hai
+    areaSlug: 'golf-links', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -29444,7 +29444,7 @@ faqs: [
     title: 'Driving School in INA Colony, Delhi',
     city: 'New Delhi',
     subArea: '(INA colony)',
-    areaSlug: 'driving-school-in-ina-colony', // <-- Yeh unique hai
+    areaSlug: 'ina-colony', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -29556,7 +29556,7 @@ faqs: [
     title: 'Driving School in Inder puri, Delhi',
     city: 'New Delhi',
     subArea: '(Inder Puri)',
-    areaSlug: 'driving-school-in-inder-puri', // <-- Yeh unique hai
+    areaSlug: 'inder-puri', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -29668,7 +29668,7 @@ faqs: [
     title: 'Driving School in Laxmibai Nagar, Delhi',
     city: 'New Delhi',
     subArea: '(Laxmibai Nagar)',
-    areaSlug: 'driving-school-in-laxmibai-nagar', // <-- Yeh unique hai
+    areaSlug: 'laxmibai-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -29780,7 +29780,7 @@ faqs: [
     title: 'Driving School in Sarojini Nagar, Delhi',
     city: 'New Delhi',
     subArea: '(Sarojini Nagar)',
-    areaSlug: 'driving-school-in-sarojini-nagar', // <-- Yeh unique hai
+    areaSlug: 'sarojini-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -29891,7 +29891,7 @@ faqs: [
     title: 'Driving School in Lodhi Colony, Delhi',
     city: 'New Delhi',
     subArea: '(Lodhi Colony)',
-    areaSlug: 'driving-school-in-lodhi-colony', // <-- Yeh unique hai
+    areaSlug: 'lodhi-colony', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -30001,7 +30001,7 @@ faqs: [
     title: 'Driving School in Naraina, Delhi',
     city: 'New Delhi',
     subArea: '(Naraina)',
-    areaSlug: 'driving-school-in-naraina', // <-- Yeh unique hai
+    areaSlug: 'naraina', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -30112,7 +30112,7 @@ faqs: [
     title: 'Driving School in Mahipalpur, Delhi',
     city: 'New Delhi',
     subArea: '(Mahipalpur)',
-    areaSlug: 'driving-school-in-mahipalpur', // <-- Yeh unique hai
+    areaSlug: 'mahipalpur', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -30222,7 +30222,7 @@ faqs: [
     title: 'Driving School in Mayapuri, Delhi',
     city: 'New Delhi',
     subArea: '(Mayapuri)',
-    areaSlug: 'driving-school-in-mayapuri', // <-- Yeh unique hai
+    areaSlug: 'mayapuri', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -30337,7 +30337,7 @@ faqs: [
     title: '2 Wheeler Driving School in Vasant Kunj, Delhi',
     city: 'New Delhi',
     subArea: '(Vasant Kunj)',
-    areaSlug: '2-wheeler-driving-school-in-vasant-kunj', // <-- Yeh unique hai
+    areaSlug: 'vasant-kunj', // <-- Yeh unique hai
     category: '2 wheeler',
     price: '₹3,499',
     trainingDays: '10 Days',
@@ -30457,7 +30457,7 @@ faqs: [
     title: 'Bike Driving School in Saket',
     city: 'New Delhi',
     subArea: '(Saket)',
-    areaSlug: 'bike-driving-school-in-saket', // <-- Yeh unique hai
+    areaSlug: 'saket', // <-- Yeh unique hai
     category: '2 wheeler',
     price: '₹3,499',
     trainingDays: '10 Days',
@@ -30580,7 +30580,7 @@ faqs: [
     title: '2 Wheeler Driving School in Malviya Nagar, Delhi',
     city: 'New Delhi',
     subArea: '(Malviya Nagar)',
-    areaSlug: '2-wheeler-driving-school-in-malviya-nagar', // <-- Yeh unique hai
+    areaSlug: 'malviya-nagar', // <-- Yeh unique hai
     category: '2 wheeler',
     price: '₹3,499',
     trainingDays: '10 Days',
@@ -30705,7 +30705,7 @@ faqs: [
     title: 'Motorcycle Driving School in Lado Sarai, Delhi',
     city: 'New Delhi',
     subArea: '(Lado Sarai)',
-    areaSlug: 'motorcycle-driving-school-in-lado-sarai', // <-- Yeh unique hai
+    areaSlug: 'lado-sarai', // <-- Yeh unique hai
     category: '2 wheeler',
     price: '₹3,499',
     trainingDays: '10 Days',
@@ -30839,7 +30839,7 @@ faqs: [
     title: 'Driving School in Alipur',
     city: 'North Delhi',
     subArea: '(Alipur)',
-    areaSlug: 'driving-school-in-alipur', // <-- Yeh unique hai
+    areaSlug: 'alipur', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -30969,7 +30969,7 @@ faqs: [
     title: 'Driving School in Narela Near Me',
     city: 'North Delhi',
     subArea: '(Narela)',
-    areaSlug: 'driving-school-in-narela', // <-- Yeh unique hai
+    areaSlug: 'narela', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -31109,7 +31109,7 @@ faqs: [
     title: 'Best Driving School in Bawana With Price ',
     city: 'North Delhi',
     subArea: '(Bawana)',
-    areaSlug: 'driving-school-in-bawana', // <-- Yeh unique hai
+    areaSlug: 'bawana', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -31248,7 +31248,7 @@ faqs: [
     title: 'Driving School in Holambi kalan and khurd',
     city: 'North Delhi',
     subArea: '(Holambi kalan & khurd)',
-    areaSlug: 'driving-school-in-holambi-kalan-khurd', // <-- Yeh unique hai
+    areaSlug: 'holambi-kalan-khurd', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -31384,7 +31384,7 @@ a: 'Share your Holambi Kalan or Holambi Khurd location, preferred vehicle type, 
     title: 'Driving School in Bakhtawarpur',
     city: 'North Delhi',
     subArea: '(Bakhtawarpur)',
-    areaSlug: 'driving-school-in-bakhtawarpur', // <-- Yeh unique hai
+    areaSlug: 'bakhtawarpur', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -31515,7 +31515,7 @@ a: 'Share your Bakhtawarpur location, preferred vehicle type, experience level, 
     title: 'Driving School in Khera Kalan',
     city: 'North Delhi',
     subArea: '(Khera Kalan)',
-    areaSlug: 'driving-school-in-Khera-Kalan', // <-- Yeh unique hai
+    areaSlug: 'khera-kalan', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -31646,7 +31646,7 @@ a: 'Share your Khera Kalan location, preferred vehicle type, experience level, a
     title: 'Driving School in Tikri Khurd',
     city: 'North Delhi',
     subArea: '(Tikri Khurd)',
-    areaSlug: 'driving-school-in-tikri-khurd', // <-- Yeh unique hai
+    areaSlug: 'tikri-khurd', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -31777,7 +31777,7 @@ a: 'Share your Tikri Khurd location, preferred vehicle type, experience level, a
     title: 'Driving School in Model Town 1,2,3',
     city: 'North Delhi',
     subArea: '(Model Town 1,2,3)',
-    areaSlug: 'driving-school-in-model-town-1-2-3', // <-- Yeh unique hai
+    areaSlug: 'model-town-1-2-3', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -31912,7 +31912,7 @@ a: 'Share your Model Town location, preferred vehicle type, experience level, an
     title: 'Driving School in Adarsh Nagar',
     city: 'North Delhi',
     subArea: '(Adarsh Nagar)',
-    areaSlug: 'driving-school-in-adarsh-nagar', // <-- Yeh unique hai
+    areaSlug: 'adarsh-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -32050,7 +32050,7 @@ a: 'Share your Adarsh Nagar location, preferred vehicle type, experience level, 
     title: 'Driving School in Shalimar Bagh',
     city: 'North Delhi',
     subArea: '(Shalimar Bagh)',
-    areaSlug: 'driving-school-in-shalimar-bagh', // <-- Yeh unique hai
+    areaSlug: 'shalimar-bagh', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -32186,7 +32186,7 @@ a: 'Share your Shalimar Bagh location, preferred vehicle type, experience level,
     title: 'Driving School in Jahangirpuri',
     city: 'North Delhi',
     subArea: '(Jahangirpuri)',
-    areaSlug: 'driving-school-in-Jahangirpuri', // <-- Yeh unique hai
+    areaSlug: 'Jahangirpuri', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -32323,7 +32323,7 @@ a: 'Share your Jahangirpuri location, preferred vehicle type, experience level, 
     title: 'Driving School in Mukherjee Nagar',
     city: 'North Delhi',
     subArea: '(Mukherjee Nagar)',
-    areaSlug: 'driving-school-in-mukherjee-nagar', // <-- Yeh unique hai
+    areaSlug: 'mukherjee-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -32467,7 +32467,7 @@ a: 'Share your Mukherjee Nagar location, preferred vehicle type, experience leve
     title: 'Driving School in Derawal Nagar',
     city: 'North Delhi',
     subArea: '(Derawal Nagar)',
-    areaSlug: 'driving-school-in-derawal-nagar', // <-- Yeh unique hai
+    areaSlug: 'derawal-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -32611,7 +32611,7 @@ a: 'Share your Derawal Nagar location, preferred vehicle type, experience level,
     title: 'Driving School in Civil lines',
     city: 'North Delhi',
     subArea: '(Civil line)',
-    areaSlug: 'driving-school-in-civil-line', // <-- Yeh unique hai
+    areaSlug: 'civil-line', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -32756,7 +32756,7 @@ a: 'Share your Civil Lines location, preferred vehicle type, experience level, a
     title: 'Driving School in Kamla Nagar',
     city: 'North Delhi',
     subArea: '(Kamla Nagar)',
-    areaSlug: 'driving-school-in-kamla-nagar', // <-- Yeh unique hai
+    areaSlug: 'kamla-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -32902,7 +32902,7 @@ a: 'Share your Kamla Nagar location, preferred vehicle type, experience level, a
     title: 'Driving School in Delhi University North Campus',
     city: 'North Delhi',
     subArea: '(Delhi University North Campus)',
-    areaSlug: 'driving-school-in-delhi-university-north-campus', // <-- Yeh unique hai
+    areaSlug: 'delhi-university-north-campus', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -33047,7 +33047,7 @@ faqs: [
     title: 'Driving School in Kashmiri Gate',
     city: 'North Delhi',
     subArea: '(Kashmere Gate)',
-    areaSlug: 'driving-school-in-kashmere-gate', // <-- Yeh unique hai
+    areaSlug: 'kashmere-gate', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -33193,7 +33193,7 @@ faqs: [
     title: 'Driving School in Burari',
     city: 'North Delhi',
     subArea: '(Burari)',
-    areaSlug: 'driving-school-in-Burari', // <-- Yeh unique hai
+    areaSlug: 'burari', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -33338,7 +33338,7 @@ faqs: [
     title: 'Driving School in Roop Nagar',
     city: 'North Delhi',
     subArea: '(Roop Nagar)',
-    areaSlug: 'driving-school-in-roop-nagar', // <-- Yeh unique hai
+    areaSlug: 'roop-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -33485,7 +33485,7 @@ faqs: [
     title: 'Driving School in Seelampur ',
     city: 'North East',
     subArea: '(Seelampur)',
-    areaSlug: 'driving-school-in-seelampur', // <-- Yeh unique hai
+    areaSlug: 'seelampur', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -33630,7 +33630,7 @@ faqs: [
     title: 'Driving School in Shahdara ',
     city: 'North East',
     subArea: '(Shahdara)',
-    areaSlug: 'driving-school-in-shahdara', // <-- Yeh unique hai
+    areaSlug: 'shahdara', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -33774,7 +33774,7 @@ faqs: [
     title: 'Driving School in Welcome ',
     city: 'North East',
     subArea: '(Welcome)',
-    areaSlug: 'driving-school-in-welcome', // <-- Yeh unique hai
+    areaSlug: 'welcome', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -33919,7 +33919,7 @@ faqs: [
     title: 'Driving School in Jafrabad ',
     city: 'North East',
     subArea: '(Jafrabad)',
-    areaSlug: 'driving-school-in-jafrabad', // <-- Yeh unique hai
+    areaSlug: 'jafrabad', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -34064,7 +34064,7 @@ faqs: [
     title: 'Driving School in Maujpur ',
     city: 'North East',
     subArea: '(Maujpur)',
-    areaSlug: 'driving-school-in-maujpur', // <-- Yeh unique hai
+    areaSlug: 'maujpur', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -34208,7 +34208,7 @@ faqs: [
     title: 'Driving School in Gokulpuri',
     city: 'North East',
     subArea: '(Gokulpuri)',
-    areaSlug: 'driving-school-in-gokulpuri', // <-- Yeh unique hai
+    areaSlug: 'gokulpuri', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -34353,7 +34353,7 @@ faqs: [
     title: 'Driving School in Shiv Vihar ',
     city: 'North East',
     subArea: '(Shiv Vihar)',
-    areaSlug: 'driving-school-in-roop-shiv-vihar', // <-- Yeh unique hai
+    areaSlug: 'roop-shiv-vihar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -34505,7 +34505,7 @@ faqs: [
     title: 'Driving School in Karawal Nagar',
     city: 'North East',
     subArea: '(Karawal Nagar)',
-    areaSlug: 'driving-school-in-karawal-nagar', // <-- Yeh unique hai
+    areaSlug: 'karawal-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -34654,7 +34654,7 @@ faqs: [
     title: 'Driving School in Dayalpur ',
     city: 'North East',
     subArea: '(Dayalpur)',
-    areaSlug: 'driving-school-in-dayalpur', // <-- Yeh unique hai
+    areaSlug: 'dayalpur', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -34807,7 +34807,7 @@ faqs: [
     title: 'Driving School in Khajuri Khas',
     city: 'North East',
     subArea: '(Khajuri Khas)',
-    areaSlug: 'driving-school-in-khajuri-khas', // <-- Yeh unique hai
+    areaSlug: 'khajuri-khas', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -34958,7 +34958,7 @@ faqs: [
     title: 'Driving School in Bhajanpura',
     city: 'North East',
     subArea: '(Bhajanpura)',
-    areaSlug: 'driving-school-in-bhajanpura', // <-- Yeh unique hai
+    areaSlug: 'bhajanpura', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -35111,7 +35111,7 @@ faqs: [
     title: 'Driving School in Yamuna Vihar',
     city: 'North East',
     subArea: '(Yamuna Vihar)',
-    areaSlug: 'driving-school-in-yamuna-vihar', // <-- Yeh unique hai
+    areaSlug: 'yamuna-vihar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -35264,7 +35264,7 @@ faqs: [
     title: 'Driving School in Ghonda',
     city: 'North East',
     subArea: '(Ghonda)',
-    areaSlug: 'driving-school-in-ghonda', // <-- Yeh unique hai
+    areaSlug: 'ghonda', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -35416,7 +35416,7 @@ faqs: [
     title: 'Driving School in Gautam Puri',
     city: 'North East',
     subArea: '(Gautam Puri)',
-    areaSlug: 'driving-school-in-gautam-puri', // <-- Yeh unique hai
+    areaSlug: 'gautam-puri', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -35569,7 +35569,7 @@ faqs: [
     title: 'Driving School in Kabir Nagar',
     city: 'North East',
     subArea: '(Kabir Nagar)',
-    areaSlug: 'driving-school-in-kabir-nagar', // <-- Yeh unique hai
+    areaSlug: 'kabir-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -35721,7 +35721,7 @@ faqs: [
     title: 'Driving School in Subhash Mohalla',
     city: 'North East',
     subArea: '(Subhash Mohalla)',
-    areaSlug: 'driving-school-in-subhash-mohalla', // <-- Yeh unique hai
+    areaSlug: 'subhash-mohalla', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -35873,7 +35873,7 @@ faqs: [
     title: 'Driving School in Usmanpur',
     city: 'North East',
     subArea: '(Usmanpur)',
-    areaSlug: 'driving-school-in-usmanpur', // <-- Yeh unique hai
+    areaSlug: 'usmanpur', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -36025,7 +36025,7 @@ faqs: [
     title: 'Driving School in Sonia Vihar',
     city: 'North East',
     subArea: '(Sonia Vihar)',
-    areaSlug: 'driving-school-in-sonia-vihar', // <-- Yeh unique hai
+    areaSlug: 'sonia-vihar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -36177,7 +36177,7 @@ faqs: [
     title: 'Driving School in Johripur',
     city: 'North East',
     subArea: '(Johripur)',
-    areaSlug: 'driving-school-in-Johripur', // <-- Yeh unique hai
+    areaSlug: 'Johripur', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -36328,7 +36328,7 @@ faqs: [
     title: 'Driving School in Nehru Vihar',
     city: 'North East',
     subArea: '(Nehru vihar)',
-    areaSlug: 'driving-school-in-nehru-vihar', // <-- Yeh unique hai
+    areaSlug: 'nehru-vihar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -36489,7 +36489,7 @@ faqs: [
     title: 'Driving School in Saket',
     city: 'South Delhi',
     subArea: '(Saket)',
-    areaSlug: 'driving-school-in-saket', // <-- Yeh unique hai
+    areaSlug: 'saket', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -36667,7 +36667,7 @@ faqs: [
     title: 'Driving School in Malviya Nagar',
     city: 'South Delhi',
     subArea: '(Malviya Nagar)',
-    areaSlug: 'driving-school-in-malviya-nagar', // <-- Yeh unique hai
+    areaSlug: 'malviya-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -36841,7 +36841,7 @@ faqs: [
     title: 'Driving School in Hauz Khas',
     city: 'South Delhi',
     subArea: '(Hauz Khas)',
-    areaSlug: 'driving-school-in-hauz-khas', // <-- Yeh unique hai
+    areaSlug: 'hauz-khas', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -37015,7 +37015,7 @@ faqs: [
     title: 'Driving School in Green Park',
     city: 'South Delhi',
     subArea: '(Saket)',
-    areaSlug: 'driving-school-in-green-park', // <-- Yeh unique hai
+    areaSlug: 'green-park', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -37164,7 +37164,7 @@ faqs: [
     title: 'Driving School in Greater Kailash',
     city: 'South Delhi',
     subArea: '(Greater kailash)',
-    areaSlug: 'driving-school-in-greater-kailash', // <-- Yeh unique hai
+    areaSlug: 'greater-kailash', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -37227,7 +37227,7 @@ faqs: [
     title: 'Driving School in Chirag Delhi',
     city: 'South Delhi',
     subArea: '(Chirag Delhi)',
-    areaSlug: 'driving-school-in-chirag-delhi', // <-- Yeh unique hai
+    areaSlug: 'chirag-delhi', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,999',
     trainingDays: '15 Days',
@@ -37374,7 +37374,7 @@ faqs: [
     title: 'Driving School in Kalkaji',
     city: 'South Delhi',
     subArea: '(Kalkaji)',
-    areaSlug: 'driving-school-in-kalkaji', // <-- Yeh unique hai
+    areaSlug: 'kalkaji', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -37522,7 +37522,7 @@ faqs: [
     title: 'Driving School in Govindpuri',
     city: 'South Delhi',
     subArea: '(Govindpuri)',
-    areaSlug: 'driving-school-in-govindpuri', // <-- Yeh unique hai
+    areaSlug: 'govindpuri', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -37669,7 +37669,7 @@ faqs: [
     title: 'Driving School in Lajpat Nagar',
     city: 'South Delhi',
     subArea: '(Lajpat Nagar)',
-    areaSlug: 'driving-school-in-lajpat-nagar', // <-- Yeh unique hai
+    areaSlug: 'lajpat-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,999',
     trainingDays: '15 Days',
@@ -37816,7 +37816,7 @@ faqs: [
     title: 'Driving School in Defence Colony',
     city: 'South Delhi',
     subArea: '(Defence Colony)',
-    areaSlug: 'driving-school-in-defence-colony', // <-- Yeh unique hai
+    areaSlug: 'defence-colony', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -37965,7 +37965,7 @@ faqs: [
     title: 'Driving School in Vasant Kunj',
     city: 'South Delhi',
     subArea: '(Vasant Kunj)',
-    areaSlug: 'driving-school-in-vasant-kunj', // <-- Yeh unique hai
+    areaSlug: 'vasant-kunj', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -38112,7 +38112,7 @@ faqs: [
     title: 'Driving School in Defence Mehrauli',
     city: 'South Delhi',
     subArea: '(Mehrauli)',
-    areaSlug: 'driving-school-in-mehrauli', // <-- Yeh unique hai
+    areaSlug: 'mehrauli', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '10 Days',
@@ -38260,7 +38260,7 @@ faqs: [
     title: 'Driving School in Chhatarpur',
     city: 'South Delhi',
     subArea: '(Chhatarpur)',
-    areaSlug: 'driving-school-in-chhatarpur', // <-- Yeh unique hai
+    areaSlug: 'chhatarpur', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -38413,7 +38413,7 @@ faqs: [
     title: 'Driving School in Sangam Vihar',
     city: 'South Delhi',
     subArea: '(Sangam Vihar)',
-    areaSlug: 'driving-school-in-sangam-vihar', // <-- Yeh unique hai
+    areaSlug: 'sangam-vihar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -38562,7 +38562,7 @@ faqs: [
     title: 'Driving School in Neb Sarai',
     city: 'South Delhi',
     subArea: '(Neb Sarai)',
-    areaSlug: 'driving-school-in-neb-sarai', // <-- Yeh unique hai
+    areaSlug: 'neb-sarai', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -38744,7 +38744,7 @@ a: 'Share your Neb Sarai location, preferred vehicle, current experience level a
     title: 'Driving School in Fatehpur Beri',
     city: 'South Delhi',
     subArea: '(Fatehpur Beri)',
-    areaSlug: 'driving-school-in-fatehpur-beri', // <-- Yeh unique hai
+    areaSlug: 'fatehpur-beri', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -38891,7 +38891,7 @@ faqs: [
     title: 'Driving School in Sarita Vihar',
     city: 'South Delhi',
     subArea: '(Sarita Vihar)',
-    areaSlug: 'driving-school-in-sarita-vihar', // <-- Yeh unique hai
+    areaSlug: 'sarita-vihar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -39039,7 +39039,7 @@ faqs: [
     title: 'Driving School in Jasola',
     city: 'South Delhi',
     subArea: '(Jasola)',
-    areaSlug: 'driving-school-in-Jasola', // <-- Yeh unique hai
+    areaSlug: 'jasola', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -39187,7 +39187,7 @@ faqs: [
     title: 'Driving School in Okhla',
     city: 'South Delhi',
     subArea: '(Okhla)',
-    areaSlug: 'driving-school-in-okhla', // <-- Yeh unique hai
+    areaSlug: 'okhla', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -39338,7 +39338,7 @@ faqs: [
     title: 'Best Driving School in Okhla',
     city: 'South East',
     subArea: '(Okhla)',
-    areaSlug: 'best-driving-school-in-okhla', // <-- Yeh unique hai
+    areaSlug: 'okhla', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -39423,7 +39423,7 @@ Book your driving and riding classes online with DriveSeekho today and take your
     title: 'Best Driving School in Jamia Nagar',
     city: 'South East',
     subArea: '(Jamia Nagar)',
-    areaSlug: 'best-driving-school-in-jamia-nagar', // <-- Yeh unique hai
+    areaSlug: 'jamia-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -39505,7 +39505,7 @@ Book your driving and riding classes online with DriveSeekho today and take your
     title: 'Best Driving School in Jasola',
     city: 'South East',
     subArea: '(Jasola)',
-    areaSlug: 'best-driving-school-in-jasola', // <-- Yeh unique hai
+    areaSlug: 'jasola', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -39650,7 +39650,7 @@ faqs: [
     title: 'Driving School in Sarita Vihar',
     city: 'South East',
     subArea: '(Sarita Vihar)',
-    areaSlug: 'driving-school-in-Sarita-vihar', // <-- Yeh unique hai
+    areaSlug: 'sarita-vihar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -39795,7 +39795,7 @@ faqs: [
     title: 'Best Driving School in Badarpur',
     city: 'South East',
     subArea: '(Badarpur)',
-    areaSlug: 'driving-school-in-badarpur', // <-- Yeh unique hai
+    areaSlug: 'badarpur', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -39941,7 +39941,7 @@ faqs: [
     title: 'Driving School in Kalkaji ',
     city: 'South East',
     subArea: '(Kalkaji)',
-    areaSlug: 'driving-school-in-kalkaji', // <-- Yeh unique hai
+    areaSlug: 'kalkaji', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -40087,7 +40087,7 @@ faqs: [
     title: 'Driving School in Govindpuri',
     city: 'South East',
     subArea: '(Govindpuri)',
-    areaSlug: 'driving-school-in-govindpuri', // <-- Yeh unique hai
+    areaSlug: 'govindpuri', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -40231,7 +40231,7 @@ faqs: [
     title: 'Driving School in Sangam Vihar',
     city: 'South East',
     subArea: '(Sangam vihar)',
-    areaSlug: 'driving-school-in-sangam-vihar', // <-- Yeh unique hai
+    areaSlug: 'sangam-vihar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -40376,7 +40376,7 @@ faqs: [
     title: 'Best Driving School in Khanpur',
     city: 'South East',
     subArea: '(Khanpur)',
-    areaSlug: 'driving-school-in-khanpur', // <-- Yeh unique hai
+    areaSlug: 'khanpur', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -40522,7 +40522,7 @@ faqs: [
     title: 'Best Driving School in Tughlakabad',
     city: 'South East',
     subArea: '(Tughlakabad)',
-    areaSlug: 'driving-school-in-tughlakabad', // <-- Yeh unique hai
+    areaSlug: 'tughlakabad', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -40669,7 +40669,7 @@ faqs: [
     title: 'Driving School in Cr Park',
     city: 'South East',
     subArea: '(Cr Park)',
-    areaSlug: 'driving-school-in-cr-park', // <-- Yeh unique hai
+    areaSlug: 'cr-park', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -40814,7 +40814,7 @@ faqs: [
     title: 'Driving School in Jangpura',
     city: 'South East',
     subArea: '(Jangpura)',
-    areaSlug: 'driving-school-in-jangpura', // <-- Yeh unique hai
+    areaSlug: 'jangpura', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -40960,7 +40960,7 @@ faqs: [
     title: 'Driving School in Nizamuddin',
     city: 'South East',
     subArea: '(Nizamuddin)',
-    areaSlug: 'driving-school-in-nizamuddin', // <-- Yeh unique hai
+    areaSlug: 'nizamuddin', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -41105,7 +41105,7 @@ faqs: [
     title: 'Driving School in New Friends Colony',
     city: 'South East',
     subArea: '(New Friends Colony)',
-    areaSlug: 'driving-school-in-new-friends-colony', // <-- Yeh unique hai
+    areaSlug: 'new-friends-colony', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -41259,7 +41259,7 @@ faqs: [
     title: 'Driving School in Maharani Bagh',
     city: 'South East',
     subArea: '(Maharani Bagh)',
-    areaSlug: 'driving-school-in-maharani-bagh', // <-- Yeh unique hai
+    areaSlug: 'maharani-bagh', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -41414,7 +41414,7 @@ faqs: [
     title: 'Driving School in Defence Colony',
     city: 'South East',
     subArea: '(Defence colony)',
-    areaSlug: 'driving-school-in-defence-colony', // <-- Yeh unique hai
+    areaSlug: 'defence-colony', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -41569,7 +41569,7 @@ faqs: [
     title: 'Driving School in GK 1 & GK 2',
     city: 'South East',
     subArea: '(GK 1 & GK 2)',
-    areaSlug: 'driving-school-in-gk-1-&-gk-2', // <-- Yeh unique hai
+    areaSlug: 'gk-1-&-gk-2', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,999',
     trainingDays: '15 Days',
@@ -41726,7 +41726,7 @@ a: 'Share your Greater Kailash location, preferred vehicle, current experience a
     title: 'Driving School in Dwarka',
     city: 'South West',
     subArea: '(Dwarka)',
-    areaSlug: 'driving-school-in-dwarka', // <-- Yeh unique hai
+    areaSlug: 'dwarka', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -41880,7 +41880,7 @@ faqs: [
     title: 'Driving School in Palam',
     city: 'South West',
     subArea: '(Palam)',
-    areaSlug: 'driving-school-in-palam', // <-- Yeh unique hai
+    areaSlug: 'palam', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -42035,7 +42035,7 @@ faqs: [
     title: 'Driving School in Dabri',
     city: 'South West',
     subArea: '(Dabri)',
-    areaSlug: 'driving-school-in-dabri', // <-- Yeh unique hai
+    areaSlug: 'dabri', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -42190,7 +42190,7 @@ faqs: [
     title: 'Driving School in Janakpuri',
     city: 'South West',
     subArea: '(Janakpuri)',
-    areaSlug: 'driving-school-in-janakpuri', // <-- Yeh unique hai
+    areaSlug: 'janakpuri', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -42345,7 +42345,7 @@ faqs: [
     title: 'Driving School in Sagarpur',
     city: 'South West',
     subArea: '(Sagarpur)',
-    areaSlug: 'driving-school-in-sagarpur', // <-- Yeh unique hai
+    areaSlug: 'sagarpur', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -42499,7 +42499,7 @@ faqs: [
     title: 'Driving School in Najafgarh',
     city: 'South West',
     subArea: '(Najafgarh)',
-    areaSlug: 'driving-school-in-najafgarh', // <-- Yeh unique hai
+    areaSlug: 'najafgarh', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -42654,7 +42654,7 @@ faqs: [
     title: 'Driving School in Mahipalpur',
     city: 'South West',
     subArea: '(Mahipalpur)',
-    areaSlug: 'driving-school-in-mahipalpur', // <-- Yeh unique hai
+    areaSlug: 'mahipalpur', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -42808,7 +42808,7 @@ faqs: [
     title: 'Driving School in Vasant Kunj',
     city: 'South West',
     subArea: '(Vasant Kunj)',
-    areaSlug: 'best-driving-school-in-vasant-kunj', // <-- Yeh unique hai
+    areaSlug: 'vasant-kunj', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -42962,7 +42962,7 @@ faqs: [
     title: 'Driving School in Vasant Vihar',
     city: 'South West',
     subArea: '(Vasant Vihar)',
-    areaSlug: 'best-driving-school-in-vasant-vihar', // <-- Yeh unique hai
+    areaSlug: 'vasant-vihar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -43116,7 +43116,7 @@ faqs: [
     title: 'Driving School in Munirka',
     city: 'South West',
     subArea: '(Dwarka)',
-    areaSlug: 'driving-school-in-munirka', // <-- Yeh unique hai
+    areaSlug: 'munirka', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -43271,7 +43271,7 @@ faqs: [
     title: 'Driving School in RK Puram',
     city: 'South West',
     subArea: '(Rk Puram)',
-    areaSlug: 'driving-school-in-rk-puram', // <-- Yeh unique hai
+    areaSlug: 'rk-puram', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -43424,7 +43424,7 @@ faqs: [
     title: 'Driving School in Kapashera',
     city: 'South West',
     subArea: '(Kapashera)',
-    areaSlug: 'driving-school-in-kapashera', // <-- Yeh unique hai
+    areaSlug: 'kapashera', // <-- Yeh unique hai
     category: 'Car',
     price: '₹2,999',
     trainingDays: '15 Days',
@@ -43578,7 +43578,7 @@ faqs: [
     title: 'Driving School in Bijwasan',
     city: 'South West',
     subArea: '(Bijwasan)',
-    areaSlug: 'driving-school-in-bijwasan', // <-- Yeh unique hai
+    areaSlug: 'bijwasan', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -43732,7 +43732,7 @@ faqs: [
     title: 'Driving School in Chhawla',
     city: 'South West',
     subArea: '(Chhawla)',
-    areaSlug: 'driving-school-in-chhawla', // <-- Yeh unique hai
+    areaSlug: 'chhawla', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -43885,7 +43885,7 @@ faqs: [
     title: 'Driving School in Rajokri',
     city: 'South West',
     subArea: '(Rajokri)',
-    areaSlug: 'driving-school-in-rajokri', // <-- Yeh unique hai
+    areaSlug: 'rajokri', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -44039,7 +44039,7 @@ faqs: [
     title: 'Driving School in Delhi Cantonment',
     city: 'South West',
     subArea: '(Delhi Cantonment)',
-    areaSlug: 'driving-school-in-delhi-cantonment', // <-- Yeh unique hai
+    areaSlug: 'delhi-cantonment', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -44196,7 +44196,7 @@ faqs: [
     title: 'Driving School in Uttam Nagar',
     city: 'West Delhi',
     subArea: '(Uttam Nagar)',
-    areaSlug: 'driving-school-in-uttam-nagar', // <-- Yeh unique hai
+    areaSlug: 'uttam-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -44353,7 +44353,7 @@ a: 'Share your Uttam Nagar locality or local landmark, preferred vehicle, curren
     title: 'Driving School in Dwarka Mor',
     city: 'West Delhi',
     subArea: '(Dwarka Mor)',
-    areaSlug: 'driving-school-in-dwarka-mor', // <-- Yeh unique hai
+    areaSlug: 'dwarka-mor', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -44508,7 +44508,7 @@ a: 'Share your Dwarka Mor landmark or locality, preferred vehicle, current exper
     title: 'Driving School in Janakpuri',
     city: 'West Delhi',
     subArea: '(Janakpuri)',
-    areaSlug: 'driving-school-in-janakpuri', // <-- Yeh unique hai
+    areaSlug: 'janakpuri', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -44663,7 +44663,7 @@ a: 'Share your Janakpuri block or landmark, preferred vehicle, current experienc
     title: 'Driving School in Vikaspuri',
     city: 'West Delhi',
     subArea: '(Vikaspuri)',
-    areaSlug: 'driving-school-in-vikaspuri', // <-- Yeh unique hai
+    areaSlug: 'vikaspuri', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -44817,7 +44817,7 @@ a: 'Share your Vikaspuri block or landmark, preferred vehicle, current experienc
     title: 'Driving School in Tilak Nagar',
     city: 'West Delhi',
     subArea: '(Tilak Nagar)',
-    areaSlug: 'driving-school-in-tilak-nagar', // <-- Yeh unique hai
+    areaSlug: 'tilak-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -44972,7 +44972,7 @@ a: 'Share your Tilak Nagar landmark or street, preferred vehicle, current experi
     title: 'Driving School in Subhash Nagar',
     city: 'West Delhi',
     subArea: '(Subhash Nagar)',
-    areaSlug: 'driving-school-in-subhash-nagar', // <-- Yeh unique hai
+    areaSlug: 'subhash-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -45126,7 +45126,7 @@ a: 'Share your Subhash Nagar block or landmark, preferred vehicle, current exper
     title: 'Driving School in Rajouri Garden',
     city: 'West Delhi',
     subArea: '(Rajouri Garden)',
-    areaSlug: 'driving-school-in-rajouri-garden', // <-- Yeh unique hai
+    areaSlug: 'rajouri-garden', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -45280,7 +45280,7 @@ a: 'Share your Rajouri Garden block or landmark, preferred vehicle, current expe
     title: 'Driving School in Hari Nagar',
     city: 'West Delhi',
     subArea: '(Hari Nagar)',
-    areaSlug: 'driving-school-in-hari-nagar', // <-- Yeh unique hai
+    areaSlug: 'hari-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -45434,7 +45434,7 @@ a: 'Share your Hari Nagar block or landmark, preferred vehicle, current experien
     title: 'Driving School in Nangloi',
     city: 'West Delhi',
     subArea: '(Nangloi)',
-    areaSlug: 'driving-school-in-nangloi', // <-- Yeh unique hai
+    areaSlug: 'nangloi', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -45589,7 +45589,7 @@ a: 'Share your Nangloi locality or landmark, preferred vehicle, current experien
     title: 'Driving School in Paschim Vihar',
     city: 'West Delhi',
     subArea: '(Paschim Vihar)',
-    areaSlug: 'driving-school-in-paschim-vihar', // <-- Yeh unique hai
+    areaSlug: 'paschim-vihar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -45745,7 +45745,7 @@ a: 'Share your Paschim Vihar block or landmark, preferred vehicle, current exper
     title: 'Driving School in Punjabi Bagh',
     city: 'West Delhi',
     subArea: '(Punjabi Bagh)',
-    areaSlug: 'driving-school-in-punjabi-bagh', // <-- Yeh unique hai
+    areaSlug: 'punjabi-bagh', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -45898,7 +45898,7 @@ a: 'Share your Punjabi Bagh block or landmark, preferred vehicle, current experi
     title: 'Driving School in Tagore Garden',
     city: 'West Delhi',
     subArea: '(Tagore Garden)',
-    areaSlug: 'driving-school-in-tagore-garden', // <-- Yeh unique hai
+    areaSlug: 'tagore-garden', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -46052,7 +46052,7 @@ a: 'Share your Tagore Garden block or landmark, preferred vehicle, current exper
     title: 'Driving School in Moti Nagar',
     city: 'West Delhi',
     subArea: '(Moti Nagar)',
-    areaSlug: 'driving-school-in-moti-nagar', // <-- Yeh unique hai
+    areaSlug: 'moti-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -46205,7 +46205,7 @@ a: 'Share your Moti Nagar block or landmark, preferred vehicle, current experien
     title: 'Driving School in Patel Nagar',
     city: 'West Delhi',
     subArea: '(Patel Nagar)',
-    areaSlug: 'driving-school-in-patel-nagar', // <-- Yeh unique hai
+    areaSlug: 'patel-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
@@ -46359,7 +46359,7 @@ a: 'Share your Patel Nagar block or landmark, preferred vehicle, current experie
     title: 'Driving School in Kirti Nagar',
     city: 'West Delhi',
     subArea: '(Kirti Nagar)',
-    areaSlug: 'driving-school-in-Kirti-nagar', // <-- Yeh unique hai
+    areaSlug: 'Kirti-nagar', // <-- Yeh unique hai
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
