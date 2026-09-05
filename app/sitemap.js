@@ -1,9 +1,9 @@
-import { packages } from './app/data'; // Adjust path if your data.ts is located elsewhere
+import { packages } from './data';
 
 export default async function sitemap() {
   const baseUrl = 'https://driveseekho.com';
 
-  // 1. Static Pages
+  // Static Pages
   const staticPages = [
     '',
     '/instructor',
@@ -16,24 +16,41 @@ export default async function sitemap() {
     priority: 1.0,
   }));
 
-  // 2. Dynamic Driving School & 2-Wheeler Pages from packages data
-  const dynamicPages = packages.map((pkg) => {
-    const isBike = pkg.category?.toLowerCase().includes('wheel') || pkg.category?.toLowerCase().includes('bike');
-    const routePrefix = isBike ? '2-wheeler-driving-school-in' : 'driving-school-in';
+  // Dynamic Pages
+  const dynamicPages = packages
+    .filter((pkg) => pkg.areaSlug && pkg.category)
+    .map((pkg) => {
+      const category = pkg.category.toLowerCase().trim();
 
-    return {
-      url: `${baseUrl}/${routePrefix}/${pkg.areaSlug}`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    };
-  });
+      const isBike =
+        category === '2 wheeler' ||
+        category.includes('bike') ||
+        category.includes('scooty') ||
+        category.includes('two-wheeler');
 
-  // Remove duplicate URLs if any slug shares the exact same path
-  const uniquePagesMap = new Map();
-  [...staticPages, ...dynamicPages].forEach((page) => {
-    uniquePagesMap.set(page.url, page);
-  });
+      const routePrefix = isBike
+        ? '2-wheeler-driving-school-in'
+        : 'driving-school-in';
 
-  return Array.from(uniquePagesMap.values());
+      const slug = pkg.areaSlug.trim().toLowerCase();
+
+      return {
+        url: `${baseUrl}/${routePrefix}/${encodeURIComponent(slug)}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.8,
+      };
+    });
+
+  // Remove duplicate URLs
+  const uniquePages = Array.from(
+    new Map(
+      [...staticPages, ...dynamicPages].map((page) => [
+        page.url,
+        page,
+      ])
+    ).values()
+  );
+
+  return uniquePages;
 }
