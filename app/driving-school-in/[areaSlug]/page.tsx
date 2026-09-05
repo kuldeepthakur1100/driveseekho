@@ -14,33 +14,97 @@ export async function generateStaticParams() {
   }));
 }
 
-// 2. Dynamic SEO Metadata for each area page
-export async function generateMetadata({ params }: { params: { areaSlug: string } }) {
-  const pkg = packages.find((p) => p.areaSlug === params.areaSlug);
-  
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ areaSlug: string }>;
+}) {
+  const { areaSlug } = await params;
+
+  const pkg = packages.find((p) => p.areaSlug === areaSlug);
+
   if (!pkg) {
     return {
       title: 'Driving School Not Found | DriveSeekho',
+      description: 'Driving school page not found.',
     };
   }
 
   return {
-    title: `Best Driving School in ${pkg.subArea} | Book Car Classes & Trainers`,
-    description: pkg.seoContent || `Book certified driving instructors in ${pkg.subArea}, ${pkg.city}. Choose manual or automatic cars with doorstep pickup.`,
+    title: pkg.seoTitle || `Best Driving School in ${pkg.subArea} | DriveSeekho`,
+
+    description:
+      pkg.seoDescription ||
+      `Learn car driving in ${pkg.subArea}, ${pkg.city} with professional instructors and practical driving lessons.`,
+
+    keywords: [
+      `driving school in ${pkg.subArea}`,
+      `driving classes in ${pkg.subArea}`,
+      `car driving classes in ${pkg.subArea}`,
+      `driving instructor in ${pkg.subArea}`,
+      `learn car driving in ${pkg.subArea}`,
+      `driving school ${pkg.city}`,
+    ],
+
     alternates: {
       canonical: `https://driveseekho.com/driving-school-in/${pkg.areaSlug}`,
+    },
+
+    openGraph: {
+      title:
+        pkg.seoTitle ||
+        `Best Driving School in ${pkg.subArea} | DriveSeekho`,
+      description:
+        pkg.seoDescription ||
+        `Learn car driving with professional instructors in ${pkg.subArea}.`,
+      url: `https://driveseekho.com/driving-school-in/${pkg.areaSlug}`,
+      siteName: 'DriveSeekho',
+      type: 'website',
+      images: pkg.image
+        ? [
+            {
+              url: pkg.image,
+              width: 1200,
+              height: 630,
+              alt: pkg.title,
+            },
+          ]
+        : [],
+    },
+
+    twitter: {
+      card: 'summary_large_image',
+      title:
+        pkg.seoTitle ||
+        `Best Driving School in ${pkg.subArea} | DriveSeekho`,
+      description:
+        pkg.seoDescription ||
+        `Learn car driving in ${pkg.subArea} with DriveSeekho.`,
+      images: pkg.image ? [pkg.image] : [],
+    },
+
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }
 
 // 3. Main Page Component (Server Component)
-export default function DrivingSchoolDetail({ params }: { params: { areaSlug: string } }) {
-  const { areaSlug } = params;
-  const pkg = packages?.find((p) => p.areaSlug === areaSlug);
+export default async function DrivingSchoolDetail({
+  params,
+}: {
+  params: Promise<{ areaSlug: string }>;
+}) {
+  const { areaSlug } = await params;
+
+  const pkg = packages.find((p) => p.areaSlug === areaSlug);
 
   if (!pkg) {
-    notFound(); // Next.js ka built-in 404 page trigger karega
+    notFound();
   }
+
+  // yahan se tumhara existing JSON-LD + JSX code continue hoga
 
   // JSON-LD Schema for Local SEO
   const jsonLd = {
