@@ -13,7 +13,7 @@ export default function TwoWheelerDrivingSchoolPage() {
     image: 'https://driveseekho.com/logo.png',
     '@id': 'https://driveseekho.com',
     url: 'https://driveseekho.com/2-wheeler-driving-school-near-me',
-    telephone: '+91-9876543210',
+    telephone: '+91-8368510626',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Mayur Vihar Phase 3',
