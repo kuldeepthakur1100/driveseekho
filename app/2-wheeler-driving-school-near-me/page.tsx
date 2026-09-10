@@ -57,7 +57,7 @@ export default function TwoWheelerDrivingSchoolPage() {
             <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl border-2 border-blue-500/30 bg-slate-900">
               <iframe
                 className="absolute inset-0 w-full h-full object-cover"
-                src="https://www.youtube.com/embed/QjRZNoALxJg?autoplay=1&mute=1&loop=1&playlist=QjRZNoALxJg&controls=1&showinfo=0&modestbranding=1"
+                src="https://www.youtube.com/embed/TLz634u7TVM?autoplay=1&mute=1&loop=1&playlist=QjRZNoALxJg&controls=1&showinfo=0&modestbranding=1"
                 title="DriveSeekho 2 Wheeler Training Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
