@@ -48,7 +48,7 @@ export default function TwoWheelerDrivingSchoolPage() {
       />
       <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-600 selection:text-white">
         
-        {/* 1. TOP VIDEO SECTION (Moved to absolute top) */}
+        {/* 1. TOP VIDEO SECTION */}
         <section className="w-full bg-slate-950 py-8 px-4 border-b border-slate-800">
           <div className="max-w-4xl mx-auto text-center">
             <span className="inline-block py-1 px-4 rounded-full bg-blue-600/30 border border-blue-400/40 text-blue-300 text-xs font-semibold tracking-wider uppercase mb-3 backdrop-blur-md">
@@ -57,9 +57,9 @@ export default function TwoWheelerDrivingSchoolPage() {
             <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl border-2 border-blue-500/30 bg-slate-900">
               <iframe
                 className="absolute inset-0 w-full h-full object-cover"
-                src="https://www.youtube.com/embed/TLz634u7TVM?autoplay=1&mute=1&loop=1&playlist=QjRZNoALxJg&controls=1&showinfo=0&modestbranding=1"
+                src="https://www.youtube.com/embed/TLz634u7TVM?autoplay=1&mute=1&loop=1&playlist=TLz634u7TVM&controls=1&playsinline=1&enablejsapi=1&modestbranding=1"
                 title="DriveSeekho 2 Wheeler Training Video"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               ></iframe>
             </div>
@@ -364,14 +364,7 @@ export default function TwoWheelerDrivingSchoolPage() {
           </div>
         </section>
 
-        {/* Footer */}
-        <footer className="bg-slate-950 text-slate-400 py-12 border-t border-slate-800 text-center text-sm">
-          <div className="max-w-7xl mx-auto px-4">
-            <p className="font-bold text-white text-lg mb-2">DriveSeekho</p>
-            <p className="mb-4">Your trusted motor training aggregator partner.</p>
-            <p>© {new Date().getFullYear()} DriveSeekho. All rights reserved.</p>
-          </div>
-        </footer>
+       
 
       </div>
     </>
