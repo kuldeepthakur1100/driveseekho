@@ -104,8 +104,6 @@ export default async function DrivingSchoolDetail({
     notFound();
   }
 
-  // yahan se tumhara existing JSON-LD + JSX code continue hoga
-
   // JSON-LD Schema for Local SEO
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -126,7 +124,7 @@ export default async function DrivingSchoolDetail({
   };
 
   return (
-    <main className="max-w-7xl w-full mx-auto bg-slate-50 min-h-screen relative pb-40 lg:pb-16 selection:bg-blue-600 selection:text-white">
+    <main className="max-w-7xl w-full mx-auto bg-slate-50 min-h-screen relative pb-32 lg:pb-16 selection:bg-blue-600 selection:text-white">
       
       {/* JSON-LD Schema Script Injection */}
       <script
@@ -315,11 +313,11 @@ export default async function DrivingSchoolDetail({
         </div>
       </div>
 
-      {/* 3. Sticky Bottom Action Bar (Mobile Only) */}
-      <div className="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-slate-200/80 p-4 px-5 flex items-center justify-between z-50 lg:hidden shadow-[0_-8px_25px_rgba(0,0,0,0.08)]">
+      {/* 3. Sticky Bottom Action Bar (Mobile Only) - Fix applied here */}
+      <div className="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-slate-200/80 px-4 py-3 flex items-center justify-between z-50 lg:hidden shadow-[0_-8px_25px_rgba(0,0,0,0.08)]">
         <div>
-          <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Total Price</p>
-          <p className="text-[1.4rem] font-black text-slate-900 leading-none tracking-tight">
+          <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider leading-none mb-1">Total Price</p>
+          <p className="text-[1.3rem] font-black text-slate-900 leading-none tracking-tight">
             {pkg.price || '₹4,999'}
           </p>
         </div>
@@ -327,16 +325,17 @@ export default async function DrivingSchoolDetail({
         <div className="flex items-center gap-2">
           <a 
             href={`tel:${pkg.phoneNumber || '+918368510626'}`} 
-            className="bg-slate-100 text-slate-800 p-3.5 rounded-2xl hover:bg-slate-200 active:scale-95 transition-all flex items-center justify-center border border-slate-200"
+            className="bg-slate-100 text-slate-800 p-3 rounded-2xl hover:bg-slate-200 active:scale-95 transition-all flex items-center justify-center border border-slate-200"
+            aria-label="Call Expert"
           >
-            <PhoneCall size={20} strokeWidth={2.5} />
+            <PhoneCall size={18} strokeWidth={2.5} />
           </a>
           <a 
             href={`https://wa.me/${pkg.whatsappNumber || '918368510626'}?text=Hi, I want to book the ${pkg.title} package in ${pkg.subArea}.`} 
             target="_blank"
-            className="bg-[#25D366] text-white font-black text-[14px] px-5 py-3.5 rounded-2xl flex items-center gap-2 shadow-lg shadow-[#25D366]/25 hover:bg-[#20b858] active:scale-95 transition-all"
+            className="bg-[#25D366] text-white font-black text-[13px] px-4 py-3 rounded-2xl flex items-center gap-1.5 shadow-lg shadow-[#25D366]/25 hover:bg-[#20b858] active:scale-95 transition-all"
           >
-            <MessageCircle size={18} strokeWidth={2.5} /> Book Now
+            <MessageCircle size={16} strokeWidth={2.5} /> Book Now
           </a>
         </div>
       </div>
