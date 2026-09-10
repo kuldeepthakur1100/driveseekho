@@ -313,42 +313,96 @@ export default async function DrivingSchoolDetail({
         </div>
       </div>
 
-      {/* 3. Sticky Bottom Action Bar (Mobile Only - Forced via inline style media query equivalent using standard CSS block) */}
-      <div 
-        className="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-slate-200/80 px-4 py-3 items-center justify-between z-50 shadow-[0_-8px_25px_rgba(0,0,0,0.08)]"
-        style={{ display: 'flex' }}
-      >
-        <style jsx>{`
-          @media (min-width: 1024px) {
-            div {
-              display: none !important;
-            }
-          }
-        `}</style>
-        <div>
-          <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider leading-none mb-1">Total Price</p>
-          <p className="text-[1.3rem] font-black text-slate-900 leading-none tracking-tight">
-            {pkg.price || '₹4,999'}
-          </p>
-        </div>
-        
-        <div className="flex items-center gap-2">
-          <a 
-            href={`tel:${pkg.phoneNumber || '+918368510626'}`} 
-            className="bg-slate-100 text-slate-800 p-3 rounded-2xl hover:bg-slate-200 active:scale-95 transition-all flex items-center justify-center border border-slate-200"
-            aria-label="Call Expert"
-          >
-            <PhoneCall size={18} strokeWidth={2.5} />
-          </a>
-          <a 
-            href={`https://wa.me/${pkg.whatsappNumber || '918368510626'}?text=Hi, I want to book the ${pkg.title} package in ${pkg.subArea}.`} 
-            target="_blank"
-            className="bg-[#25D366] text-white font-black text-[13px] px-4 py-3 rounded-2xl flex items-center gap-1.5 shadow-lg shadow-[#25D366]/25 hover:bg-[#20b858] active:scale-95 transition-all"
-          >
-            <MessageCircle size={16} strokeWidth={2.5} /> Book Now
-          </a>
-        </div>
+{/* Sticky Bottom Action Bar - Mobile */}
+<div
+  className="
+    fixed left-3 right-3 bottom-[76px]
+    lg:hidden
+    z-[100]
+    bg-white
+    rounded-2xl
+    border border-slate-200
+    shadow-[0_8px_30px_rgba(15,23,42,0.18)]
+    px-3 py-2.5
+  "
+>
+  <div className="flex items-center gap-3">
+
+    {/* Price */}
+    <div className="flex-1 min-w-0 pl-1">
+      <p className="text-[9px] text-slate-400 font-bold uppercase tracking-wider leading-none mb-1">
+        Starting From
+      </p>
+
+      <div className="flex items-baseline gap-1">
+        <p className="text-[1.25rem] font-black text-slate-900 leading-none tracking-tight whitespace-nowrap">
+          {pkg.price || '₹4,999'}
+        </p>
+
+        <span className="text-[9px] text-slate-400 font-semibold">
+          All Inclusive
+        </span>
       </div>
+    </div>
+
+    {/* Buttons */}
+    <div className="flex items-center gap-2 shrink-0">
+
+      {/* Call Now */}
+      <a
+        href={`tel:${pkg.phoneNumber || '+918368510626'}`}
+        className="
+          h-11
+          px-3.5
+          rounded-xl
+          bg-blue-600
+          hover:bg-blue-700
+          text-white
+          font-black
+          text-[12px]
+          flex items-center justify-center
+          gap-1.5
+          shadow-md shadow-blue-600/20
+          active:scale-[0.96]
+          transition-all
+          whitespace-nowrap
+        "
+        aria-label="Call Now"
+      >
+        <PhoneCall size={16} strokeWidth={2.7} />
+        Call
+      </a>
+
+      {/* Book Now */}
+      <a
+        href={`https://wa.me/${pkg.whatsappNumber || '918368510626'}?text=Hi, I want to book the ${pkg.title} package in ${pkg.subArea}.`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="
+          h-11
+          px-4
+          rounded-xl
+          bg-[#25D366]
+          hover:bg-[#20b858]
+          text-white
+          font-black
+          text-[12px]
+          flex items-center justify-center
+          gap-1.5
+          shadow-md shadow-[#25D366]/25
+          active:scale-[0.96]
+          transition-all
+          whitespace-nowrap
+        "
+        aria-label="Book Now"
+      >
+        <MessageCircle size={16} strokeWidth={2.7} />
+        Book Now
+      </a>
+
+    </div>
+  </div>
+</div>
 
     </main>
   );
