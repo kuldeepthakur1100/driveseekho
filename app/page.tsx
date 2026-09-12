@@ -1,9 +1,9 @@
 'use client';
 
-import { useState, useRef, useEffect, type ComponentType, type Dispatch, type SetStateAction } from 'react';
+import { useState, useRef, type ComponentType, type Dispatch, type SetStateAction } from 'react';
 import Link from 'next/link';
 import { Inter } from 'next/font/google';
-import { Heart, MapPin, Car, Calendar, User, UserCircle, Phone } from 'lucide-react';
+import { Heart, MapPin, Car, Calendar, User, UserCircle } from 'lucide-react';
 import { packages } from './data';
 import FAQ from "@/components/FAQ";
 import LocationSearch from '@/components/LocationSearch';
@@ -18,18 +18,10 @@ const LocationSearchComponent = LocationSearch as ComponentType<{
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
-  const [selectedLocation, setSelectedLocation] = useState('East Delhi');
+  const [selectedLocation, setSelectedLocation] = useState('Central Delhi');
   const [selectedCategory, setSelectedCategory] = useState('Car');
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearchFocused, setIsSearchFocused] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 100);
-    handleScroll();
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   const resultsRef = useRef<HTMLDivElement | null>(null);
 
@@ -104,7 +96,7 @@ export default function Home() {
         <div className="flex items-center justify-between mb-4 max-w-5xl mx-auto px-4 md:px-8">
           <div className="flex items-center gap-2">
             <div className="w-9 h-9 rounded-full bg-white flex items-center justify-center shadow-sm overflow-hidden border border-gray-200 shrink-0">
-              <img src="/images/favicon.ico" alt="Drive Seekho" className="w-full h-full object-cover" onError={(e)=>{e.currentTarget.src="https://placehold.co/100x100/014AAD/ffffff?text=DS"}} />
+              <img src="/images/favicon.ico" alt="Drive Seekho" className="w-full h-full object-cover"/>
             </div>
             <span className="font-extrabold text-gray-900 text-lg tracking-tight">Drive<span className="text-gray-900 font-extrabold">Seekho</span></span>
           </div>
@@ -197,7 +189,6 @@ export default function Home() {
                     src={loc.image}
                     alt={loc.name}
                     className="w-full h-full object-cover"
-                    onError={(e) => { e.currentTarget.src = "https://placehold.co/100x100/eeeeee/999999?text=City" }}
                   />
                 </div>
                 <span className="text-[11px] md:text-[12px] font-bold text-gray-800 text-center max-w-[70px] truncate">
@@ -225,7 +216,6 @@ export default function Home() {
                       src={cat.image}
                       alt={cat.name}
                       className="w-full h-full object-contain"
-                      onError={(e) => { e.currentTarget.src = "https://placehold.co/100x100/eeeeee/999999?text=Icon" }}
                     />
                   </div>
                   <span className="text-[11px] md:text-[13px] font-bold text-gray-800 text-center leading-tight">
@@ -246,7 +236,6 @@ export default function Home() {
                       src={cat.image}
                       alt={cat.name}
                       className="w-full h-full object-contain"
-                      onError={(e) => { e.currentTarget.src = "https://placehold.co/100x100/eeeeee/999999?text=Icon" }}
                     />
                   </div>
                   <span className={`text-[11px] md:text-[13px] font-bold text-center leading-tight ${selectedCategory === cat.name && !searchQuery ? 'text-blue-600' : 'text-gray-800'}`}>
@@ -265,10 +254,9 @@ export default function Home() {
         <div className="w-full relative z-10">
           <div className="w-full h-[130px] md:h-[220px] overflow-hidden shadow-sm rounded-b-[2rem]">
             <img 
-              src="/images/ganeshji.PNG" 
+              src="/images/ganeshji.png" 
               alt="Ganesh Chaturthi Banner" 
               className="w-full h-full object-cover"
-              onError={(e) => { e.currentTarget.src = "https://placehold.co/1200x300/ffd06b/333333?text=Ganesh+Chaturthi+Banner"; }}
             />
           </div>
         </div>
@@ -283,7 +271,6 @@ export default function Home() {
             loop
             playsInline
             src="/videos/banner.mp4"
-            onError={(e) => { e.currentTarget.style.display = 'none'; }}
           />
           <div className="absolute inset-0 bg-black/10 flex items-center justify-center">
             
@@ -318,7 +305,6 @@ export default function Home() {
                 src="/images/instructr12.jpeg"
                 alt="Instructor Training"
                 className="w-full h-full object-cover"
-                onError={(e)=>{e.currentTarget.src="https://placehold.co/400x300/eeeeee/999999?text=Instructor"}}
               />
               <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-lg text-[12px] font-black text-gray-900 flex items-center gap-1 shadow-sm">
                 <span className="text-[#FFB800] text-[14px]">★</span> 4.9 (Expert Trainer)
@@ -360,7 +346,6 @@ export default function Home() {
                               src={pkg.image}
                               alt={pkg.title}
                               className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
-                              onError={(e)=>{e.currentTarget.src="https://placehold.co/400x300/eeeeee/999999?text=Package"}}
                             />
                           ) : (
                             <div className="w-full h-full flex items-center justify-center text-gray-400 font-medium">No Image</div>
@@ -427,23 +412,6 @@ export default function Home() {
       <div className="max-w-5xl mx-auto mt-12 px-4 md:px-8">
         <FAQ />
       </div>
-
-
-   {/* Floating Call to Book Button */}
-      <a 
-        href="tel:+918368510626"
-        className={`fixed right-4 z-50 bg-[#1e5bff] hover:bg-blue-700 text-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 cursor-pointer border-2 border-white/20 ${
-          isScrolled 
-            ? 'bottom-20 w-8 h-8 p-0' 
-            : 'bottom-20 md:bottom-8 px-1.5 py-1.5 gap-1.5 w-auto h-auto'
-        }`}
-        title="Call to Book"
-      >
-        <Phone size={14} className="shrink-0" />
-        <span className={`font-black text-[11px] tracking-wide whitespace-nowrap overflow-hidden transition-all duration-300 ${isScrolled ? 'w-0 opacity-0 hidden' : 'w-auto opacity-100'}`}>
-          Call to Book
-        </span>
-      </a>
       
       <BottomNav />
       
