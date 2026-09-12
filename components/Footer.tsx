@@ -26,7 +26,6 @@ const Footer = () => {
       src="/images/main.png" 
       alt="DriveSeekho Logo" 
       className="h-10 md:h-12 w-auto object-contain"
-      onError={(e) => { e.currentTarget.src = "https://placehold.co/150x50/014AAD/ffffff?text=DriveSeekho"; }}
     />
   </div>
   <p className="text-white text-sm leading-relaxed opacity-90">

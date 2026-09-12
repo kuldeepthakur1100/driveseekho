@@ -18,7 +18,7 @@ const LocationSearchComponent = LocationSearch as ComponentType<{
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
-  const [selectedLocation, setSelectedLocation] = useState('Central Delhi');
+  const [selectedLocation, setSelectedLocation] = useState('East Delhi');
   const [selectedCategory, setSelectedCategory] = useState('Car');
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearchFocused, setIsSearchFocused] = useState(false);
@@ -254,7 +254,7 @@ export default function Home() {
         <div className="w-full relative z-10">
           <div className="w-full h-[130px] md:h-[220px] overflow-hidden shadow-sm rounded-b-[2rem]">
             <img 
-              src="/images/ganeshji.png" 
+              src="/images/ganeshji.PNG" 
               alt="Ganesh Chaturthi Banner" 
               className="w-full h-full object-cover"
             />
