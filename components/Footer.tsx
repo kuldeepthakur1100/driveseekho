@@ -19,17 +19,20 @@ const Footer = () => {
 
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 relative z-10">
         
-        {/* Column 1: Brand Logo */}
-        <div className="space-y-3">
-          <div className="relative flex items-center h-16 px-2">
-  <span className="font-poppins text-2xl font-bold tracking-tight text-gray-900">
-    Drive<span className="text-primary">Seekho</span>
-  </span>
+       {/* Column 1: Brand Logo */}
+<div className="space-y-3">
+  <div className="relative flex items-center h-16 px-2">
+    <img 
+      src="/images/main.png" 
+      alt="DriveSeekho Logo" 
+      className="h-10 md:h-12 w-auto object-contain"
+      onError={(e) => { e.currentTarget.src = "https://placehold.co/150x50/014AAD/ffffff?text=DriveSeekho"; }}
+    />
+  </div>
+  <p className="text-white text-sm leading-relaxed opacity-90">
+    DriveSeekho helps learners find<br></br> trusted driving schools, compare<br></br> packages, and book driving lessons<br></br> online across Delhi NCR.
+  </p>
 </div>
-          <p className="text-white text-sm leading-relaxed opacity-90">
-            DriveSeekho helps learners find<br></br> trusted driving schools, compare<br></br> packages, and book driving lessons<br></br> online across Delhi NCR.
-          </p>
-        </div>
 
         {/* Column 2: Quick Links */}
         <div>
