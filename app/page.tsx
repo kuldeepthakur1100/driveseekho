@@ -265,7 +265,7 @@ export default function Home() {
         <div className="w-full relative z-10">
           <div className="w-full h-[130px] md:h-[220px] overflow-hidden shadow-sm rounded-b-[2rem]">
             <img 
-              src="/images/ganeshji.png" 
+              src="/images/ganeshji.PNG" 
               alt="Ganesh Chaturthi Banner" 
               className="w-full h-full object-cover"
               onError={(e) => { e.currentTarget.src = "https://placehold.co/1200x300/ffd06b/333333?text=Ganesh+Chaturthi+Banner"; }}
