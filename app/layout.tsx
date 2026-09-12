@@ -57,9 +57,11 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#1e5bff",
+  themeColor: "#dce9fd",
   width: "device-width",
   initialScale: 1,
+  maximumScale: 1,
+  userScalable: false, // Isse user pinch zoom nahi kar payega aur layout fix rahega
 };
 
 export default function RootLayout({

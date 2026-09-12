@@ -1,9 +1,9 @@
 'use client';
 
-import { useState, useRef, type ComponentType, type Dispatch, type SetStateAction } from 'react';
+import { useState, useRef, useEffect, type ComponentType, type Dispatch, type SetStateAction } from 'react';
 import Link from 'next/link';
 import { Inter } from 'next/font/google';
-import { Heart, MapPin, Car, Calendar, User } from 'lucide-react';
+import { Heart, MapPin, Car, Calendar, User, UserCircle, Phone } from 'lucide-react';
 import { packages } from './data';
 import FAQ from "@/components/FAQ";
 import LocationSearch from '@/components/LocationSearch';
@@ -21,6 +21,15 @@ export default function Home() {
   const [selectedLocation, setSelectedLocation] = useState('East Delhi');
   const [selectedCategory, setSelectedCategory] = useState('Car');
   const [searchQuery, setSearchQuery] = useState('');
+  const [isSearchFocused, setIsSearchFocused] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setIsScrolled(window.scrollY > 100);
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const resultsRef = useRef<HTMLDivElement | null>(null);
 
@@ -28,7 +37,7 @@ export default function Home() {
     { name: 'East Delhi', image: '/images/east-delhi.jpg' },
     { name: 'Noida', image: '/images/noida.jpg' },
     { name: 'Central Delhi', image: '/images/central-delhi1.jpg' },
-    { name: 'New Delhi', image: '/images/delhi.jpg' },
+    { name: 'New Delhi', image: '/images/central-delhi1.jpg' },
     { name: 'North Delhi', image: '/images/north-delhi.jpg' },
     { name: 'North East', image: '/images/north-east.png' },
     { name: 'North West', image: '/images/north-west-dl.jpg' },
@@ -41,12 +50,13 @@ export default function Home() {
 
   const categories = [
     { name: 'Car', image: '/images/mycarha.png' },
-    { name: '2 wheeler', image: '/images/2wheelerha.png' },
+    { name: 'Bike', image: '/images/2wheelerha.png' },
     { name: 'Instructor', image: '/images/instructor.png' },
     { name: 'License', image: '/images/ohlicense.png' },
   ];
 
   const handleSearchSubmit = () => {
+    setIsSearchFocused(false);
     if (resultsRef.current) {
       resultsRef.current.scrollIntoView({ 
         behavior: 'smooth', 
@@ -76,49 +86,113 @@ export default function Home() {
     return pkgCategory === targetCategory && pkgCity === targetLocation;
   });
 
+  const searchSuggestions = searchQuery.trim() 
+    ? packages.filter(pkg => 
+        pkg.title?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        pkg.subArea?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        pkg.city?.toLowerCase().includes(searchQuery.toLowerCase())
+      ).slice(0, 5)
+    : [];
+
   return (
-    <main className={`max-w-7xl w-full overflow-x-hidden mx-auto bg-[#f6f7fc] min-h-screen pb-20 md:pb-12 relative ${inter.className}`}>
+    <main className={`w-full max-w-[100vw] overflow-x-hidden mx-auto bg-[#f6f7fc] min-h-screen pb-24 md:pb-12 relative ${inter.className}`}>
   
-      {/* 1. Blue Header (Available In) */}
-      <div className="bg-[#014AAD] rounded-b-[2rem] md:rounded-b-[3rem] pt-8 md:pt-12 pb-24 md:pb-32 relative shadow-sm">
+      {/* Light Blue Header Section */}
+      <div className="bg-[#dce9fd] rounded-b-[2rem] pt-4 pb-0 relative shadow-sm w-full">
         
-        {/* Search Bar Container */}
-        <div className="max-w-xl mx-auto mb-3 px-4 md:px-0">
-          <LocationSearchComponent 
-            searchQuery={searchQuery} 
-            setSearchQuery={setSearchQuery}
-            onSearchSubmit={handleSearchSubmit}
-          />
+        {/* Logo & Profile Header */}
+        <div className="flex items-center justify-between mb-4 max-w-5xl mx-auto px-4 md:px-8">
+          <div className="flex items-center gap-2">
+            <div className="w-9 h-9 rounded-full bg-white flex items-center justify-center shadow-sm overflow-hidden border border-gray-200 shrink-0">
+              <img src="/images/favicon.ico" alt="Drive Seekho" className="w-full h-full object-cover" onError={(e)=>{e.currentTarget.src="https://placehold.co/100x100/014AAD/ffffff?text=DS"}} />
+            </div>
+            <span className="font-extrabold text-gray-900 text-lg tracking-tight">Drive<span className="text-gray-900 font-extrabold">Seekho</span></span>
+          </div>
+          <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm text-gray-400 border border-gray-200 cursor-pointer shrink-0">
+            <UserCircle size={24} />
+          </div>
         </div>
 
-       {/* Added Text Below Search Bar (Left Aligned) */}
-<div className="max-w-5xl mx-auto px-4 md:px-0 mb-4">
-  <p className="text-white/80 text-[13px] md:text-[14px] font-medium tracking-wide text-left">
-    Select your location for driving classes
-  </p>
-</div>
+        {/* Search Bar Container with Live Suggestions */}
+        <div className="max-w-xl mx-auto mb-3 px-4 md:px-0 relative z-30 w-full">
+          <div 
+            onFocus={() => setIsSearchFocused(true)}
+            onBlur={() => setTimeout(() => setIsSearchFocused(false), 200)}
+          >
+            <LocationSearchComponent 
+              searchQuery={searchQuery} 
+              setSearchQuery={setSearchQuery}
+              onSearchSubmit={handleSearchSubmit}
+            />
+          </div>
 
-        {/* Location Pills */}
-        <div className="max-w-5xl mx-auto w-full">
-          <div className="flex md:grid md:grid-cols-6 lg:grid-cols-12 gap-4 overflow-x-auto md:overflow-visible px-4 md:px-0 -mx-4 md:mx-0 pb-2 md:pb-0 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+          {/* Live Search Suggestions Dropdown */}
+          {isSearchFocused && searchSuggestions.length > 0 && (
+            <div className="absolute left-4 right-4 md:left-0 md:right-0 mt-2 bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden z-40">
+              <div className="p-2 text-[11px] font-bold text-gray-400 uppercase tracking-wider bg-gray-50 border-b border-gray-100">
+                Suggested Driving Schools & Areas
+              </div>
+              {searchSuggestions.map((item, idx) => {
+                const isBike = item.category?.toLowerCase().includes('wheel') || item.category?.toLowerCase().includes('bike');
+                const targetHref = item.areaSlug 
+                  ? (isBike ? `/2-wheeler-driving-school-in/${item.areaSlug}` : `/driving-school-in/${item.areaSlug}`)
+                  : '#';
+
+                return (
+                  <Link 
+                    key={idx} 
+                    href={targetHref}
+                    className="flex items-center justify-between p-3 hover:bg-blue-50/50 transition border-b border-gray-50 last:border-none cursor-pointer"
+                    onClick={() => setSearchQuery(item.subArea || item.title || '')}
+                  >
+                    <div className="flex items-center gap-2.5">
+                      <div className="w-8 h-8 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
+                        <MapPin size={16} />
+                      </div>
+                      <div>
+                        <p className="text-[13px] font-bold text-gray-900 line-clamp-1">{item.title}</p>
+                        <p className="text-[11px] text-gray-500">{item.subArea}, {item.city} • <span className="text-blue-600 font-bold">{item.price}</span></p>
+                      </div>
+                    </div>
+                    <span className="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-md shrink-0">View</span>
+                  </Link>
+                );
+              })}
+            </div>
+          )}
+        </div>
+
+        {/* Location Selection Notice */}
+        <div className="max-w-5xl mx-auto px-4 md:px-8 mb-3 flex items-center justify-between">
+          <div className="flex flex-col">
+            <span className="text-gray-900 text-[13px] md:text-[14px] font-extrabold flex items-center gap-1.5">
+              Select your location first 
+            </span>
+            
+          </div>
+          <svg className="w-14 h-6 text-gray-700 hidden sm:block shrink-0" viewBox="0 0 60 20" fill="none" stroke="currentColor" strokeWidth="1.8" strokeDasharray="3 3">
+            <path d="M2 15C15 15 25 -2 52 5" />
+            <path d="M45 2L55 5L47 11" fill="none" strokeDasharray="1 0" />
+          </svg>
+        </div>
+
+        {/* Location Horizontal Scroll Pills (Edge to Edge) */}
+        <div className="w-full mb-4">
+          <div className="flex gap-3 overflow-x-auto px-4 md:px-8 pb-2 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
             {locations.map((loc, index) => (
               <div
-                key={loc.name}
+                key={index}
                 onClick={() => {
                   setSelectedLocation(loc.name);
+                  setSelectedCategory('Car');
                   setSearchQuery('');
                   if (resultsRef.current) {
-                    resultsRef.current.scrollIntoView({ 
-                      behavior: 'smooth', 
-                      block: 'start' 
-                    });
+                    resultsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
                   }
                 }}
-                className={`flex flex-col items-center gap-2 cursor-pointer min-w-[72px] group ${
-                  index === 0 ? 'pl-4 md:pl-0' : ''
-                } ${index === locations.length - 1 ? 'pr-4 md:pr-0' : ''}`}
+                className="flex flex-col items-center gap-1.5 cursor-pointer shrink-0 group"
               >
-                <div className={`w-[70px] h-[70px] md:w-[76px] md:h-[76px] rounded-full overflow-hidden flex items-center justify-center transition-all duration-300 border-[2.5px] group-hover:scale-105 ${selectedLocation === loc.name && !searchQuery ? 'border-white shadow-lg' : 'border-white/40'}`}>
+                <div className={`w-[58px] h-[58px] md:w-[65px] md:h-[65px] rounded-full overflow-hidden flex items-center justify-center transition-all duration-300 border-2 ${selectedLocation === loc.name && !searchQuery ? 'border-blue-600 shadow-md scale-105' : 'border-white shadow-sm'}`}>
                   <img
                     src={loc.image}
                     alt={loc.name}
@@ -126,7 +200,7 @@ export default function Home() {
                     onError={(e) => { e.currentTarget.src = "https://placehold.co/100x100/eeeeee/999999?text=City" }}
                   />
                 </div>
-                <span className={`text-[11px] md:text-[12px] font-black text-center ${selectedLocation === loc.name && !searchQuery ? 'text-white' : 'text-white/70'}`}>
+                <span className="text-[11px] md:text-[12px] font-bold text-gray-800 text-center max-w-[70px] truncate">
                   {loc.name}
                 </span>
               </div>
@@ -134,12 +208,9 @@ export default function Home() {
           </div>
         </div>
 
-      </div>
-
-      {/* 2. Overlapping Card (Select Service) */}
-      <div className="max-w-3xl mx-auto px-4 md:px-8 -mt-16 md:-mt-20 relative z-10 mb-10">
-        <div className="bg-white rounded-[2rem] shadow-[0_10px_35px_rgb(0,0,0,0.08)] p-3 md:p-4 border border-gray-100">
-          <div className="grid grid-cols-4 gap-2 md:gap-4">
+        {/* Categories Grid (Car, Bike, Instructor, License) */}
+        <div className="max-w-5xl mx-auto px-4 md:px-8 mb-4">
+          <div className="grid grid-cols-4 gap-3">
             {categories.map((cat) => {
               const isLicense = cat.name === 'License';
 
@@ -147,9 +218,9 @@ export default function Home() {
                 <Link
                   href="/driving-license"
                   key={cat.name}
-                  className="py-2 px-1 rounded-2xl flex flex-col items-center justify-center gap-2 cursor-pointer transition-all duration-200 border-2 border-transparent bg-white hover:border-gray-100 hover:bg-gray-50/50"
+                  className="bg-white py-3 px-2 rounded-2xl flex flex-col items-center justify-center gap-2 shadow-sm border border-gray-100 hover:shadow-md transition"
                 >
-                  <div className="w-[50px] h-[50px] md:w-[65px] md:h-[65px] relative bg-white rounded-full flex items-center justify-center p-1">
+                  <div className="w-[45px] h-[45px] md:w-[55px] md:h-[55px] relative bg-gray-50 rounded-full flex items-center justify-center p-1 shrink-0">
                     <img
                       src={cat.image}
                       alt={cat.name}
@@ -157,7 +228,7 @@ export default function Home() {
                       onError={(e) => { e.currentTarget.src = "https://placehold.co/100x100/eeeeee/999999?text=Icon" }}
                     />
                   </div>
-                  <span className="text-[11px] md:text-[13px] font-black text-center leading-tight text-gray-700">
+                  <span className="text-[11px] md:text-[13px] font-bold text-gray-800 text-center leading-tight">
                     {cat.name}
                   </span>
                 </Link>
@@ -168,9 +239,9 @@ export default function Home() {
                     setSelectedCategory(cat.name);
                     setSearchQuery('');
                   }}
-                  className={`py-2 px-1 rounded-2xl flex flex-col items-center justify-center gap-2 cursor-pointer transition-all duration-200 border-2 ${selectedCategory === cat.name && !searchQuery ? 'border-blue-600 bg-blue-50/30 shadow-sm' : 'border-transparent bg-white hover:border-gray-100 hover:bg-gray-50/50'}`}
+                  className={`bg-white py-3 px-2 rounded-2xl flex flex-col items-center justify-center gap-2 cursor-pointer shadow-sm border transition-all ${selectedCategory === cat.name && !searchQuery ? 'border-blue-500 ring-2 ring-blue-100' : 'border-gray-100 hover:shadow-md'}`}
                 >
-                  <div className="w-[50px] h-[50px] md:w-[65px] md:h-[65px] relative bg-white rounded-full flex items-center justify-center p-1">
+                  <div className="w-[45px] h-[45px] md:w-[55px] md:h-[55px] relative bg-gray-50 rounded-full flex items-center justify-center p-1 shrink-0">
                     <img
                       src={cat.image}
                       alt={cat.name}
@@ -178,7 +249,7 @@ export default function Home() {
                       onError={(e) => { e.currentTarget.src = "https://placehold.co/100x100/eeeeee/999999?text=Icon" }}
                     />
                   </div>
-                  <span className={`text-[11px] md:text-[13px] font-black text-center leading-tight ${selectedCategory === cat.name && !searchQuery ? 'text-blue-600' : 'text-gray-700'}`}>
+                  <span className={`text-[11px] md:text-[13px] font-bold text-center leading-tight ${selectedCategory === cat.name && !searchQuery ? 'text-blue-600' : 'text-gray-800'}`}>
                     {cat.name}
                   </span>
                 </div>
@@ -186,27 +257,44 @@ export default function Home() {
             })}
           </div>
         </div>
-      </div>
 
+       {/* Thin Black Line / Divider */}
+        <div className="w-full h-[1px] bg-black/20 my-0"></div>
+
+       {/* Wide Screen-Edge-to-Edge Promotional Image Banner with Rounded Bottom Corners */}
+        <div className="w-full relative z-10">
+          <div className="w-full h-[130px] md:h-[220px] overflow-hidden shadow-sm rounded-b-[2rem]">
+            <img 
+              src="/images/ganeshji.png" 
+              alt="Ganesh Chaturthi Banner" 
+              className="w-full h-full object-cover"
+              onError={(e) => { e.currentTarget.src = "https://placehold.co/1200x300/ffd06b/333333?text=Ganesh+Chaturthi+Banner"; }}
+            />
+          </div>
+        </div>
+      </div>
       {/* Video Banner Section */}
-      <div className="max-w-6xl mx-auto px-1 md:px-0 mb-10 mt-6">
-        <div className="relative w-full h-[220px] md:h-[380px] overflow-hidden rounded-[1.2rem] shadow-[0_10px_30px_rgba(0,0,0,0.1)]">
+      <div className="max-w-5xl mx-auto px-2 md:px-8 mb-6 mt-4">
+        <div className="relative w-full h-[180px] md:h-[280px] overflow-hidden rounded-2xl shadow-sm bg-blue-100 flex items-center justify-center border border-blue-200">
           <video
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover absolute inset-0"
             autoPlay
             muted
             loop
             playsInline
             src="/videos/banner.mp4"
+            onError={(e) => { e.currentTarget.style.display = 'none'; }}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+          <div className="absolute inset-0 bg-black/10 flex items-center justify-center">
+            
+          </div>
         </div>
       </div>
 
-      {/* 3. Packages or Search Results Section */}
-      <div ref={resultsRef} className="max-w-6xl mx-auto px-4 md:px-6 space-y-6 pt-2">
+      {/* Packages or Search Results Section */}
+      <div ref={resultsRef} className="max-w-5xl mx-auto px-4 md:px-8 space-y-6 pt-2">
         <div className="flex items-center justify-between">
-          <h2 className="text-[1.2rem] md:text-[1.6rem] font-extrabold text-gray-900 tracking-tight">
+          <h2 className="text-[1.1rem] md:text-[1.4rem] font-extrabold text-gray-900 tracking-tight">
             {searchQuery 
               ? `Search Results for "${searchQuery}"`
               : selectedCategory === 'Instructor' 
@@ -216,7 +304,7 @@ export default function Home() {
           {searchQuery && (
             <button 
               onClick={() => setSearchQuery('')}
-              className="text-xs md:text-sm font-bold text-blue-600 hover:underline"
+              className="text-xs md:text-sm font-bold text-blue-600 hover:underline shrink-0"
             >
               Clear Search
             </button>
@@ -224,14 +312,15 @@ export default function Home() {
         </div>
         
         {selectedCategory === 'Instructor' && !searchQuery ? (
-          <div className="max-w-xl mx-auto bg-white rounded-[2rem] p-6 md:p-8 shadow-[0_4px_25px_rgba(0,0,0,0.05)] border border-gray-100 text-center space-y-5">
-            <div className="w-full h-[220px] md:h-[260px] bg-gray-100 rounded-[1.2rem] overflow-hidden relative">
+          <div className="max-w-xl mx-auto bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 text-center space-y-5">
+            <div className="w-full h-[220px] md:h-[260px] bg-gray-100 rounded-xl overflow-hidden relative">
               <img
                 src="/images/instructr12.jpeg"
                 alt="Instructor Training"
                 className="w-full h-full object-cover"
+                onError={(e)=>{e.currentTarget.src="https://placehold.co/400x300/eeeeee/999999?text=Instructor"}}
               />
-              <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-[10px] text-[12px] font-black text-gray-900 flex items-center gap-1 shadow-sm">
+              <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-lg text-[12px] font-black text-gray-900 flex items-center gap-1 shadow-sm">
                 <span className="text-[#FFB800] text-[14px]">★</span> 4.9 (Expert Trainer)
               </div>
             </div>
@@ -254,70 +343,69 @@ export default function Home() {
               {filteredPackages.map((pkg, index) => {
                 const isBike = pkg.category?.toLowerCase().includes('wheel') || pkg.category?.toLowerCase().includes('bike');
                 
-                // Proper SEO-friendly route routing
                 const dynamicHref = pkg.areaSlug 
                   ? (isBike ? `/2-wheeler-driving-school-in/${pkg.areaSlug}` : `/driving-school-in/${pkg.areaSlug}`)
                   : '#';
 
-                // Composite key to fix the duplicate key crash for shared slugs
                 const uniqueKey = `${pkg.areaSlug}-${pkg.category || 'car'}-${index}`;
 
                 return (
                   <Link href={dynamicHref} key={uniqueKey} className="block group h-full">
-                    <div className="bg-white rounded-[1.5rem] p-3.5 shadow-[0_4px_20px_rgba(0,0,0,0.04)] border border-gray-100 relative group-hover:border-blue-200 group-hover:shadow-xl transition-all duration-300 flex flex-col justify-between h-full">
+                    <div className="bg-white rounded-2xl p-3.5 shadow-sm border border-gray-100 relative group-hover:border-blue-200 group-hover:shadow-md transition-all duration-300 flex flex-col justify-between h-full">
                       
                       <div>
-                        <div className="w-full h-[190px] md:h-[210px] bg-gray-100 rounded-[1.1rem] overflow-hidden relative mb-4">
+                        <div className="w-full h-[180px] bg-gray-100 rounded-xl overflow-hidden relative mb-4">
                           {pkg.image ? (
                             <img
                               src={pkg.image}
                               alt={pkg.title}
                               className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
+                              onError={(e)=>{e.currentTarget.src="https://placehold.co/400x300/eeeeee/999999?text=Package"}}
                             />
                           ) : (
                             <div className="w-full h-full flex items-center justify-center text-gray-400 font-medium">No Image</div>
                           )}
                           
-                          <button className="absolute top-4 right-4 z-10 bg-white/95 backdrop-blur-md p-2 rounded-full text-gray-400 hover:text-red-500 shadow-sm transition">
-                            <Heart size={20} strokeWidth={2.5} />
+                          <button className="absolute top-3 right-3 z-10 bg-white/95 backdrop-blur-md p-2 rounded-full text-gray-400 hover:text-red-500 shadow-sm transition">
+                            <Heart size={18} strokeWidth={2.5} />
                           </button>
                         </div>
 
                         <div className="px-1">
-                          <h3 className="font-black text-gray-900 text-[1.25rem] md:text-[1.3rem] leading-tight mb-1.5 line-clamp-1">{pkg.title}</h3>
+                          <h3 className="font-black text-gray-900 text-[1.15rem] leading-tight mb-1.5 line-clamp-1">{pkg.title}</h3>
                          
-                          <div className="flex items-center gap-1 text-gray-500 text-[13px] font-medium mb-4">
+                          <div className="flex items-center gap-1 text-gray-500 text-[13px] font-medium mb-3">
                             <MapPin size={14} className="text-blue-500 shrink-0" />
                             <span className="truncate">{pkg.subArea}, {pkg.city}</span>
                           </div>
 
-                          <div className="flex flex-wrap gap-2 mb-4">
-                            <div className="flex items-center gap-1.5 bg-[#f6f7fc] px-3 py-1.5 rounded-[10px] text-[11px] font-bold text-gray-700">
-                              <Car size={14} className="text-blue-500 shrink-0" />
-                              <span className="truncate max-w-[120px]">{pkg.carName || 'Hatchback Car'}</span>
+                          <div className="flex flex-wrap gap-2 mb-3">
+                            <div className="flex items-center gap-1.5 bg-[#f6f7fc] px-2.5 py-1 rounded-lg text-[11px] font-bold text-gray-700">
+                              <Car size={13} className="text-blue-500 shrink-0" />
+                              <span className="truncate max-w-[110px]">{pkg.carName || 'Hatchback'}</span>
                             </div>
-                            <div className="flex items-center gap-1.5 bg-[#f6f7fc] px-3 py-1.5 rounded-[10px] text-[11px] font-bold text-gray-700">
-                              <Calendar size={14} className="text-blue-500 shrink-0" />
+                            <div className="flex items-center gap-1.5 bg-[#f6f7fc] px-2.5 py-1 rounded-lg text-[11px] font-bold text-gray-700">
+                              <Calendar size={13} className="text-blue-500 shrink-0" />
                               {pkg.trainingDays || '15 Days'}
                             </div>
                           </div>
                         </div>
                       </div>
 
-                      <div className="border-t border-gray-100 pt-4 pb-1 px-1 flex justify-between items-end mt-auto">
-                        <div className="flex items-center gap-2.5">
-                          <div className="w-9 h-9 bg-blue-50 rounded-full flex items-center justify-center text-blue-600 border border-blue-100 shrink-0">
-                            <User size={16} strokeWidth={2.5} />
+                      <div className="border-t border-gray-100 pt-3 pb-1 px-1 flex justify-between items-end mt-auto">
+                        <div className="flex items-center gap-2">
+                          <div className="w-8 h-8 bg-blue-50 rounded-full flex items-center justify-center text-blue-600 border border-blue-100 shrink-0">
+                            <User size={14} strokeWidth={2.5} />
                           </div>
                           <div>
-                            <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-0.5">Instructor</p>
-                            <p className="text-[12px] font-black text-gray-900 truncate max-w-[100px] md:max-w-[120px]">{pkg.instructorName || 'Certified'}</p>
+                            <p className="text-[9px] text-gray-400 font-bold uppercase tracking-wider">Instructor</p>
+                            <p className="text-[11px] font-black text-gray-900 truncate max-w-[90px]">{pkg.instructorName || 'Certified'}</p>
                           </div>
                         </div>
                        
                         <div className="text-right">
-                          <p className="font-black text-[1.5rem] md:text-[1.6rem] text-[#1e5bff] leading-none tracking-tight">{pkg.price}</p>
-                          <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mt-1.5">Total Fee</p>
+                          <p className="font-black text-[1.3rem] text-[#1e5bff] leading-none tracking-tight">{pkg.price}</p>
+                          <p className="text-[9px] text-gray-400 font-bold uppercase tracking-wider mt-1">Total Fee</p>
                         </div>
                       </div>
 
@@ -327,7 +415,7 @@ export default function Home() {
               })}
             </div>
           ) : (
-            <div className="text-center py-12 px-5 bg-white rounded-[2rem] shadow-sm text-gray-500 border border-gray-100 max-w-xl mx-auto">
+            <div className="text-center py-12 px-5 bg-white rounded-2xl shadow-sm text-gray-500 border border-gray-100 max-w-xl mx-auto">
               <p className="font-medium text-gray-600">
                 {searchQuery ? `No packages found for "${searchQuery}"` : `No ${selectedCategory} packages available in ${selectedLocation}.`}
               </p>
@@ -336,9 +424,26 @@ export default function Home() {
         )}
       </div>
 
-      <div className="max-w-6xl mx-auto mt-12">
+      <div className="max-w-5xl mx-auto mt-12 px-4 md:px-8">
         <FAQ />
       </div>
+
+
+   {/* Floating Call to Book Button */}
+      <a 
+        href="tel:+918368510626"
+        className={`fixed right-4 z-50 bg-[#1e5bff] hover:bg-blue-700 text-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 cursor-pointer border-2 border-white/20 ${
+          isScrolled 
+            ? 'bottom-20 w-8 h-8 p-0' 
+            : 'bottom-20 md:bottom-8 px-1.5 py-1.5 gap-1.5 w-auto h-auto'
+        }`}
+        title="Call to Book"
+      >
+        <Phone size={14} className="shrink-0" />
+        <span className={`font-black text-[11px] tracking-wide whitespace-nowrap overflow-hidden transition-all duration-300 ${isScrolled ? 'w-0 opacity-0 hidden' : 'w-auto opacity-100'}`}>
+          Call to Book
+        </span>
+      </a>
       
       <BottomNav />
       
