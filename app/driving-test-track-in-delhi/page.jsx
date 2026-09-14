@@ -34,7 +34,7 @@ export default function DrivingTestTrackPage() {
         <div className="relative w-full h-[240px] md:h-[420px] overflow-hidden rounded-[2rem] shadow-2xl shadow-slate-300 bg-slate-900 mb-12 border border-slate-200">
           <iframe
             className="w-full h-full object-cover pointer-events-none scale-125"
-            src="https://www.youtube.com/embed/EfyJ35sAUIo?autoplay=1&mute=1&loop=1&playlist=EfyJ35sAUIo&controls=0&showinfo=0&rel=0"
+            src="https://www.youtube.com/embed/O6rZ2xSECdQ?autoplay=1&mute=1&loop=1&playlist=O6rZ2xSECdQ&controls=0&showinfo=0&rel=0"
             title="Live Track Training View"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             frameBorder="0"
