@@ -2221,7 +2221,7 @@ faqs: [
     subArea: '(Ganesh Nagar, School Block, Laxmi nagar )',
     areaSlug: 'shakarpur', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
-    price: '₹2,999',
+    price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: 'Gaurav',
     image: '/images/grandi10.jpg', 
