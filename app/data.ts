@@ -11415,11 +11415,11 @@ faqs: [
     price: '₹3,299',
     trainingDays: '15 Days',
     instructorName: '',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -11534,11 +11534,11 @@ faqs: [
     price: '₹2,999',
     trainingDays: '15 Days',
     instructorName: '',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -11655,11 +11655,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: 'Shahid Ali',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -11784,11 +11784,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: 'Shahid Ali',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -11909,11 +11909,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: 'Shahid Ali',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -12035,11 +12035,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: 'Shahid Ali',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -12164,11 +12164,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: 'Shahid Ali',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -12296,11 +12296,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: 'Shahid Ali',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -12423,11 +12423,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: 'Shahid Ali',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -12550,11 +12550,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: 'Shahid Ali',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -12679,11 +12679,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: 'Shahid Ali',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -12809,11 +12809,11 @@ faqs: [
     price: '₹2,999',
     trainingDays: '15 Days',
     instructorName: '',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -12938,11 +12938,11 @@ faqs: [
     price: '₹2,999',
     trainingDays: '15 Days',
     instructorName: '',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -13446,11 +13446,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: '',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -13576,11 +13576,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: '',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -13704,11 +13704,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: '',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -13834,11 +13834,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: 'Shahid Ali',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -13932,11 +13932,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: 'Shahid Ali',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
@@ -14062,11 +14062,11 @@ faqs: [
     price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: 'Shahid Ali',
-    image: '/images/wagnor.jpg',  
+    image: '/images/newswift.png',  
     features: ['Good Condition Car', 'Free Pick & Drop'],
     
     // --- Nayi Details Yahan Se Shuru ---
-    carName: 'Wagnor Manual (Dual Control)',
+    carName: 'Swift Manual (Dual Control)',
     dailyRide: '30 Minutes / Day',
     pickupDrop: 'Free Doorstep',
     phoneNumber: '+918368510626',  // Apna real calling number daalein
