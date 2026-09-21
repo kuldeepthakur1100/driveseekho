@@ -1640,7 +1640,7 @@ faqs: [
     subArea: '(Mother Daity, Mandawali)',
     areaSlug: 'mandawali', // <-- Yeh bilkul alag hai (Koi error nahi aayega)
     category: 'Car',
-    price: '₹2,999',
+    price: '₹3,499',
     trainingDays: '15 Days',
     instructorName: 'Gaurav',
     image: '/images/oldswift.png', 
