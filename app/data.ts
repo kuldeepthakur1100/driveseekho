@@ -1333,7 +1333,7 @@ faqs: [
     price: '₹2,999',
     trainingDays: '15 Days',
     instructorName: 'Nanda',
-    image: '/images/Wagnor.jpg', 
+    image: '/images/wagnor.jpg', 
     features: ['Experienced Instructor'],
     
     // --- Nayi Details Yahan Se Shuru ---
