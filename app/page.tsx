@@ -105,8 +105,8 @@ export default function Home() {
   return (
     <main className={`w-full min-h-screen bg-[#f6f7fc] pb-28 md:pb-16 relative overflow-x-hidden ${inter.className}`}>
   
-      {/* Light Blue Header Section */}
-      <div className="bg-[#dce9fd] rounded-b-[2.5rem] pt-5 pb-6 relative shadow-sm w-full">
+      {/* Light Blue Header Section - pb-0 ensures no bottom spacing */}
+      <div className="bg-[#dce9fd] rounded-b-[2.5rem] pt-5 pb-0 relative shadow-sm w-full">
         
         {/* Logo & Profile Header */}
         <div className="flex items-center justify-between mb-5 max-w-6xl mx-auto px-4 md:px-8">
@@ -180,7 +180,7 @@ export default function Home() {
           </span>
         </div>
 
-        {/* Location Horizontal Scroll (Scrolls smooth on mobile, wraps/scrolls cleanly on desktop) */}
+        {/* Location Horizontal Scroll */}
         <div className="max-w-6xl mx-auto px-4 md:px-8 mb-5">
           <div className="flex gap-4 overflow-x-auto pb-2 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
             {locations.map((loc, index) => (
@@ -211,8 +211,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Categories Grid (Optimized for Mobile, Tab, and Desktop) */}
-        <div className="max-w-4xl mx-auto px-4 md:px-8 mb-2">
+        {/* Categories Grid (mb-0 ensures zero gap with banner below) */}
+        <div className="max-w-4xl mx-auto px-4 md:px-8 mb-0">
           <div className="grid grid-cols-4 gap-3 md:gap-5">
             {categories.map((cat) => {
               const isLicense = cat.name === 'License';
@@ -251,27 +251,15 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Divider */}
-        <div className="w-full h-[1px] bg-black/10 my-4"></div>
-
-         {/* Wide Screen-Edge-to-Edge Promotional Image Banner with Rounded Bottom Corners */}
-
-        <div className="w-full relative z-10">
-
-          <div className="w-full h-[130px] md:h-[220px] overflow-hidden shadow-sm rounded-b-[2rem]">
-
-            <img
-
-              src="/images/ganeshji.PNG"
-
-              alt="Ganesh Chaturthi Banner"
-
+        {/* Ganeshji Promotional Banner - Touching the cards directly with a slight overlap */}
+        <div className="w-full relative z-10 -mt-2 md:-mt-3">
+          <div className="w-full h-[130px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[2.5rem]">
+            <img 
+              src="/images/ganeshji.PNG" 
+              alt="Ganesh Chaturthi Banner" 
               className="w-full h-full object-cover"
-
             />
-
           </div>
-
         </div>
 
       </div>
@@ -426,10 +414,10 @@ export default function Home() {
         <FAQ />
       </div>
       
-      {/* Smart Sticky "Call Now" Button (Shrinks on scroll down, Expands on top) */}
+      {/* Smart Sticky "Call Now" Button */}
       <div className="fixed bottom-20 md:bottom-8 right-4 md:right-8 z-40 transition-all duration-300">
         <a
-          href="tel:+918368510626" // Apna actual phone number yahan daal do
+          href="tel:+918368510626"
           className={`flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white shadow-xl hover:shadow-2xl transition-all duration-300 rounded-full border-2 border-white/20 active:scale-95 ${
             isScrolled 
               ? 'w-12 h-12 md:w-14 md:h-14 p-0' 
@@ -446,7 +434,7 @@ export default function Home() {
         </a>
       </div>
 
-      {/* Bottom Nav Bar */}
+      {/* Bottom Navigation */}
       <BottomNav />
       
     </main>
