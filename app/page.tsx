@@ -254,16 +254,26 @@ export default function Home() {
         {/* Divider */}
         <div className="w-full h-[1px] bg-black/10 my-4"></div>
 
-        {/* Wide Promotional Banner */}
-        <div className="max-w-6xl mx-auto px-4 md:px-8 relative z-10">
-          <div className="w-full h-[140px] sm:h-[190px] md:h-[240px] lg:h-[280px] overflow-hidden shadow-sm rounded-2xl md:rounded-3xl">
-            <img 
-              src="/images/ganeshji.PNG" 
-              alt="Promotional Banner" 
+         {/* Wide Screen-Edge-to-Edge Promotional Image Banner with Rounded Bottom Corners */}
+
+        <div className="w-full relative z-10">
+
+          <div className="w-full h-[130px] md:h-[220px] overflow-hidden shadow-sm rounded-b-[2rem]">
+
+            <img
+
+              src="/images/ganeshji.PNG"
+
+              alt="Ganesh Chaturthi Banner"
+
               className="w-full h-full object-cover"
+
             />
+
           </div>
+
         </div>
+
       </div>
 
       {/* Video Banner Section */}
@@ -419,7 +429,7 @@ export default function Home() {
       {/* Smart Sticky "Call Now" Button (Shrinks on scroll down, Expands on top) */}
       <div className="fixed bottom-20 md:bottom-8 right-4 md:right-8 z-40 transition-all duration-300">
         <a
-          href="tel:+919876543210" // Apna actual phone number yahan daal do
+          href="tel:+918368510626" // Apna actual phone number yahan daal do
           className={`flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white shadow-xl hover:shadow-2xl transition-all duration-300 rounded-full border-2 border-white/20 active:scale-95 ${
             isScrolled 
               ? 'w-12 h-12 md:w-14 md:h-14 p-0' 
