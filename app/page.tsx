@@ -262,7 +262,7 @@ export default function Home() {
             <img 
               src="/images/gani.png" 
               alt="Ganesh Chaturthi Banner" 
-              className="w-full h-full object-contain"
+              className="w-full h-full object-cover"
             />
           </div>
         </div>
