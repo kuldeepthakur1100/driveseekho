@@ -260,7 +260,7 @@ export default function Home() {
         <div className="w-full relative z-10">
           <div className="w-full h-[130px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[2.5rem]">
             <img 
-              src="/images/ganeshji.PNG" 
+              src="/images/ganeshji.png" 
               alt="Ganesh Chaturthi Banner" 
               className="w-full h-full object-cover"
             />
