@@ -211,8 +211,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Categories Grid (mb-0 ensures zero gap with banner below) */}
-        <div className="max-w-4xl mx-auto px-4 md:px-8 mb-0">
+      {/* Categories Grid (Optimized for Mobile, Tab, and Desktop) */}
+        <div className="max-w-4xl mx-auto px-4 md:px-8 mb-2">
           <div className="grid grid-cols-4 gap-3 md:gap-5">
             {categories.map((cat) => {
               const isLicense = cat.name === 'License';
@@ -251,8 +251,13 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Ganeshji Promotional Banner - Touching the cards directly with a slight overlap */}
-        <div className="w-full relative z-10 -mt-2 md:-mt-3">
+        {/* Clean, Subtle Divider Line */}
+        <div className="w-full px-4 md:px-8 my-3">
+          <div className="w-full h-[1px] bg-blue-300/40"></div>
+        </div>
+
+        {/* Ganeshji Promotional Banner with Clean Spacing */}
+        <div className="w-full relative z-10">
           <div className="w-full h-[130px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[2.5rem]">
             <img 
               src="/images/ganeshji.PNG" 
@@ -263,6 +268,7 @@ export default function Home() {
         </div>
 
       </div>
+
 
       {/* Video Banner Section */}
       <div className="max-w-6xl mx-auto px-4 md:px-8 mb-8 mt-6">
@@ -414,10 +420,10 @@ export default function Home() {
         <FAQ />
       </div>
       
-      {/* Smart Sticky "Call Now" Button */}
+      {/* Smart Sticky "Call Now" Button (Shrinks on scroll down, Expands on top) */}
       <div className="fixed bottom-20 md:bottom-8 right-4 md:right-8 z-40 transition-all duration-300">
         <a
-          href="tel:+918368510626"
+          href="tel:+918368510626" // Apna actual phone number yahan daal do
           className={`flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white shadow-xl hover:shadow-2xl transition-all duration-300 rounded-full border-2 border-white/20 active:scale-95 ${
             isScrolled 
               ? 'w-12 h-12 md:w-14 md:h-14 p-0' 
@@ -434,7 +440,7 @@ export default function Home() {
         </a>
       </div>
 
-      {/* Bottom Navigation */}
+      {/* Bottom Nav Bar */}
       <BottomNav />
       
     </main>
