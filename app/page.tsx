@@ -216,21 +216,47 @@ export default function Home() {
           <div className="grid grid-cols-4 gap-3 md:gap-5">
             {categories.map((cat) => {
               const isLicense = cat.name === 'License';
+              // Check if category is Bike / 2 Wheeler
+              const isBikeCategory = cat.name === 'Bike' || cat.name === '2 Wheeler';
 
-              return isLicense ? (
-                <Link
-                  href="/driving-license"
-                  key={cat.name}
-                  className="bg-white py-3 md:py-4 px-2 rounded-2xl flex flex-col items-center justify-center gap-2 shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-200 transition-all group"
-                >
-                  <div className="w-12 h-12 md:w-14 md:h-14 relative bg-gray-50 rounded-full flex items-center justify-center p-1.5 shrink-0 group-hover:scale-110 transition-transform">
-                    <img src={cat.image} alt={cat.name} className="w-full h-full object-contain" />
-                  </div>
-                  <span className="text-xs md:text-sm font-bold text-gray-800 text-center">
-                    {cat.name}
-                  </span>
-                </Link>
-              ) : (
+              // 1. Driving License Page Link
+              if (isLicense) {
+                return (
+                  <Link
+                    href="/driving-license"
+                    key={cat.name}
+                    className="bg-white py-3 md:py-4 px-2 rounded-2xl flex flex-col items-center justify-center gap-2 shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-200 transition-all group"
+                  >
+                    <div className="w-12 h-12 md:w-14 md:h-14 relative bg-gray-50 rounded-full flex items-center justify-center p-1.5 shrink-0 group-hover:scale-110 transition-transform">
+                      <img src={cat.image} alt={cat.name} className="w-full h-full object-contain" />
+                    </div>
+                    <span className="text-xs md:text-sm font-bold text-gray-800 text-center">
+                      {cat.name}
+                    </span>
+                  </Link>
+                );
+              }
+
+              // 2. Two Wheeler / Bike Direct Booking Page Link
+              if (isBikeCategory) {
+                return (
+                  <Link
+                    href="/two-wheelerbooking"
+                    key={cat.name}
+                    className="bg-white py-3 md:py-4 px-2 rounded-2xl flex flex-col items-center justify-center gap-2 shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-200 transition-all group"
+                  >
+                    <div className="w-12 h-12 md:w-14 md:h-14 relative bg-gray-50 rounded-full flex items-center justify-center p-1.5 shrink-0 group-hover:scale-110 transition-transform">
+                      <img src={cat.image} alt={cat.name} className="w-full h-full object-contain" />
+                    </div>
+                    <span className="text-xs md:text-sm font-bold text-gray-800 text-center">
+                      {cat.name}
+                    </span>
+                  </Link>
+                );
+              }
+
+              // 3. Regular Categories (Car, Instructor, etc.)
+              return (
                 <div
                   key={cat.name}
                   onClick={() => {
