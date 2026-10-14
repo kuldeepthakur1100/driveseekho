@@ -106,20 +106,20 @@ export default function Home() {
     <main className={`w-full min-h-screen bg-[#f6f7fc] pb-28 md:pb-16 relative overflow-x-hidden ${inter.className}`}>
   
       {/* Light Blue Header Section - pb-0 ensures no bottom spacing */}
-      <div className="bg-[#dce9fd] rounded-b-[2.5rem] pt-5 pb-0 relative shadow-sm w-full">
+    <div className="bg-gradient-to-r from-[#eef6ff] via-[#e3efff] to-[#e6faf7] text-slate-900 rounded-b-[2.5rem] pt-5 pb-0 relative shadow-sm border-b border-cyan-100/80 w-full">
         
         {/* Logo & Profile Header */}
-        <div className="flex items-center justify-between mb-5 max-w-6xl mx-auto px-4 md:px-8">
-          <div className="flex items-center gap-2.5">
-            <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm overflow-hidden border border-gray-200 shrink-0">
-              <img src="/images/favicon.ico" alt="Drive Seekho" className="w-full h-full object-cover"/>
-            </div>
-            <span className="font-extrabold text-gray-900 text-xl tracking-tight">Drive<span className="text-blue-600 font-extrabold">Seekho</span></span>
-          </div>
-          <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm text-gray-500 border border-gray-200 cursor-pointer hover:bg-gray-50 transition shrink-0">
-            <UserCircle size={26} />
-          </div>
-        </div>
+<div className="flex items-center justify-between mb-5 max-w-6xl mx-auto px-4 md:px-8">
+  <img 
+    src="/images/drive.png" 
+    alt="Drive Seekho" 
+    className="h-9 sm:h-12 w-auto object-contain cursor-pointer"
+  />
+
+  <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm text-gray-500 border border-gray-200 cursor-pointer hover:bg-gray-50 transition shrink-0">
+    <UserCircle size={26} />
+  </div>
+</div>
 
         {/* Search Bar Container */}
         <div className="max-w-2xl mx-auto mb-4 px-4 relative z-30 w-full">
