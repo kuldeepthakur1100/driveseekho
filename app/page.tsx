@@ -284,7 +284,7 @@ export default function Home() {
 
         {/* Ganeshji Promotional Banner with Clean Spacing */}
         <div className="w-full relative z-10">
-          <div className="w-full h-[95px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[1.5rem]">
+          <div className="w-full h-[120px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[1.5rem]">
             <img 
               src="/images/mata.PNG" 
               alt="Ganesh Chaturthi Banner" 
