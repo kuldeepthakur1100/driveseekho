@@ -10,7 +10,7 @@ export default function BottomNav() {
     { name: 'Home', href: '/', icon: Home },
     { name: 'License', href: '/driving-license', icon: FileText },
     { name: 'Our Students', href: '/achievers', icon: Trophy },
-    { name: 'Driving Track', href: '/driving-test-track-in-delhi', icon: Route, price: '₹499' },
+    { name: 'RTO Track', href: '/driving-test-track-in-delhi', icon: Route, price: '₹499' },
   ];
 
   return (
