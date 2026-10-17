@@ -8,6 +8,7 @@ import { packages } from './data';
 import FAQ from "@/components/FAQ";
 import LocationSearch from '@/components/LocationSearch';
 import BottomNav from '@/components/BottomNav';
+import PopupModal from '@/components/PopupModal'; // 👈 1. YAHAN IMPORT KIYA GAYA HAI
 
 const LocationSearchComponent = LocationSearch as ComponentType<{
   searchQuery: string;
@@ -104,22 +105,25 @@ export default function Home() {
 
   return (
     <main className={`w-full min-h-screen bg-[#f6f7fc] pb-28 md:pb-16 relative overflow-x-hidden ${inter.className}`}>
-  
-      {/* Light Blue Header Section - pb-0 ensures no bottom spacing */}
-    <div className="bg-gradient-to-r from-[#eef6ff] via-[#e3efff] to-[#e6faf7] text-slate-900 rounded-b-[2.5rem] pt-5 pb-0 relative shadow-sm border-b border-cyan-100/80 w-full">
+      
+      {/* 👈 2. 5-SECOND POPUP MODAL YAHAN ADD KIYA GAYA HAI */}
+      <PopupModal />
+
+      {/* Light Blue Header Section */}
+      <div className="bg-gradient-to-r from-[#eef6ff] via-[#e3efff] to-[#e6faf7] text-slate-900 rounded-b-[2.5rem] pt-5 pb-0 relative shadow-sm border-b border-cyan-100/80 w-full">
         
         {/* Logo & Profile Header */}
-<div className="flex items-center justify-between mb-5 max-w-6xl mx-auto px-4 md:px-8">
-  <img 
-    src="/images/drive.png" 
-    alt="Drive Seekho" 
-    className="h-9 sm:h-12 w-auto object-contain cursor-pointer"
-  />
+        <div className="flex items-center justify-between mb-5 max-w-6xl mx-auto px-4 md:px-8">
+          <img 
+            src="/images/drive.png" 
+            alt="Drive Seekho" 
+            className="h-9 sm:h-12 w-auto object-contain cursor-pointer"
+          />
 
-  <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm text-gray-500 border border-gray-200 cursor-pointer hover:bg-gray-50 transition shrink-0">
-    <UserCircle size={26} />
-  </div>
-</div>
+          <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm text-gray-500 border border-gray-200 cursor-pointer hover:bg-gray-50 transition shrink-0">
+            <UserCircle size={26} />
+          </div>
+        </div>
 
         {/* Search Bar Container */}
         <div className="max-w-2xl mx-auto mb-4 px-4 relative z-30 w-full">
@@ -159,7 +163,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="text-sm font-bold text-gray-900 line-clamp-1">{item.title}</p>
-                        <p className="text-xs text-gray-500">{item.subArea}, {item.city} • <span className="text-blue-600 font-bold">{item.price}</span></p>
+                        <p className="text-xs text-gray-500">{item.subArea}, {item.city} <span className="text-blue-600 font-bold">{item.price}</span></p>
                       </div>
                     </div>
                     <span className="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-md shrink-0">View</span>
@@ -211,15 +215,13 @@ export default function Home() {
           </div>
         </div>
 
-      {/* Categories Grid (Optimized for Mobile, Tab, and Desktop) */}
+        {/* Categories Grid */}
         <div className="max-w-4xl mx-auto px-4 md:px-8 mb-2">
           <div className="grid grid-cols-4 gap-3 md:gap-5">
             {categories.map((cat) => {
               const isLicense = cat.name === 'License';
-              // Check if category is Bike / 2 Wheeler
               const isBikeCategory = cat.name === 'Bike' || cat.name === '2 Wheeler';
 
-              // 1. Driving License Page Link
               if (isLicense) {
                 return (
                   <Link
@@ -237,7 +239,6 @@ export default function Home() {
                 );
               }
 
-              // 2. Two Wheeler / Bike Direct Booking Page Link
               if (isBikeCategory) {
                 return (
                   <Link
@@ -255,7 +256,6 @@ export default function Home() {
                 );
               }
 
-              // 3. Regular Categories (Car, Instructor, etc.)
               return (
                 <div
                   key={cat.name}
@@ -282,19 +282,18 @@ export default function Home() {
           <div className="w-full h-[1px] bg-blue-300/40"></div>
         </div>
 
-        {/* Ganeshji Promotional Banner with Clean Spacing */}
+        {/* Promotional Banner */}
         <div className="w-full relative z-10">
           <div className="w-full h-[120px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[1.5rem]">
             <img 
               src="/images/mata.PNG" 
-              alt="Ganesh Chaturthi Banner" 
+              alt="Promotional Banner" 
               className="w-full h-full object-cover rounded-b-[1.5rem] transition-transform duration-500 hover:scale-105"
             />
           </div>
         </div>
 
       </div>
-
 
       {/* Video Banner Section */}
       <div className="max-w-6xl mx-auto px-4 md:px-8 mb-8 mt-6">
@@ -446,10 +445,10 @@ export default function Home() {
         <FAQ />
       </div>
       
-      {/* Smart Sticky "Call Now" Button (Shrinks on scroll down, Expands on top) */}
+      {/* Smart Sticky "Call Now" Button */}
       <div className="fixed bottom-20 md:bottom-8 right-4 md:right-8 z-40 transition-all duration-300">
         <a
-          href="tel:+918368510626" // Apna actual phone number yahan daal do
+          href="tel:+918368510626"
           className={`flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white shadow-xl hover:shadow-2xl transition-all duration-300 rounded-full border-2 border-white/20 active:scale-95 ${
             isScrolled 
               ? 'w-12 h-12 md:w-14 md:h-14 p-0' 

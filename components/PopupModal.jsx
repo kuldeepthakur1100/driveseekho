@@ -55,7 +55,7 @@ export default function PopupModal() {
 
         {/* Your Image/Post */}
         <img
-          src="/your-poper.png" // yahan apni image ka path de dein (public folder me rakh sakte hain)
+          src="/poper.png" // yahan apni image ka path de dein (public folder me rakh sakte hain)
           alt="Announcement"
           className="w-full h-auto object-cover block"
         />
