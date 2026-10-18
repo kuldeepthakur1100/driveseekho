@@ -8,7 +8,7 @@ import { packages } from './data';
 import FAQ from "@/components/FAQ";
 import LocationSearch from '@/components/LocationSearch';
 import BottomNav from '@/components/BottomNav';
-import PopupModal from '@/components/PopupModal'; // 👈 1. YAHAN IMPORT KIYA GAYA HAI
+
 
 const LocationSearchComponent = LocationSearch as ComponentType<{
   searchQuery: string;
@@ -106,8 +106,7 @@ export default function Home() {
   return (
     <main className={`w-full min-h-screen bg-[#f6f7fc] pb-28 md:pb-16 relative overflow-x-hidden ${inter.className}`}>
       
-      {/* 👈 2. 5-SECOND POPUP MODAL YAHAN ADD KIYA GAYA HAI */}
-      <PopupModal />
+      
 
       {/* Light Blue Header Section */}
       <div className="bg-gradient-to-r from-[#eef6ff] via-[#e3efff] to-[#e6faf7] text-slate-900 rounded-b-[2.5rem] pt-5 pb-0 relative shadow-sm border-b border-cyan-100/80 w-full">
