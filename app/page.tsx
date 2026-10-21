@@ -283,7 +283,7 @@ export default function Home() {
 
         {/* Promotional Banner */}
         <div className="w-full relative z-10">
-          <div className="w-full h-[120px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[1.5rem]">
+          <div className="w-full h-[100px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[1.5rem]">
             <img 
               src="/images/leartodrive.png" 
               alt="Promotional Banner" 
