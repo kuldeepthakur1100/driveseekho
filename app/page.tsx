@@ -285,7 +285,7 @@ export default function Home() {
         <div className="w-full relative z-10">
           <div className="w-full h-[120px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[1.5rem]">
             <img 
-              src="/images/mata.PNG" 
+              src="/images/leartodrive.png" 
               alt="Promotional Banner" 
               className="w-full h-full object-cover rounded-b-[1.5rem] transition-transform duration-500 hover:scale-105"
             />
