@@ -9,6 +9,7 @@ import FAQ from "@/components/FAQ";
 import LocationSearch from '@/components/LocationSearch';
 import BottomNav from '@/components/BottomNav';
 
+
 const LocationSearchComponent = LocationSearch as ComponentType<{
   searchQuery: string;
   setSearchQuery: Dispatch<SetStateAction<string>>;
@@ -103,88 +104,73 @@ export default function Home() {
     : [];
 
   return (
-    <main className={`w-full min-h-screen bg-[#f6f7fc] pb-24 md:pb-16 relative overflow-x-hidden ${inter.className}`}>
+    <main className={`w-full min-h-screen bg-[#f6f7fc] pb-28 md:pb-16 relative overflow-x-hidden ${inter.className}`}>
       
+      
+
       {/* Light Blue Header Section */}
-      <div className="bg-gradient-to-r from-[#eef6ff] via-[#e3efff] to-[#e6faf7] text-slate-900 rounded-b-[2rem] md:rounded-b-[3rem] pt-4 md:pt-6 pb-0 relative shadow-sm border-b border-cyan-100/80 w-full">
+      <div className="bg-gradient-to-r from-[#f8bb2d] via-[#f8bb2d] to-[#f8bb2d] text-slate-900 rounded-b-[2.5rem] pt-5 pb-0 relative shadow-sm border-b border-cyan-100/80 w-full">
         
-        {/* DESKTOP-FRIENDLY NAVBAR: Logo + Search + Profile in One Row on Desktop */}
-        <div className="max-w-6xl mx-auto px-4 md:px-8 mb-5">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 md:gap-8">
-            
-            {/* Top row on Mobile, Left-aligned on Desktop */}
-            <div className="flex items-center justify-between w-full md:w-auto">
-              <Link href="/">
-                <img 
-                  src="/images/drive.png" 
-                  alt="Drive Seekho" 
-                  className="h-9 sm:h-11 md:h-12 w-auto object-contain cursor-pointer"
-                />
-              </Link>
+        {/* Logo & Profile Header */}
+        <div className="flex items-center justify-between mb-5 max-w-6xl mx-auto px-4 md:px-8">
+          <img 
+            src="/images/drive.png" 
+            alt="Drive Seekho" 
+            className="h-9 sm:h-12 w-auto object-contain cursor-pointer"
+          />
 
-              {/* Profile icon visible only on Mobile right top */}
-              <div className="md:hidden w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm text-gray-500 border border-gray-200 cursor-pointer hover:bg-gray-50 transition shrink-0">
-                <UserCircle size={26} />
-              </div>
-            </div>
-
-            {/* Search Bar: Centered with max-w on Desktop, Full width on Mobile */}
-            <div className="w-full md:max-w-xl lg:max-w-2xl relative z-30">
-              <div 
-                onFocus={() => setIsSearchFocused(true)}
-                onBlur={() => setTimeout(() => setIsSearchFocused(false), 200)}
-              >
-                <LocationSearchComponent 
-                  searchQuery={searchQuery} 
-                  setSearchQuery={setSearchQuery} 
-                  onSearchSubmit={handleSearchSubmit}
-                />
-              </div>
-
-              {/* Suggestions Dropdown */}
-              {isSearchFocused && searchSuggestions.length > 0 && (
-                <div className="absolute left-0 right-0 mt-2 bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden z-40">
-                  <div className="p-2.5 text-[11px] font-bold text-gray-400 uppercase tracking-wider bg-gray-50 border-b border-gray-100">
-                    Suggested Driving Schools & Areas
-                  </div>
-                  {searchSuggestions.map((item, idx) => {
-                    const isBike = item.category?.toLowerCase().includes('wheel') || item.category?.toLowerCase().includes('bike');
-                    const targetHref = item.areaSlug 
-                      ? (isBike ? `/2-wheeler-driving-school-in/${item.areaSlug}` : `/driving-school-in/${item.areaSlug}`)
-                      : '#';
-
-                    return (
-                      <Link 
-                        key={idx} 
-                        href={targetHref} 
-                        className="flex items-center justify-between p-3.5 hover:bg-blue-50/50 transition border-b border-gray-50 last:border-none cursor-pointer"
-                        onClick={() => setSearchQuery(item.subArea || item.title || '')}
-                      >
-                        <div className="flex items-center gap-3">
-                          <div className="w-9 h-9 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
-                            <MapPin size={18} />
-                          </div>
-                          <div>
-                            <p className="text-sm font-bold text-gray-900 line-clamp-1">{item.title}</p>
-                            <p className="text-xs text-gray-500">{item.subArea}, {item.city} <span className="text-blue-600 font-bold">{item.price}</span></p>
-                          </div>
-                        </div>
-                        <span className="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-md shrink-0">View</span>
-                      </Link>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-
-            {/* Profile icon visible only on Desktop */}
-            <div className="hidden md:flex items-center gap-3 shrink-0">
-              <div className="w-11 h-11 rounded-full bg-white flex items-center justify-center shadow-sm text-gray-600 border border-gray-200 cursor-pointer hover:bg-gray-50 hover:text-blue-600 transition">
-                <UserCircle size={28} />
-              </div>
-            </div>
-
+          <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm text-gray-500 border border-gray-200 cursor-pointer hover:bg-gray-50 transition shrink-0">
+            <UserCircle size={26} />
           </div>
+        </div>
+
+        {/* Search Bar Container */}
+        <div className="max-w-2xl mx-auto mb-4 px-4 relative z-30 w-full">
+          <div 
+            onFocus={() => setIsSearchFocused(true)}
+            onBlur={() => setTimeout(() => setIsSearchFocused(false), 200)}
+          >
+            <LocationSearchComponent 
+              searchQuery={searchQuery} 
+              setSearchQuery={setSearchQuery} 
+              onSearchSubmit={handleSearchSubmit}
+            />
+          </div>
+
+          {/* Suggestions Dropdown */}
+          {isSearchFocused && searchSuggestions.length > 0 && (
+            <div className="absolute left-4 right-4 mt-2 bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden z-40">
+              <div className="p-2.5 text-[11px] font-bold text-gray-400 uppercase tracking-wider bg-gray-50 border-b border-gray-100">
+                Suggested Driving Schools & Areas
+              </div>
+              {searchSuggestions.map((item, idx) => {
+                const isBike = item.category?.toLowerCase().includes('wheel') || item.category?.toLowerCase().includes('bike');
+                const targetHref = item.areaSlug 
+                  ? (isBike ? `/2-wheeler-driving-school-in/${item.areaSlug}` : `/driving-school-in/${item.areaSlug}`)
+                  : '#';
+
+                return (
+                  <Link 
+                    key={idx} 
+                    href={targetHref}
+                    className="flex items-center justify-between p-3.5 hover:bg-blue-50/50 transition border-b border-gray-50 last:border-none cursor-pointer"
+                    onClick={() => setSearchQuery(item.subArea || item.title || '')}
+                  >
+                    <div className="flex items-center gap-3">
+                      <div className="w-9 h-9 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
+                        <MapPin size={18} />
+                      </div>
+                      <div>
+                        <p className="text-sm font-bold text-gray-900 line-clamp-1">{item.title}</p>
+                        <p className="text-xs text-gray-500">{item.subArea}, {item.city} <span className="text-blue-600 font-bold">{item.price}</span></p>
+                      </div>
+                    </div>
+                    <span className="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-md shrink-0">View</span>
+                  </Link>
+                );
+              })}
+            </div>
+          )}
         </div>
 
         {/* Location Notice */}
@@ -229,8 +215,8 @@ export default function Home() {
         </div>
 
         {/* Categories Grid */}
-        <div className="max-w-4xl mx-auto px-4 md:px-8 mb-4">
-          <div className="grid grid-cols-4 gap-3 md:gap-6">
+        <div className="max-w-4xl mx-auto px-4 md:px-8 mb-2">
+          <div className="grid grid-cols-4 gap-3 md:gap-5">
             {categories.map((cat) => {
               const isLicense = cat.name === 'License';
               const isBikeCategory = cat.name === 'Bike' || cat.name === '2 Wheeler';
@@ -240,9 +226,9 @@ export default function Home() {
                   <Link
                     href="/driving-license"
                     key={cat.name}
-                    className="bg-white py-3.5 md:py-5 px-3 rounded-2xl flex flex-col items-center justify-center gap-2 shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-200 transition-all group"
+                    className="bg-white py-3 md:py-4 px-2 rounded-2xl flex flex-col items-center justify-center gap-2 shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-200 transition-all group"
                   >
-                    <div className="w-12 h-12 md:w-16 md:h-16 relative bg-gray-50 rounded-full flex items-center justify-center p-1.5 shrink-0 group-hover:scale-110 transition-transform">
+                    <div className="w-12 h-12 md:w-14 md:h-14 relative bg-gray-50 rounded-full flex items-center justify-center p-1.5 shrink-0 group-hover:scale-110 transition-transform">
                       <img src={cat.image} alt={cat.name} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm font-bold text-gray-800 text-center">
@@ -257,9 +243,9 @@ export default function Home() {
                   <Link
                     href="/two-wheelerbooking"
                     key={cat.name}
-                    className="bg-white py-3.5 md:py-5 px-3 rounded-2xl flex flex-col items-center justify-center gap-2 shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-200 transition-all group"
+                    className="bg-white py-3 md:py-4 px-2 rounded-2xl flex flex-col items-center justify-center gap-2 shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-200 transition-all group"
                   >
-                    <div className="w-12 h-12 md:w-16 md:h-16 relative bg-gray-50 rounded-full flex items-center justify-center p-1.5 shrink-0 group-hover:scale-110 transition-transform">
+                    <div className="w-12 h-12 md:w-14 md:h-14 relative bg-gray-50 rounded-full flex items-center justify-center p-1.5 shrink-0 group-hover:scale-110 transition-transform">
                       <img src={cat.image} alt={cat.name} className="w-full h-full object-contain" />
                     </div>
                     <span className="text-xs md:text-sm font-bold text-gray-800 text-center">
@@ -276,9 +262,9 @@ export default function Home() {
                     setSelectedCategory(cat.name);
                     setSearchQuery('');
                   }}
-                  className={`bg-white py-3.5 md:py-5 px-3 rounded-2xl flex flex-col items-center justify-center gap-2 cursor-pointer shadow-sm border transition-all group ${selectedCategory === cat.name && !searchQuery ? 'border-blue-500 ring-2 ring-blue-200 shadow-md' : 'border-gray-100 hover:shadow-md hover:border-blue-100'}`}
+                  className={`bg-white py-3 md:py-4 px-2 rounded-2xl flex flex-col items-center justify-center gap-2 cursor-pointer shadow-sm border transition-all group ${selectedCategory === cat.name && !searchQuery ? 'border-blue-500 ring-2 ring-blue-200 shadow-md' : 'border-gray-100 hover:shadow-md hover:border-blue-100'}`}
                 >
-                  <div className="w-12 h-12 md:w-16 md:h-16 relative bg-gray-50 rounded-full flex items-center justify-center p-1.5 shrink-0 group-hover:scale-110 transition-transform">
+                  <div className="w-12 h-12 md:w-14 md:h-14 relative bg-gray-50 rounded-full flex items-center justify-center p-1.5 shrink-0 group-hover:scale-110 transition-transform">
                     <img src={cat.image} alt={cat.name} className="w-full h-full object-contain" />
                   </div>
                   <span className={`text-xs md:text-sm font-bold text-center ${selectedCategory === cat.name && !searchQuery ? 'text-blue-600' : 'text-gray-800'}`}>
@@ -297,11 +283,11 @@ export default function Home() {
 
         {/* Promotional Banner */}
         <div className="w-full relative z-10">
-          <div className="w-full h-[110px] sm:h-[160px] md:h-[220px] overflow-hidden shadow-sm rounded-b-[1.5rem] md:rounded-b-[2.5rem]">
+          <div className="w-full h-[100px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[1.5rem]">
             <img 
               src="/images/leartodrive.png" 
               alt="Promotional Banner" 
-              className="w-full h-full object-cover rounded-b-[1.5rem] md:rounded-b-[2.5rem] transition-transform duration-500 hover:scale-105"
+              className="w-full h-full object-cover rounded-b-[1.5rem] transition-transform duration-500 hover:scale-105"
             />
           </div>
         </div>
@@ -478,10 +464,8 @@ export default function Home() {
         </a>
       </div>
 
-      {/* Bottom Nav Bar (Mobile Only) */}
-      <div className="md:hidden">
-        <BottomNav />
-      </div>
+      {/* Bottom Nav Bar */}
+      <BottomNav />
       
     </main>
   );
