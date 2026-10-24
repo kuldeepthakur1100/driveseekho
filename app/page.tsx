@@ -277,9 +277,9 @@ export default function Home() {
         </div>
 
         {/* Clean, Subtle Divider Line */}
-        <div className="w-full px-4 md:px-8 my-3">
-          <div className="w-full h-[1px] bg-blue-300/40"></div>
-        </div>
+       <div className="w-full px-4 md:px-8 my-3">
+  <div className="w-full h-[1px] bg-white"></div>
+</div>
 
        {/* Promotional Banner */}
 <div className="w-full relative z-10">
@@ -298,18 +298,18 @@ export default function Home() {
       </div>
 
       {/* Video Banner Section */}
-      <div className="max-w-6xl mx-auto px-4 md:px-8 mb-8 mt-6">
-        <div className="relative w-full h-[190px] sm:h-[260px] md:h-[340px] lg:h-[400px] overflow-hidden rounded-2xl md:rounded-3xl shadow-sm bg-blue-100 flex items-center justify-center border border-blue-200">
-          <video
-            className="w-full h-full object-cover absolute inset-0"
-            autoPlay
-            muted
-            loop
-            playsInline
-            src="/videos/banner.mp4"
-          />
-        </div>
-      </div>
+<div className="w-full max-w-7xl mx-auto px-0 sm:px-4 md:px-8 mt-4 md:mt-6 mb-8">
+  <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] md:h-[380px] lg:h-[440px] overflow-hidden rounded-none sm:rounded-2xl md:rounded-3xl shadow-sm bg-neutral-900 border-y sm:border border-white/10">
+    <video
+      className="w-full h-full object-cover pointer-events-none"
+      autoPlay
+      muted
+      loop
+      playsInline
+      src="/videos/banner.mp4"
+    />
+  </div>
+</div>
 
       {/* Packages or Search Results Section */}
       <div ref={resultsRef} className="max-w-6xl mx-auto px-4 md:px-8 space-y-6 pt-2">
