@@ -281,16 +281,19 @@ export default function Home() {
           <div className="w-full h-[1px] bg-blue-300/40"></div>
         </div>
 
-        {/* Promotional Banner */}
-        <div className="w-full relative z-10">
-          <div className="w-full h-[100px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[1.5rem]">
-            <img 
-              src="/images/leartodrive.png" 
-              alt="Promotional Banner" 
-              className="w-full h-full object-cover rounded-b-[1.5rem] transition-transform duration-500 hover:scale-105"
-            />
-          </div>
-        </div>
+       {/* Promotional Banner */}
+<div className="w-full relative z-10">
+  <div className="w-full h-[100px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[1.5rem]">
+    <video
+      src="/videos/diwali.mp4"
+      autoPlay
+      loop
+      muted
+      playsInline
+      className="w-full h-full object-cover rounded-b-[1.2rem] transition-transform duration-500 hover:scale-105 pointer-events-none"
+    />
+  </div>
+</div>
 
       </div>
 
