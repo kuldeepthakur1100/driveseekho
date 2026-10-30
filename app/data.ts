@@ -787,9 +787,9 @@ Easy, fast online booking
     category: 'Car',
     price: '₹3,499',
     trainingDays: '15 Days',
-    instructorName: '',
-    image: '/images/wagnor.jpg', 
-    features: ['Experienced Instructor'],
+    instructorName: 'Shiva',
+    image: '/images/i10.jpeg', 
+    features: ['Experienced Instructor, Free Pickup & Drop, Good Condition Car, Flexible Timings, Affordable Fees, Beginner Friendly, License Assistance'],
     
     // --- Nayi Details Yahan Se Shuru ---
     carName: 'i10 (Dual Control)',
@@ -799,46 +799,44 @@ Easy, fast online booking
     whatsappNumber: '918368510626',
     
    // --- SEO & FAQs ---
-seoTitle: 'Driving School in Laxmi Nagar | Best Car Driving Classes Near You',
+seoTitle: 'Professional Car Driving Classes in Laxmi Nagar, Nirman Vihar & Preet Vihar | DriveSeekho',
 
 seoDescription:
-  'Looking for the best Driving School in Laxmi Nagar? Learn car driving with certified instructors, free pickup & drop, affordable fees, flexible timings, and easy online booking.',
+  'Vikas Marg ke bumper-to-bumper traffic se lekar Mayur Vihar ADTT clear karne tak—seekhiye certified trainers ke saath, 100% dual-control safety cars par.',
 
-seoContent: `DriveSeekho brings you one of the most trusted Driving School in Laxmi Nagar services, helping beginners and experienced learners master car driving with confidence. Our Driving School in Laxmi Nagar is designed to provide practical, hands-on training with experienced instructors who understand Delhi traffic conditions and focus on safe driving techniques.
+seoContent: `DriveSeekho is East Delhi's dedicated driving training aggregator, connecting learners with top-rated, RTO-certified motor driving schools in Laxmi Nagar and surrounding neighborhoods. Whether you are stepping behind the wheel for the first time or upgrading your skills for daily city commutes, our partner schools deliver hands-on, road-first training tailored to Delhi-NCR traffic conditions.
 
-Every student joining our Driving School in Laxmi Nagar receives personalized training in dual-control vehicles, ensuring a safe and comfortable learning experience. From understanding vehicle controls to driving confidently on busy roads, our instructors teach clutch control, gear shifting, reverse parking, parallel parking, lane discipline, defensive driving, traffic management, hill starts, and emergency braking. Each lesson is structured to build confidence gradually and improve real-world driving skills.
+Learning to drive in Laxmi Nagar comes with specific challenges—from stop-and-go crawls along Vikas Marg to navigating the tight lanes of Shakarpur and School Block. Training sessions are conducted strictly on dual-control vehicles (instructor-fitted emergency clutch and brake), ensuring complete safety while you master half-clutch balance, bumper-to-bumper spatial awareness, reverse parallel parking, and slope balancing on flyover inclines.
 
-Our Driving School in Laxmi Nagar offers flexible class timings with morning and evening batches, making it convenient for students, office professionals, homemakers, and senior citizens. We also provide free doorstep pickup and drop services across Laxmi Nagar, Shakarpur, Nirman Vihar, Preet Vihar, IP Extension, Patparganj, Pandav Nagar, Geeta Colony, Krishna Nagar, and nearby locations, allowing learners to start their training without any hassle.
+Curriculums are aligned directly with the automated testing parameters of the Mayur Vihar ADTT (Automated Driving Test Track). Learners receive focused practice on track maneuvers including the automated Reverse 'S', 8-track steering navigation, and gradient hill stops, maximizing first-attempt clearance for permanent driving licenses.
 
-Choosing DriveSeekho's Driving School in Laxmi Nagar means learning from certified driving instructors who provide complete practical guidance for both everyday driving and the driving license test. Whether you're driving a car for the very first time or want to improve your existing skills, our practical approach ensures that you become a confident, responsible, and safe driver.
+Flexible morning and evening batches accommodate college students, working professionals, and homemakers. Our network schools offer convenient doorstep pickup and drop across Laxmi Nagar, Nirman Vihar, Preet Vihar, Shakarpur, Pandav Nagar, IP Extension, Patparganj, Geeta Colony, and Krishna Nagar.
 
-DriveSeekho makes it easy to compare the best Driving School in Laxmi Nagar based on instructor ratings, driving course fees, training duration, customer reviews, and available vehicle options before booking online. Our commitment is to provide affordable, transparent, and high-quality driving education with complete customer satisfaction.
+Through DriveSeekho, learners can easily compare verified driving schools near Laxmi Nagar by student ratings, transparent course fees, instructor experience, and vehicle types (manual hatchback, sedan, or automatic/AMT) before booking online with guaranteed seat availability.
 
-Why choose our Driving School in Laxmi Nagar?
+Key Highlights of Booking via DriveSeekho:
 
-• Certified & Experienced Driving Instructors
-• Affordable Driving Course Packages
-• Free Doorstep Pickup & Drop
-• Dual-Control Training Cars
-• Manual & Automatic Car Driving Lessons
-• Flexible Morning & Evening Batches
-• Personalized One-to-One Practical Training
-• Driving License Assistance
-• Real Delhi Road & Traffic Practice
-• Easy Online Booking through DriveSeekho`,
+- Verified & RTO-Certified Local Driving Instructors
+- 100% Dual-Control Fitted Fleet for Absolute On-Road Safety
+- Specialized Mayur Vihar ADTT Test Track Simulation
+- Vikas Marg & Narrow Market Traffic Training Modules
+- Manual and Automatic (AMT/CVT) Vehicle Options
+- Doorstep Pickup Across Laxmi Nagar, Shakarpur & Nirman Vihar
+- Transparent Pricing with Zero Hidden Charges
+- One-on-One Personalized Practical Sessions`,
 
 faqs: [
   {
-    q: 'Which is the best Driving School in Laxmi Nagar?',
-    a: 'DriveSeekho helps you compare the best Driving Schools in Laxmi Nagar based on instructor experience, customer reviews, practical driving lessons, and affordable course fees.'
+    q: 'Kya training dual-control gaadi par hi hoti hai?',
+    a: 'Haan, har practical session RTO-compliant dual-control car par hota hai, jisme trainer ke paas auxiliary brakes aur clutch control rehta hai.'
   },
   {
-    q: 'What is the fee for a Driving School in Laxmi Nagar?',
-    a: 'Driving course fees in Laxmi Nagar generally start from ₹2,999 and may vary depending on the selected package, vehicle type, and course duration.'
+    q: 'Mayur Vihar ADTT test ki preparation kaise hoti hai?',
+    a: 'Session plan ke andar automated track ke patterns (Parallel Parking, Gradient Hill, 8-figure) ki intensive simulated practice include hoti hai.'
   },
   {
-    q: 'Does the Driving School in Laxmi Nagar provide doorstep pickup and drop?',
-    a: 'Yes. Most driving instructors listed on DriveSeekho provide free doorstep pickup and drop services throughout Laxmi Nagar and nearby areas.'
+    q: 'Vikas Marg jaise busy stretch par kab gaadi chalana sikhate hain?',
+    a: 'Pehle 2–3 sessions inner open patches par basic clutch balancing par lagte hain. Jaise hi steering aur foot pedal alignment clear hota hai, training direct Vikas Marg aur Metro Pillar 30–45 zone mein shift ki jaati hai.'
   },
   {
     q: 'How many days does the Driving School in Laxmi Nagar course take?',
