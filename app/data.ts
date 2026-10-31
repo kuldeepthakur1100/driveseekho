@@ -21,7 +21,7 @@ export const packages = [
     
     // --- SEO & FAQs ---
     seoTitle:
-'Best Driving School in Mayur Vihar Phase 1 | Car Driving Classes Near You | DriveSeekho',
+'Driving School in Mayur Vihar Phase 1 | Car Driving Classes Near You | DriveSeekho',
 
 seoDescription:
 'Find the best Driving School in Mayur Vihar Phase 1 with certified instructors, affordable fees, free pickup & drop, manual & automatic cars, flexible timings, dual-control vehicles, and online booking through DriveSeekho.',
