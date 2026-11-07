@@ -109,7 +109,7 @@ export default function Home() {
       
 
       {/* Light Blue Header Section */}
-      <div className="bg-gradient-to-r from-[#f8bb2d] via-[#f8bb2d] to-[#f8bb2d] text-slate-900 rounded-b-[2.5rem] pt-5 pb-0 relative shadow-sm border-b border-cyan-100/80 w-full">
+   <div className="bg-gradient-to-b from-[#f59e0b] via-[#78350f] to-[#000000] text-amber-950 rounded-b-[2.5rem] pt-5 pb-0 relative shadow-md shadow-amber-200/40 border-b border-amber-300/60 w-full">
         
         {/* Logo & Profile Header */}
         <div className="flex items-center justify-between mb-5 max-w-6xl mx-auto px-4 md:px-8">
@@ -283,7 +283,7 @@ export default function Home() {
 
        {/* Promotional Banner */}
 <div className="w-full relative z-10">
-  <div className="w-full h-[100px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[1.5rem]">
+  <div className="w-full h-[150px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[1.5rem]">
     <video
       src="/videos/diwaliha.mp4"
       autoPlay
