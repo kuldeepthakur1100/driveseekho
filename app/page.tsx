@@ -104,12 +104,12 @@ export default function Home() {
     : [];
 
   return (
-    <main className={`w-full min-h-screen bg-[#f6f7fc] pb-28 md:pb-16 relative overflow-x-hidden ${inter.className}`}>
+    <main className={`w-full min-h-screen bg-[#C7DCF8] pb-28 md:pb-16 relative overflow-x-hidden ${inter.className}`}>
       
       
 
       {/* Light Blue Header Section */}
-   <div className="bg-gradient-to-b from-[#f59e0b] via-[#78350f] to-[#000000] text-amber-950 rounded-b-[2.5rem] pt-5 pb-0 relative shadow-md shadow-amber-200/40 border-b border-amber-300/60 w-full">
+   <div className="bg-gradient-to-b from-[#E8F0FE] via-[#C7DCF8] to-[#0449AC] text-amber-950 rounded-b-[2.5rem] pt-5 pb-0 relative shadow-md shadow-amber-200/40 border-b border-amber-300/60 w-full">
         
         {/* Logo & Profile Header */}
         <div className="flex items-center justify-between mb-5 max-w-6xl mx-auto px-4 md:px-8">
