@@ -285,7 +285,7 @@ export default function Home() {
 <div className="w-full relative z-10">
   <div className="w-full h-[150px] md:h-[200px] overflow-hidden shadow-sm rounded-b-[1.5rem]">
     <video
-      src="/videos/diwaliha.mp4"
+      src="/videos/promovid.mp4"
       autoPlay
       loop
       muted
